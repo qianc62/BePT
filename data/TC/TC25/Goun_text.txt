@@ -1,0 +1,20 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does trans_9. After that, the manager does trans_1. 
+        The manager does trans_9. Then, the manager does trans_1. 
+        Once the above path is finished, the manager does trans_4. After that, the manager does trans_3. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 71
+
+SentenceNumber: 10
+
+Gold Depth: 4 4 3 3 3 3 1 1 1 4 3 3 
+
+Depth: -1 -1 -1 -1 -1 2 1 1 -1 -1 -1 2 
+
+Correlation Coefficient: -0.35
+
+Sentence Gain: 26.00 20.59 48.83 37.44 44.40 44.40 14.36 26.00 31.00 31.00 31.00 14.36 26.00 31.00 31.00 31.00 14.36 31.00 26.00 31.00 31.00 14.36 37.44 26.00 
+
+Sentence Sum Gain: 26.00 46.59 95.42 132.86 177.26 221.66 236.02 262.02 293.03 324.03 355.03 369.39 395.39 426.39 457.40 488.40 502.76 533.76 559.76 590.77 621.77 636.13 673.57 699.57 
+

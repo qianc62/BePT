@@ -1,0 +1,23 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'process.S00000030##s00000869.InputCriterion.S00000257'. Then, the 'manager' does 'task.S00000870.InputCriterion.S00000257'. Then, the 'manager' does 'task.S00000870.OutputCriterion.S00000258'. After that, the 'manager' does 'decision.S00000879.Activate.S00000271'. After that, one of following paths needs to be finished: 
+        The 'manager' does 'decision.S00000879.Fire.S00000272'. Subsequently, the 'manager' does 'task.S00000871.InputCriterion.S00000257'. Subsequently, the 'manager' does 'task.S00000871.OutputCriterion.S00000258'. 
+        There are some procedures need to be finished sequentially: 
+            The 'manager' does 'decision.S00000879.Fire.S00000274'. Then, the 'manager' does 'task.S00000852.InputCriterion.S00000257'. Subsequently, the 'manager' does 'task.S00000852.OutputCriterion.S00000258'. Then, the 'manager' does 'decision.S00000859.Activate.S00000271'. After that, one of following paths needs to be finished: 
+                The 'manager' does 'decision.S00000859.Fire.S00000272'. Subsequently, the 'manager' does 'task.S00000853.InputCriterion.S00000257'. Subsequently, the 'manager' does 'task.S00000853.OutputCriterion.S00000258'. 
+                There are some procedures need to be finished sequentially: 
+                    The 'manager' does 'decision.S00000859.Fire.S00000274'. Subsequently, the 'manager' does 'task.S00000839.InputCriterion.S00000257'. Then, the 'manager' does 'task.S00000839.OutputCriterion.S00000258'. Then, the 'manager' does 'decision.S00000855.Activate.S00000271'. Subsequently, one of following paths needs to be finished: 
+                        The 'manager' does 'decision.S00000855.Fire.S00000680'. Then, the 'manager' does 'task.S00000848.InputCriterion.S00000257'. Subsequently, the 'manager' does 'task.S00000848.OutputCriterion.S00000258'. 
+                        One of following paths needs to be finished: 
+                            The 'manager' does 'decision.S00000855.Fire.S00000441'. 
+                            The 'manager' does 'decision.S00000855.Fire.S00000421'. After that, the 'manager' does 'task.S00000846.InputCriterion.S00000257'. Then, the 'manager' does 'task.S00000846.OutputCriterion.S00000258'. 
+                            The 'manager' does 'decision.S00000855.Fire.S00000280'. Subsequently, the 'manager' does 'task.S00000875.InputCriterion.S00000257'. After that, the 'manager' does 'task.S00000875.OutputCriterion.S00000258'. 
+                            The 'manager' does 'decision.S00000855.Fire.S00000274'. Then, the 'manager' does 'task.S00000844.InputCriterion.S00000257'. Then, the 'manager' does 'task.S00000844.OutputCriterion.S00000258'. Subsequently, the 'manager' does 'task.S00000850.InputCriterion.S00000257'. After that, the 'manager' does 'task.S00000850.OutputCriterion.S00000258'. 
+                            There are some procedures need to be finished sequentially: 
+                                The 'manager' does 'decision.S00000855.Fire.S00000272'. Subsequently, the 'manager' does 'task.S00000872.InputCriterion.S00000257'. Then, the 'manager' does 'task.S00000872.OutputCriterion.S00000258'. After that, the 'manager' does 'decision.S00000882.Activate.S00000271'. Then, one of following paths needs to be finished: 
+                                    The 'manager' does 'decision.S00000882.Fire.S00000272'. Subsequently, the 'manager' does 'task.S00000873.InputCriterion.S00000257'. Subsequently, the 'manager' does 'task.S00000873.OutputCriterion.S00000258'. 
+                                    The 'manager' does 'decision.S00000882.Fire.S00000274'. Then, the 'manager' does 'task.S00000874.InputCriterion.S00000257'. Then, the 'manager' does 'task.S00000874.OutputCriterion.S00000258'. 
+                                    After the above path is finished, after that, the above sequential part is finished. 
+                            After the above path is finished,. 
+                        After the above path is finished, after that, the above sequential part is finished. 
+                After the above path is finished, subsequently, the above sequential part is finished. 
+        After the above path is finished, after that, the above sequential part is finished. At last, the process ends. 

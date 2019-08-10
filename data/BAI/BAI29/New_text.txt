@@ -1,0 +1,35 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'T0'. After that, one of following paths needs to be finished: 
+        The 'manager' does 'T1'. Then, the 'manager' does 'T5'. Subsequently, the 'manager' does 'T7'. 
+        The 'manager' does 'T2'. After that, the 'manager' does 'T4'. Then, the 'manager' does 'T6'. Then, the 'manager' does 'T8'. Then, the 'manager' does 'T10'. 
+        There are some procedures need to be finished sequentially: 
+            The 'manager' does 'T3'. Subsequently, one of following paths needs to be finished: 
+                The 'manager' does 'T14'. 
+                The 'manager' does 'T15'. 
+                There are some procedures need to be finished sequentially: 
+                    The 'manager' does 'T12'. After that, one of following paths needs to be finished: 
+                        The 'manager' does 'T16'. 
+                        There are some procedures need to be finished sequentially: 
+                            The 'manager' does 'T13'. Subsequently, one of following paths needs to be finished: 
+                                The 'manager' does 'T19'. 
+                                The 'manager' does 'T18'. 
+                                Once the above path is finished, after that, the above sequential part is finished. 
+                        The 'manager' does 'T17'. After that, the 'manager' does 'T9'. Subsequently, the 'manager' does 'T11'. 
+                        Once the above path is finished, after that, the above sequential part is finished. 
+                When the above path is finished, subsequently, the above sequential part is finished. 
+        Once the above path is finished, the 'manager' does 'T20'. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 251
+
+SentenceNumber: 35
+
+Gold Depth: 3 3 3 3 3 3 3 1 3 3 3 3 3 3 3 3 1 3 3 3 3 
+
+Depth: 2 2 2 2 2 6 2 1 5 6 4 7 6 4 8 6 1 2 8 2 3 
+
+Correlation Coefficient: 0.41
+
+Sentence Gain: 14.36 37.44 60.19 14.36 14.36 14.36 14.36 14.36 14.36 14.36 14.36 37.44 14.36 
+
+Sentence Sum Gain: 14.36 51.80 111.99 126.35 140.71 155.07 169.42 183.78 198.14 212.50 226.86 264.30 278.66 
+

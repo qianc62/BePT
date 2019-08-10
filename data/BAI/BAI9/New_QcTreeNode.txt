@@ -1,0 +1,23 @@
+Polygon, 
+    BondTransition, 
+        Trivial, superT29
+        Polygon, 
+            Trivial, T4
+        Polygon, 
+            Trivial, T0
+        Polygon, 
+            Trivial, T9
+        Polygon, 
+            Trivial, T5
+        Polygon, 
+            Trivial, T3
+        Polygon, 
+            Trivial, T1
+        Polygon, 
+            Trivial, T6
+        Polygon, 
+            Trivial, T2
+        Polygon, 
+            Trivial, T7
+            Trivial, T8
+        Trivial, superT31

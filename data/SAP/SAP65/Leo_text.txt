@@ -1,0 +1,16 @@
+String: The manager does Prepare\nBusiness\nCase\nfor_Project. Subsequently, the manager does Project\nApproval. At last, the process ends. 
+
+WordNumber: 14
+
+SentenceNumber: 3
+
+Gold Depth: 1 1 
+
+Depth: 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 26.00 
+
+Sentence Sum Gain: 26.00 
+

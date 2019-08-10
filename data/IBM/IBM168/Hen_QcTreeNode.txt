@@ -1,0 +1,41 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, process.s00000104##s00002891.inputCriterion.s00000700
+            Trivial, callToProcess.s00002890.inputCriterion.s00000700
+        Polygon, 
+            Trivial, process.s00000104##s00002891.inputCriterion.s00000700
+            Trivial, callToProcess.s00002890.inputCriterion.s00000700
+    BondPlace, 
+        Polygon, 
+            Trivial, callToProcess.s00002890.outputCriterion.s00000704
+            Trivial, decision.s00002321.activate.s00000708
+        Polygon, 
+            Trivial, callToProcess.s00002890.outputCriterion.s00000704
+            Trivial, decision.s00002321.activate.s00000708
+    BondPlace, 
+        Polygon, 
+            BondPlace, 
+                Polygon, 
+                    Trivial, decision.s00002321.fire.s00000711
+                    Trivial, callToService.s00002809.inputCriterion.s00000858
+                Polygon, 
+                    Trivial, decision.s00002321.fire.s00000711
+                    Trivial, callToService.s00002809.inputCriterion.s00000858
+            BondPlace, 
+                Polygon, 
+                    Trivial, callToService.s00002809.outputCriterion.s00000859
+                    Trivial, callToProcess.s00002865.inputCriterion.s00000700
+                Polygon, 
+                    Trivial, callToService.s00002809.outputCriterion.s00000859
+                    Trivial, callToProcess.s00002865.inputCriterion.s00000700
+                Polygon, 
+                    Trivial, callToService.s00002809.outputCriterion.s00000859
+                    Trivial, callToProcess.s00002865.inputCriterion.s00000700
+            Trivial, callToProcess.s00002865.outputCriterion.s00000704
+            Trivial, merge.s00000730.activate.s00000731
+        Polygon, 
+            Trivial, decision.s00002321.fire.s00000715
+            Trivial, merge.s00000730.activate.s00000733
+    Trivial, merge.s00000730.fire.s00000741
+    Trivial, process.s00000104##s00002891.outputCriterion.s00000704

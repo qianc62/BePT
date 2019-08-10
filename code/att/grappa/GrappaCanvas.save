@@ -1,0 +1,236 @@
+/*
+ *  This software may only be used by you under license from AT&T Corp.
+ *  ("AT&T").  A copy of AT&T's Source Code Agreement is available at
+ *  AT&T's Internet website having the URL:
+ *  <http://www.research.att.com/sw/tools/graphviz/license/source.html>
+ *  If you received this software without first entering into a license
+ *  with AT&T, you have an infringing copy of this software and cannot use
+ *  it without violating AT&T's intellectual property rights.
+ */
+
+package att.grappa;
+
+import java.awt.*;
+import java.awt.geom.*;
+import javax.awt.geom.*;
+
+/**
+ * A class used for representing attributes associated with the graph elements.
+ * An attribute consists of a name-value pair.
+ * Once an attribute is constructed, the name cannot be changed.
+ *
+ * @version 1.2, 03 Jan 2000; Copyright 1996 - 2000 by AT&T Corp.
+ * @author  <a href="mailto:john@research.att.com">John Mocenigo</a>, <a href="http://www.research.att.com">Research @ AT&T Labs</a>
+ */
+public class GrappaCanvas extends java.awt.Canvas
+    implements
+	att.grappa.GrappaConstants
+{
+    Graph graph;
+    Subgraph subgraph;
+    boolean nodeLabels, edgeLabels, subgLabels;
+
+    boolean labelMode = false;
+
+    /**
+     * Constructs a new canvas associated with a particular subgraph.
+     * Keep in mind that Graph is a sub-class of Subgraph so that
+     * usually a Graph object is passed to the constructor.
+     *
+     * @param subgraph the subgraph to be rendered on the canvas
+     */
+    public GrappaCanvas(Subgraph subgraph) {
+	super();
+	this.subgraph = subgraph;
+	this.graph = subgraph.getGraph();
+    }
+
+    /**
+     * Constructs a new canvas associated with a particular subgraph and
+     * the given GraphicConfiguration.
+     * Keep in mind that Graph is a sub-class of Subgraph so that
+     * usually a Graph object is passed to the constructor.
+     *
+     * @param subgraph the subgraph to be rendered on the canvas
+     */
+    public GrappaCanvas(Subgraph subgraph, GraphicsConfiguration gconf) {
+	super(gconf);
+	this.subgraph = subgraph;
+    }
+
+    public Subgraph getTarget() {
+	return(subgraph);
+    }
+
+    public void update(Graphics g) {
+	paint(g);
+    }
+
+    public void paint(Graphics g) {
+	Graphics2D g2d = (Graphics2D)g;
+	labelMode = false;
+	paintSubgraph(g2d, subgraph, null);
+    }
+
+    synchronized void paintSubgraph(Graphics2D g2d, Subgraph subg, GrappaBox clipper) {
+
+	long startTime = System.currentTimeMillis();
+
+	if(!subg.visible) return;
+
+	java.util.Enumeration enum = null;
+
+	Color bkgd = null;
+	//Composite cmps = null;
+	Paint paint = null;
+	RenderingHints rhnts = null;
+	Stroke strk = null;
+	AffineTransform axfm = null;
+	//Font font = null;
+
+	int i;
+
+	GrappaBox clip = null;
+
+	Rectangle2D bbox = subg.getBoundingBox();
+	if(clipper == null) {
+	  //setSize((int)Math.ceil(bbox.getWidth()),(int)Math.ceil(bbox.getHeight()));
+
+	    subgLabels = subgraph.getShowSubgraphLabels();
+	    nodeLabels = subgraph.getShowNodeLabels();
+	    edgeLabels = subgraph.getShowEdgeLabels();
+
+	    // save original set-up
+	    bkgd = g2d.getBackground();
+	    //cmps = g2d.getComposite();
+	    paint = g2d.getPaint();
+	    rhnts = g2d.getRenderingHints();
+	    strk = g2d.getStroke();
+	    axfm = g2d.getTransform();
+	    //font = g2d.getFont();
+
+	    if(Grappa.useAntiAliasing) {
+		g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);
+	    }
+	    if(Grappa.useFractionalMetrics) {
+		g2d.setRenderingHint(RenderingHints.KEY_FRACTIONALMETRICS,RenderingHints.VALUE_FRACTIONALMETRICS_ON);
+	    }
+
+	    g2d.setStroke(GrappaStyle.defaultStroke);
+
+	    AffineTransform cxfm = new AffineTransform(1,0,0,1,-bbox.getMinX(),-bbox.getMinY());
+	    g2d.transform(cxfm);
+
+	    try {
+		clip = new GrappaBox(cxfm.createInverse().createTransformedShape(g2d.getClipBounds()).getBounds());
+	    } catch(NoninvertibleTransformException nit) {
+		throw new RuntimeException("could not invert drawing transform");
+	    }
+	    clip = new GrappaBox(bbox);
+	} else {
+	    if(!clipper.intersects(bbox)) return;
+	    clip = clipper;
+	}
+
+	if(subg.grappaShape.lstr != null && subgLabels) {
+	  subg.grappaShape.inbounds = true;
+	}
+
+	g2d.setPaint(subg.grappaShape.color);
+	g2d.fill(bbox);
+	if(clipper != null) {
+	  g2d.setPaint(subg.grappaShape.style.line_color);
+	  // can use simple equality because strokes are cached
+	  if(GrappaStyle.defaultStroke != subg.grappaShape.style.stroke) {
+	    g2d.setStroke(subg.grappaShape.style.stroke);
+	    g2d.draw(bbox);
+	    g2d.setStroke(GrappaStyle.defaultStroke);
+	  } else {
+	    g2d.draw(bbox);
+	  }
+	}
+
+	enum = subg.subgraphElements();
+	Subgraph subsubg = null;
+	while(enum.hasMoreElements()) {
+	    subsubg = (Subgraph)(enum.nextElement());
+	    if(!subsubg.visible) continue;
+	    paintSubgraph(g2d, subsubg, clip);
+	}
+	Node node;
+	enum = subg.nodeElements();
+	while(enum.hasMoreElements()) {
+	    node = (Node)(enum.nextElement());
+	    if(!node.visible || !clip.intersects(node.grappaShape.bbox)) continue;
+	    g2d.setPaint(node.grappaShape.color);
+	    if(node.grappaShape.style.filled) {
+		g2d.fill(node.grappaShape);
+		g2d.setPaint(node.grappaShape.style.line_color);
+	    }
+	    if(GrappaStyle.defaultStroke != node.grappaShape.style.stroke) {
+		g2d.setStroke(node.grappaShape.style.stroke);
+		g2d.draw(node.grappaShape);
+		g2d.setStroke(GrappaStyle.defaultStroke);
+	    } else {
+		g2d.draw(node.grappaShape);
+	    }
+	    if(node.grappaShape.lstr != null && nodeLabels) {
+	      node.grappaShape.inbounds = true;
+	    }
+	}
+
+	Edge edge;
+	enum = subg.edgeElements();
+	while(enum.hasMoreElements()) {
+	    edge = (Edge)(enum.nextElement());
+	    if(!edge.visible || !clip.intersects(edge.grappaShape.bbox)) continue;
+	    g2d.setPaint(edge.grappaShape.style.line_color);
+	    if(GrappaStyle.defaultStroke != edge.grappaShape.style.stroke) {
+		g2d.setStroke(edge.grappaShape.style.stroke);
+		g2d.draw(edge.grappaShape);
+		g2d.setStroke(GrappaStyle.defaultStroke);
+	    } else {
+		g2d.draw(edge.grappaShape);
+	    }
+	    if(edge.grappaShape.lstr != null && edgeLabels) {
+		edge.grappaShape.inbounds = true;
+	    }
+	}
+
+	if(clipper == null) {
+	  if(Grappa.antiAliasText) {
+	    if(!Grappa.useAntiAliasing) {
+	      g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);
+	    }
+	  } else {
+	    if(Grappa.useAntiAliasing) {
+	      g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_OFF);
+	    }
+	  }
+	    enum = subg.elements();
+	    Element elem;
+	    while(enum.hasMoreElements()) {
+	      elem = (Element)(enum.nextElement());
+	      if(elem.grappaShape.inbounds) {
+		elem.grappaShape.inbounds = false;
+		g2d.setFont(elem.grappaShape.font);
+		g2d.setPaint(elem.grappaShape.font_color);
+		for(i = 0; i < elem.grappaShape.lstr.length; i++) {
+		  g2d.drawString(elem.grappaShape.lstr[i],(float)elem.grappaShape.lpos[i].x,(float)elem.grappaShape.lpos[i].y);
+		}
+	      }
+	    }
+
+	    // restore original set-up
+	    g2d.setBackground(bkgd);
+	    //g2d.setComposite(cmps);
+	    g2d.setPaint(paint);
+	    g2d.setRenderingHints(rhnts);
+	    g2d.setStroke(strk);
+	    //g2d.setFont(font);
+	    g2d.setTransform(axfm);
+	}
+	System.err.println("elapsed="+(System.currentTimeMillis()-startTime));
+
+    }
+}

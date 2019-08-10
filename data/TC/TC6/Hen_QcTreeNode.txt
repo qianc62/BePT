@@ -1,0 +1,12 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Aging_of_accounts_receivable_accounting_inquiry_
+    Trivial, Receivable_accounting_calculation_of_the_amount_of_provision_for_bad_debts_
+    BondPlace, 
+        Polygon, 
+            Trivial, T3
+        Loop, 
+            Polygon, 
+                Trivial, T4
+    Trivial, Do_financial_processing_receivable_accounting_
+    Trivial, End

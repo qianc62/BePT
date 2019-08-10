@@ -1,0 +1,29 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000061##s00001718.InputCriterion.S00000858. Subsequently, the manager does callToTask.S00001721.InputCriterion.S00000858. 
+        The manager does process.S00000061##s00001718.InputCriterion.S00000858. Subsequently, the manager does callToTask.S00001721.InputCriterion.S00000858. 
+        Once the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00001721.OutputCriterion.S00000859. Then, the manager does callToTask.S00001719.InputCriterion.S00000858. 
+        The manager does callToTask.S00001721.OutputCriterion.S00000859. Subsequently, the manager does callToTask.S00001719.InputCriterion.S00000858. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00001719.OutputCriterion.S00000859. After that, the manager does callToTask.S00001720.InputCriterion.S00000858. 
+        The manager does callToTask.S00001719.OutputCriterion.S00000859. After that, the manager does callToTask.S00001720.InputCriterion.S00000858. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00001720.OutputCriterion.S00000859. Then, the manager does callToTask.S00001722.InputCriterion.S00000858. 
+        The manager does callToTask.S00001720.OutputCriterion.S00000859. Subsequently, the manager does callToTask.S00001722.InputCriterion.S00000858. 
+        When the above path is finished, the manager does callToTask.S00001722.OutputCriterion.S00000859. After that, the manager does process.S00000061##s00001718.OutputCriterion.S00000859. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 174
+
+SentenceNumber: 79
+
+Gold Depth: 1 3 1 1 3 1 3 1 3 1 
+
+Depth: 2 2 1 1 2 2 2 2 2 2 
+
+Correlation Coefficient: 0.41
+
+Sentence Gain: 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 
+
+Sentence Sum Gain: 26.00 46.59 72.59 93.18 119.18 139.77 165.77 186.37 212.37 
+

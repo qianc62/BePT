@@ -1,0 +1,4 @@
+Polygon, 
+    Trivial, The_end_of_checkout_process_CO
+    Trivial, Calculation_of_current_costs_of_the_project's_revenue_should_be_recognized
+    Trivial, Sales_Billing_Process

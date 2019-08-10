@@ -1,0 +1,6 @@
+BondPlace, 
+    Polygon, 
+        Trivial, T1
+        Trivial, T3
+        Trivial, T5
+    Polygon, 

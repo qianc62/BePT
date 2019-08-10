@@ -1,0 +1,16 @@
+String: . At last, the process ends. 
+
+WordNumber: 6
+
+SentenceNumber: 2
+
+Gold Depth: 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+
+Depth: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 37.44 26.00 26.00 60.19 60.19 
+
+Sentence Sum Gain: 37.44 63.44 89.44 149.63 209.82 
+

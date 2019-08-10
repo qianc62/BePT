@@ -1,0 +1,18 @@
+Polygon, 
+    Trivial, Start
+    BondPlace, 
+        Polygon, 
+            Trivial, Submit_applications_for_fixed_asset_master_data_maintenance_
+        Loop, 
+            Polygon, 
+                Trivial, T2
+    Trivial, T3
+    BondPlace, 
+        Polygon, 
+            Trivial, Asset_Accounting_to_make_specific_treatment_options_
+        Loop, 
+            Polygon, 
+                Trivial, Revising_
+    Trivial, Create,_modify,_freeze,_remove_the_fixed_asset_master_data_
+    Trivial, By_phone_or_E_mail_feedback_from_relevant_departments_
+    Trivial, End

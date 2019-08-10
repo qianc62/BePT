@@ -1,0 +1,18 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'trans_9'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'trans_1'. The 'manager' does 'trans_4'. Subsequently, the 'manager' does 'trans_3'. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 61
+
+SentenceNumber: 9
+
+Gold Depth: 4 4 3 3 3 3 1 1 1 4 3 3 
+
+Depth: -1 -1 -1 -1 2 -1 1 1 -1 -1 -1 2 
+
+Correlation Coefficient: -0.35
+
+Sentence Gain: 26.00 14.36 14.36 14.36 14.36 14.36 14.36 14.36 14.36 14.36 14.36 14.36 14.36 26.00 26.00 
+
+Sentence Sum Gain: 26.00 40.36 54.72 69.08 83.43 97.79 112.15 126.51 140.87 155.23 169.59 183.95 198.30 224.30 250.30 
+

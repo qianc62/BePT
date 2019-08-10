@@ -1,0 +1,78 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000025##s00001098.inputCriterion.s00000700
+        Trivial, callToService.s00001114.inputCriterion.s00000700
+    BondTransition, 
+        Trivial, callToService.s00001114.outputCriterion.s00000704
+        Trivial, callToProcess.s00001009.inputCriterion.s00000700
+    BondTransition, 
+        Trivial, callToProcess.s00001009.outputCriterion.s00000704
+        Trivial, decision.s00001102.activate.s00000708
+    BondPlace, 
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00001102.fire.s00000711
+                Trivial, merge.s00000730.activate.s00000731
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00001102.fire.s00000715
+                Trivial, callToTask.s00001111.inputCriterion.s00000700
+            BondTransition, 
+                Trivial, callToTask.s00001111.outputCriterion.s00000704
+                Trivial, decision.s00001105.activate.s00000708
+            BondPlace, 
+                Polygon, 
+                    BondTransition, 
+                        Trivial, decision.s00001105.fire.s00000715
+                        Trivial, merge.s00000730.activate.s00000735
+                Polygon, 
+                    BondTransition, 
+                        Trivial, decision.s00001105.fire.s00000711
+                        Trivial, callToProcess.s00000846.inputCriterion.s00000700
+                    BondTransition, 
+                        Trivial, callToProcess.s00000846.outputCriterion.s00000704
+                        Trivial, callToTask.s00001075.inputCriterion.s00000858
+                    BondTransition, 
+                        Trivial, callToTask.s00001075.outputCriterion.s00000859
+                        Trivial, merge.s00000730.activate.s00000733
+    BondTransition, 
+        Trivial, merge.s00000730.fire.s00000741
+        Trivial, callToTask.s00001108.inputCriterion.s00000700
+    BondTransition, 
+        Trivial, callToTask.s00001108.outputCriterion.s00000704
+        Trivial, callToTask.s00001112.inputCriterion.s00000700
+    BondTransition, 
+        Trivial, callToTask.s00001112.outputCriterion.s00000704
+        Trivial, decision.s00001099.activate.s00000708
+    BondPlace, 
+        Polygon, 
+            Trivial, decision.s00001099.fire.s00000724
+            Trivial, merge.s00000742.activate.s00000735
+            Trivial, merge.s00000742.fire.s00000741
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00001099.fire.s00000715
+                Trivial, callToProcess.s00001081.inputCriterion.s00000700
+            BondTransition, 
+                Trivial, callToProcess.s00001081.outputCriterion.s00000704
+                Polygon, 
+                    Trivial, merge.s00000742.activate.s00000733
+                    Trivial, merge.s00000742.fire.s00000741
+                Trivial, process.s00000025##s00001098.outputCriterion.s00000704
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00001099.fire.s00000711
+                Trivial, callToProcess.s00001059.inputCriterion.s00000700
+            Trivial, callToProcess.s00001059.outputCriterion.s00000704
+            Trivial, callToTask.s00001113.inputCriterion.s00000858
+            BondTransition, 
+                Trivial, callToTask.s00001113.outputCriterion.s00000859
+                Trivial, callToTask.s00001109.inputCriterion.s00000700
+            BondTransition, 
+                Trivial, callToTask.s00001109.outputCriterion.s00000704
+                Trivial, callToService.s00001115.inputCriterion.s00000700
+            BondTransition, 
+                Trivial, callToService.s00001115.outputCriterion.s00000704
+                Trivial, callToTask.s00001110.inputCriterion.s00000700
+            Trivial, callToTask.s00001110.outputCriterion.s00000704
+            Trivial, merge.s00000742.activate.s00000731

@@ -1,0 +1,19 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'Start'. Then, the 'manager' does 'Material_Requirements_Planning_Process'. Then, the 'manager' does 'Under_the_MRP_run_results_for_maintenance_of_the_procurement'. Then, the 'manager' does 'Will_be_converted_to_purchase_orders_for_procurement'. The 'manager' does 'Complete_production_and_delivery_to_the_shop'. All of following paths are processing at the same time: 
+        The 'manager' does 'Purchase_Order_Receipt'. 
+    After the above paths are finished, the 'manager' does 'Organization_of_production_and_assembly_in_accordance_with_production_plan'. The 'manager' does 'Completion_confirmation'. Subsequently, the 'manager' does 'End'. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 85
+
+SentenceNumber: 14
+
+Gold Depth: 3 1 3 1 1 1 1 1 1 
+
+Depth: 2 1 2 1 1 1 1 2 1 
+
+Correlation Coefficient: 0.76
+
+Sentence Gain: 48.83 14.36 14.36 14.36 26.00 
+
+Sentence Sum Gain: 48.83 63.19 77.55 91.90 117.90 
+

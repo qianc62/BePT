@@ -1,0 +1,17 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does trans_7. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 30
+
+SentenceNumber: 4
+
+Gold Depth: 3 3 1 3 3 3 3 3 3 3 3 
+
+Depth: -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 
+
+Correlation Coefficient: -1.00
+
+Sentence Gain: 94.20 26.00 26.00 14.36 
+
+Sentence Sum Gain: 94.20 120.20 146.20 160.55 
+

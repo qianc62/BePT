@@ -1,0 +1,30 @@
+The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000539##s00003943.InputCriterion.S00000772. Subsequently, the manager does callToTask.S00003944.InputCriterion.S00000772. 
+        The manager does process.S00000539##s00003943.InputCriterion.S00000772. After that, the manager does callToTask.S00003944.InputCriterion.S00000772. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003944.OutputCriterion.S00000773. Then, the manager does callToTask.S00003946.InputCriterion.S00000772. 
+        The manager does callToTask.S00003944.OutputCriterion.S00000773. Then, the manager does callToTask.S00003946.InputCriterion.S00000772. 
+        Once the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003946.OutputCriterion.S00000773. Subsequently, the manager does callToTask.S00003945.InputCriterion.S00000772. 
+        The manager does callToTask.S00003946.OutputCriterion.S00000773. Then, the manager does callToTask.S00003945.InputCriterion.S00000772. 
+        The manager does callToTask.S00003946.OutputCriterion.S00000773. Then, the manager does callToTask.S00003945.InputCriterion.S00000772. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003945.OutputCriterion.S00000773. Subsequently, the manager does callToTask.S00003947.InputCriterion.S00000772. 
+        The manager does callToTask.S00003945.OutputCriterion.S00000773. Subsequently, the manager does callToTask.S00003947.InputCriterion.S00000772. 
+        The manager does callToTask.S00003945.OutputCriterion.S00000773. Subsequently, the manager does callToTask.S00003947.InputCriterion.S00000772. 
+        When the above path is finished, one of the following branches is executed: 
+        There are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does callToTask.S00003947.OutputCriterion.S00000773. Then, the manager does callToTask.S00003948.InputCriterion.S00000772. 
+                The manager does callToTask.S00003947.OutputCriterion.S00000773. Subsequently, the manager does callToTask.S00003948.InputCriterion.S00000772. 
+                When the above path is finished, one of the following branches is executed: 
+                The manager does callToTask.S00003948.OutputCriterion.S00000773. Subsequently, the manager does callToTask.S00002917.InputCriterion.S00000772. 
+                The manager does callToTask.S00003948.OutputCriterion.S00000773. Subsequently, the manager does callToTask.S00002917.InputCriterion.S00000772. 
+                Once the above path is finished, subsequently, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does callToTask.S00003947.OutputCriterion.S00000773. After that, the manager does callToProcess.S00000843.InputCriterion.S00000772. 
+                The manager does callToTask.S00003947.OutputCriterion.S00000773. Subsequently, the manager does callToProcess.S00000843.InputCriterion.S00000772. 
+                After the above path is finished, the manager does callToProcess.S00000843.OutputCriterion.S00000773. Subsequently, the manager does callToTask.S00002917.InputCriterion.S00000772. After that, the above sequential part is finished. 
+        Once the above path is finished, the manager does callToTask.S00002917.OutputCriterion.S00000773. Subsequently, the above sequential part is finished. At last, the process ends. 

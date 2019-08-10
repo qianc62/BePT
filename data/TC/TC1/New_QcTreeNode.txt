@@ -1,0 +1,15 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Advance_application_submitted_
+    BondPlace, 
+        Polygon, 
+            Trivial, T6
+        Polygon, 
+            Trivial, Meet_the_accounting_recognition_have_to_meet,_prepaid_outstanding_items_
+            BondPlace, 
+                Polygon, 
+                    Trivial, T5
+                Polygon, 
+                    Trivial, FI_100_Certificate_Process_
+                    Trivial, Meet_the_accounting_advance_to_meet_the_square_accounts_
+    Trivial, End

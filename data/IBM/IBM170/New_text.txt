@@ -1,0 +1,13 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000527##s00002218.InputCriterion.S00000937'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00002225.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00002225.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+. 
+. 
+. 
+. 
+. 
+. 
+        4(%Re are some procedures need to be finished sequentially: 
+                The 'manager' does 'callToTask.S00002224.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+            After the above paths are finished, the 'manager' does 'callToTask.S00002220.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00002220.OutputCriterion.S00000939'. Then, the above sequential part is finished. 
+    When the above paths are finished, the 'manager' does 'callToTask.S00002226.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00002226.OutputCriterion.S00000939'. Subsequently, the 'manager' does 'process.S00000527##s00002218.OutputCriterion.S00000939'. Then, the above sequential part is finished. At last, the process ends. 

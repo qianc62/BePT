@@ -1,0 +1,18 @@
+BondPlace, 
+    Polygon, 
+        BondPlace, 
+            Polygon, 
+                Trivial, t20
+                Trivial, Dangerous\nGoods\nClassification
+                Trivial, t15
+            Polygon, 
+                Trivial, t20
+                Trivial, Substance\nMaster\nProcessing\nProduct
+                Trivial, t15
+            Polygon, 
+                Trivial, t20
+                Trivial, Dangerous\nGoods\nBasic\nData\nProcessing
+                Trivial, t15
+    Polygon, 
+        Trivial, Phrase\nProcessing
+        Trivial, Phrase\nSet_Processing

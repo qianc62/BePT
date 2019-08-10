@@ -1,0 +1,61 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000090##s00001030.inputCriterion.s00000700
+        Trivial, callToTask.s00001043.inputCriterion.s00000700
+    BondTransition, 
+        Trivial, callToTask.s00001043.outputCriterion.s00000704
+        Trivial, callToProcess.s00000915.inputCriterion.s00000858
+    BondTransition, 
+        Trivial, callToProcess.s00000915.outputCriterion.s00000859
+        Trivial, decision.s00001040.activate.s00000708
+    BondPlace, 
+        Polygon, 
+            Trivial, decision.s00001040.fire.s00000715
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00001040.fire.s00000711
+                Trivial, callToTask.s00001045.inputCriterion.s00000700
+            BondTransition, 
+                Trivial, callToTask.s00001045.outputCriterion.s00000704
+                Trivial, decision.s00001033.activate.s00000708
+            RigidPlace, 
+                Polygon, 
+                    Trivial, decision.s00001033.activate.s00000708
+                    Trivial, decision.s00001033.fire.s00000711
+                    Trivial, callToTask.s00001044.inputCriterion.s00000700
+                    Trivial, callToTask.s00001044.outputCriterion.s00000704
+                    Trivial, process.s00000090##s00001030.outputCriterion.s00000704
+                RigidOtherBehavior, 
+                    Trivial, decision.s00001033.activate.s00000708
+                    Trivial, decision.s00001033.fire.s00000724
+                    Trivial, merge.s00000730.activate.s00000735
+                    Trivial, merge.s00000730.fire.s00000741
+                    Trivial, callToTask.s00001049.inputCriterion.s00000700
+                    Trivial, callToTask.s00001049.outputCriterion.s00000704
+                    Trivial, decision.s00001037.activate.s00000708
+                    Trivial, decision.s00001037.fire.s00000711
+                    Trivial, callToTask.s00001046.inputCriterion.s00000700
+                    Trivial, callToTask.s00001046.outputCriterion.s00000704
+                    Trivial, merge.s00000742.activate.s00000731
+                    Trivial, merge.s00000742.fire.s00000741
+                    Trivial, process.s00000090##s00001030.outputCriterion.s00000704
+                RigidOtherBehavior, 
+                    Trivial, callToTask.s00001044.outputCriterion.s00000704
+                    Trivial, merge.s00000730.activate.s00000731
+                    Trivial, merge.s00000730.fire.s00000741
+                RigidOtherBehavior, 
+                    Trivial, decision.s00001037.activate.s00000708
+                    Trivial, decision.s00001037.fire.s00000715
+                    Trivial, callToTask.s00001047.inputCriterion.s00000700
+                    Trivial, callToTask.s00001047.outputCriterion.s00000704
+                    Trivial, callToTask.s00001048.inputCriterion.s00000700
+                    Trivial, callToTask.s00001048.outputCriterion.s00000704
+                    Trivial, merge.s00000742.activate.s00000733
+                    Trivial, merge.s00000742.fire.s00000741
+                RigidOtherBehavior, 
+                    Trivial, decision.s00001033.activate.s00000708
+                    Trivial, decision.s00001033.fire.s00000715
+                    Trivial, callToTask.s00001050.inputCriterion.s00000700
+                    Trivial, callToTask.s00001050.outputCriterion.s00000704
+                    Trivial, merge.s00000730.activate.s00000733
+                    Trivial, merge.s00000730.fire.s00000741

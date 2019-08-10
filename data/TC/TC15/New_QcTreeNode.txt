@@ -1,0 +1,12 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Material_Requirements_Planning_Process
+    Trivial, Under_the_MRP_run_results_for_maintenance_of_the_procurement
+    Trivial, Will_be_converted_to_purchase_orders_for_procurement
+    BondTransition, 
+        Trivial, Complete_production_and_delivery_to_the_shop
+        Polygon, 
+            Trivial, Purchase_Order_Receipt
+        Trivial, Organization_of_production_and_assembly_in_accordance_with_production_plan
+    Trivial, Completion_confirmation
+    Trivial, End

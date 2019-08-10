@@ -1,0 +1,10 @@
+Polygon, 
+    Trivial, TOBE.C.MM.222_refunding_process_of_production_of_waste_materials
+    Trivial, Look_back_material_information
+    Trivial, Contact_supplier_Return
+    Trivial, Return_the_signing_of_an_agreement
+    Trivial, Create_Return_Order
+    Trivial, Return_Order_issued_materials
+    Trivial, Out_procedures_for_handling
+    Trivial, Arrangements_Delivery
+    Trivial, TOBE.C.FI.105_purchasing_Returns_settlement_process

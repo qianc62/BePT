@@ -1,0 +1,45 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000045##s00001920.inputCriterion.s00000858
+        Trivial, callToTask.s00001927.inputCriterion.s00000858
+    Trivial, callToTask.s00001927.outputCriterion.s00000859
+    Trivial, callToProcess.s00001491.inputCriterion.s00000858
+    Trivial, callToProcess.s00001491.outputCriterion.s00000859
+    Trivial, callToTask.s00001926.inputCriterion.s00000858
+    BondTransition, 
+        Trivial, callToTask.s00001926.outputCriterion.s00000859
+        Trivial, decision.s00001362.activate.s00000708
+    BondPlace, 
+        Polygon, 
+            Trivial, decision.s00001362.fire.s00000799
+        Polygon, 
+            Trivial, decision.s00001362.fire.s00000724
+            Trivial, callToTask.s00001869.inputCriterion.s00000858
+            Trivial, callToTask.s00001869.outputCriterion.s00000859
+        Polygon, 
+            Trivial, decision.s00001362.fire.s00000727
+            Trivial, callToProcess.s00001904.inputCriterion.s00000858
+            Trivial, callToProcess.s00001904.outputCriterion.s00000859
+        Polygon, 
+            Trivial, decision.s00001362.fire.s00000715
+            Trivial, callToProcess.s00001886.inputCriterion.s00000858
+            Trivial, callToProcess.s00001886.outputCriterion.s00000859
+        Polygon, 
+            Trivial, decision.s00001362.fire.s00000790
+            Trivial, callToProcess.s00001909.inputCriterion.s00000858
+            Trivial, callToProcess.s00001909.outputCriterion.s00000859
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00001362.fire.s00000796
+                Trivial, callToProcess.s00001849.inputCriterion.s00000858
+            Trivial, callToProcess.s00001849.outputCriterion.s00000859
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00001362.fire.s00000793
+                Trivial, callToProcess.s00001526.inputCriterion.s00000858
+            Trivial, callToProcess.s00001526.outputCriterion.s00000859
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00001362.fire.s00000711
+                Trivial, callToProcess.s00001827.inputCriterion.s00000858
+            Trivial, callToProcess.s00001827.outputCriterion.s00000859

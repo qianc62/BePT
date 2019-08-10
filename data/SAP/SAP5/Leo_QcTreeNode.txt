@@ -1,0 +1,13 @@
+Polygon, 
+    Trivial, Characteristics
+    Trivial, Basic\nkey_figures
+    Trivial, Field\ngroups
+    Trivial, Aspect
+    Trivial, Calculated\nKey_Figures
+    Trivial, Comment\ntables
+    Trivial, Fixed\nCharacteristics
+    Trivial, Summarization\nlevels
+    Trivial, Currency\nTranslation\nTypes\nfor_Data\nTransfer_and_Planning_Layouts
+    Trivial, Derivation
+    Trivial, Validation
+    Trivial, Data\nslices

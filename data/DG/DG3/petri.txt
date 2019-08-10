@@ -1,0 +1,25 @@
+Place place_0 p3
+Place place_1 p15
+Place place_4 p17
+Place place_2 p18
+Transition trans_1 Review_the_results_of_revaluation_of_trial_operation
+Place place_5 p12
+Transition trans_4 Foreign_currency_revaluation_of_the_official_run
+Transition trans_3 Maintenance_of_foreign_exchange_rate_process
+Transition trans_2 Foreign_currency_revaluation_trial_run
+Transition trans_0 Identify_the_causes_of
+Place place_3 p20
+Transition trans_5 FI_the_end_of_checkout_process
+
+place_3 -> trans_2
+place_4 -> trans_5
+place_0 -> trans_4
+trans_5 -> place_2
+trans_0 -> place_3
+place_0 -> trans_0
+trans_3 -> place_3
+place_1 -> trans_3
+trans_1 -> place_0
+trans_4 -> place_4
+trans_2 -> place_5
+place_5 -> trans_1

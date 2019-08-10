@@ -1,0 +1,21 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Related_operations_staff_should_be_provision_for_inventory_details_
+    BondPlace, 
+        Polygon, 
+            Trivial, T2
+            BondPlace, 
+                Polygon, 
+                    Trivial, T7
+                Polygon, 
+                    Trivial, T4
+                    BondPlace, 
+                        Polygon, 
+                            Trivial, Material_impairment_of_the_financial_accounting_treatment_programs_do_
+                        Loop, 
+                            Polygon, 
+                                Trivial, T5
+                    Trivial, Materials_to_do_the_financial_accounting_treatment_
+        Polygon, 
+            Trivial, T8
+    Trivial, End

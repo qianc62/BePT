@@ -1,0 +1,16 @@
+String: The manager does TOBE.#.0P.002_Material_consumption_to_maintain_a_fixed_flow. Subsequently, the manager does Run_MRP. After that, the manager does Query_purchase_agreement_expired. Then, the manager does Convert_purchase_requisitions. After that, the manager does Purchase_requisition_approval. Subsequently, the manager does TOBE.#.-M.121_2FQ_management_processes. At last, the process ends. 
+
+WordNumber: 36
+
+SentenceNumber: 13
+
+Gold Depth: 1 1 1 1 1 1 
+
+Depth: 0 0 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 71.53 
+
+Sentence Sum Gain: 71.53 
+

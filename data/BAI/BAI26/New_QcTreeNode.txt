@@ -1,0 +1,10 @@
+Polygon, 
+    BondTransition, 
+        Trivial, T0
+        Polygon, 
+            Trivial, T3
+        Polygon, 
+            Trivial, T2
+        Polygon, 
+            Trivial, T1
+        Trivial, T4

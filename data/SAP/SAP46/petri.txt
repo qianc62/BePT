@@ -1,0 +1,6 @@
+Transition trans_0 Issuance\nof_Recruitment\nRequest
+Place place_0 p2
+Place place_1 p3
+
+place_1 -> trans_0
+trans_0 -> place_0

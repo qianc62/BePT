@@ -1,0 +1,24 @@
+String: The process begins. At first one of following paths needs to be finished: 
+    The 'manager' does 'Phrase\nProcessing'. Subsequently, the 'manager' does 'Phrase\nSet_Processing'. 
+    There are some procedures need to be finished sequentially: 
+            The 'manager' does 't20'. All of following paths are processing at the same time: 
+            The 'manager' does 'Dangerous\nGoods\nBasic\nData\nProcessing'. 
+            The 'manager' does 'Substance\nMaster\nProcessing\nProduct'. 
+            The 'manager' does 'Dangerous\nGoods\nClassification'. 
+        After the above paths are finished, the 'manager' does 't15'. Then, the above sequential part is finished. 
+    When the above path is finished,. At last, the process ends. 
+
+WordNumber: 93
+
+SentenceNumber: 14
+
+Gold Depth: 2 4 4 4 2 2 4 
+
+Depth: 1 3 3 3 3 1 3 
+
+Correlation Coefficient: 0.73
+
+Sentence Gain: 26.00 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 26.00 40.36 54.72 69.08 83.43 97.79 
+

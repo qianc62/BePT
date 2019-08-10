@@ -1,0 +1,24 @@
+Place p29 alpha
+Place p28 process.s00000327##s00006190.input.s00000935
+Place p25 startNode.s00000940.output.default
+Transition t23 callToTask.s00005840.outputCriterion.s00000939
+Place p21 callToTask.s00005840.inputCriterion.s00000937.used
+Place p26 callToTask.s00005840.input.s00000938
+Place p27 process.s00000327##s00006190.input.s00000950
+Transition t6 process.s00000327##s00006190.inputCriterion.s00000937
+Transition t12 process.s00000327##s00006190.outputCriterion.s00000939
+Place N10 superSource10
+Transition t20 callToTask.s00005840.inputCriterion.s00000937
+
+t23 -> p26
+t6 -> p28
+p26 -> t12
+t6 -> p25
+p21 -> t23
+p29 -> t6
+t20 -> p21
+p27 -> t20
+t6 -> p27
+p25 -> t20
+p28 -> t20
+t12 -> N10

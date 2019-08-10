@@ -1,0 +1,24 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does T1. Subsequently, the manager does T3. Then, one of the following branches is executed: 
+        The manager does T8. After that, the manager does T9. 
+        There are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does T5. Subsequently, the manager does T11. Then, the manager does T6. 
+                The manager does T5. After that, the manager does T10. After that, the manager does T6. 
+                When the above path is finished, after that, the above sequential part is finished. 
+        After the above path is finished, the manager does T7. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 130
+
+SentenceNumber: 18
+
+Gold Depth: 5 3 5 1 3 3 5 1 1 
+
+Depth: 4 4 4 1 2 2 4 1 1 
+
+Correlation Coefficient: 0.91
+
+Sentence Gain: 26.00 26.00 37.44 37.44 14.36 
+
+Sentence Sum Gain: 26.00 52.00 89.44 126.89 141.25 
+

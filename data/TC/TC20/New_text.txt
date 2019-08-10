@@ -1,0 +1,20 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'Start'. Subsequently, the 'manager' does 'MM_140_invoice_verification_process_'. After that, the 'manager' does 'Reduce_the_quality_of_applications_submitted_margin_'. Subsequently, the 'manager' does 'Purchase_accounting_system_Zhibao_Jin_Guo_account_'. Subsequently, the 'manager' does 'Margin_case_back_to_the_relevant_departments_of_unpaid_debts_'. After that, the 'manager' does 'Related_to_the_quality_of_information_feedback_form_issued_by_the_department_'. After that, one of following paths needs to be finished: 
+        The 'manager' does 'T12'. 
+        The 'manager' does 'Signed_an_agreement_with_suppliers_charge_'. Subsequently, the 'manager' does 'Make_deductions_for_'. Then, the 'manager' does 'Chief_Financial_Officer_Audit_'. Then, the 'manager' does 'Meet_the_accounting_system_reseller_Zhibao_Jin_'. 
+        After the above path is finished, the 'manager' does 'FI_210_payment_process_'. After that, the 'manager' does 'End'. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 110
+
+SentenceNumber: 18
+
+Gold Depth: 3 3 1 1 3 1 1 1 3 3 1 1 1 
+
+Depth: 2 2 1 1 2 1 1 1 2 2 1 1 1 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 71.53 14.36 48.83 26.00 
+
+Sentence Sum Gain: 71.53 85.89 134.72 160.72 
+

@@ -1,0 +1,16 @@
+String: The manager does Distribution\nNetwork. Then, the manager does Planning. After that, the manager does t20. Subsequently, the manager does DRP__\nDistribution\nResource\nPlanning\nRun. After that, the manager does Deployment. At last, the process ends. 
+
+WordNumber: 31
+
+SentenceNumber: 6
+
+Gold Depth: 1 1 1 1 1 
+
+Depth: 0 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 60.19 
+
+Sentence Sum Gain: 60.19 
+

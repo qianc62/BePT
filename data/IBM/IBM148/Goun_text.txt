@@ -1,0 +1,16 @@
+String: The manager does process.S00000295##s00002196.InputCriterion.S00000772. After that, the manager does callToProcess.S00000982.InputCriterion.S00000772. After that, the manager does callToProcess.S00000982.OutputCriterion.S00000773. Subsequently, the manager does process.S00000295##s00002196.OutputCriterion.S00000773. At last, the process ends. 
+
+WordNumber: 26
+
+SentenceNumber: 17
+
+Gold Depth: 1 1 1 1 
+
+Depth: 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 48.83 
+
+Sentence Sum Gain: 48.83 
+

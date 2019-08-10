@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml>
+<net id="workflownet" type="http://www.informatik.hu-berlin.de/top/pnml/basicPNML.rng">
+    <place id="place_0">
+        <graphics>
+            <position x="16" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p0</text>
+         </name>
+    </place>
+    <place id="place_1">
+        <graphics>
+            <position x="390" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p3</text>
+         </name>
+    </place>
+    <place id="place_2">
+        <graphics>
+            <position x="610" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p5</text>
+         </name>
+    </place>
+    <place id="place_3">
+        <graphics>
+            <position x="182" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p7</text>
+         </name>
+    </place>
+    <transition id="trans_0">
+        <graphics>
+            <position  x="99" y="18" />
+            <dimension x="105" y="17" />
+        </graphics>
+        <name>
+            <text>Payment approval process</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Payment approval process</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_1">
+        <graphics>
+            <position  x="286" y="18" />
+            <dimension x="149" y="17" />
+        </graphics>
+        <name>
+            <text>The general ledger voucher processing</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>The general ledger voucher processing</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_2">
+        <graphics>
+            <position  x="500" y="18" />
+            <dimension x="162" y="17" />
+        </graphics>
+        <name>
+            <text>Funding approval of a single borrower card</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Funding approval of a single borrower card</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <arc id="arc_0" source="place_1" target="trans_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="397" y="18" />
+                <point x="401" y="18" />
+                <point x="407" y="18" />
+                <point x="414" y="18" />
+                <end x="419" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_1" source="place_0" target="trans_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="23" y="18" />
+                <point x="27" y="18" />
+                <point x="33" y="18" />
+                <point x="40" y="18" />
+                <end x="45" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_2" source="trans_2" target="place_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="581" y="18" />
+                <point x="587" y="18" />
+                <point x="593" y="18" />
+                <point x="598" y="18" />
+                <end x="603" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_3" source="trans_0" target="place_3">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="153" y="18" />
+                <point x="159" y="18" />
+                <point x="165" y="18" />
+                <point x="170" y="18" />
+                <end x="175" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_4" source="trans_1" target="place_1">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="361" y="18" />
+                <point x="367" y="18" />
+                <point x="373" y="18" />
+                <point x="378" y="18" />
+                <end x="383" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_5" source="place_3" target="trans_1">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="189" y="18" />
+                <point x="193" y="18" />
+                <point x="199" y="18" />
+                <point x="206" y="18" />
+                <end x="211" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+</net>
+</pnml>

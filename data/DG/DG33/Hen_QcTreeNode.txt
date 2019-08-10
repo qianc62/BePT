@@ -1,0 +1,32 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, Notify_the_business_cost_of_withholding_pending
+            BondPlace, 
+                Polygon, 
+                    Trivial, N10
+                    BondPlace, 
+                        Polygon, 
+                            Trivial, Pending_the_preparation_of_finished_product_cost_breakdown
+                            Trivial, Sector_led_review
+                        Loop, 
+                            Polygon, 
+                                Trivial, t61
+                    Trivial, Submitted_to_the_Finance
+                    Trivial, Audit_costs_are_correct_withholding
+                Loop, 
+                    Polygon, 
+                        Trivial, Back_to_business_unit__cost_accounting_changes
+            Trivial, t41
+        Polygon, 
+            Trivial, Imputation_product_cost
+            BondPlace, 
+                Polygon, 
+                    Trivial, Comprehensive_provision_for_withholding_the_cost_of
+                    Trivial, Audit
+                Loop, 
+                    Polygon, 
+                        Trivial, t68
+            Trivial, t66
+    Trivial, General_Ledger_Business_Processes
+    Trivial, The_end_of_checkout_process_CO

@@ -1,0 +1,16 @@
+String: The manager does T0. Subsequently, the manager does T1. After that, the manager does T3. Then, the manager does T4. After that, the manager does T5. After that, the manager does T6. After that, the manager does T7. After that, the manager does T8. At last, the process ends. 
+
+WordNumber: 49
+
+SentenceNumber: 9
+
+Gold Depth: 1 1 1 1 1 1 1 1 
+
+Depth: 0 0 0 0 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 94.20 
+
+Sentence Sum Gain: 94.20 
+

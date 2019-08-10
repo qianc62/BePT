@@ -1,0 +1,11 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Project_application_submitted
+    BondPlace, 
+        Polygon, 
+            Trivial, T2
+        Polygon, 
+            Trivial, Appointment_of_project_manager
+            Trivial, The_ranking_of_project_types_to_create_
+            Trivial, WBS_structure_initially_built
+    Trivial, End

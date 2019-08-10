@@ -1,0 +1,6 @@
+Place place_0 p2
+Place place_1 p3
+Transition trans_0 Sales\nOrder\nProcessing
+
+trans_0 -> place_1
+place_0 -> trans_0

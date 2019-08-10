@@ -1,0 +1,106 @@
+package org.processmining.importing.coloredcontrolflownet.arcinscriptionparser;
+
+import java.util.*;
+import java_cup.runtime.*;
+import org.processmining.framework.models.coloredcontrolflownet.inscription.*;
+import org.processmining.framework.models.coloredcontrolflownet.statement.*;
+import org.processmining.framework.models.coloredcontrolflownet.expression.*;
+
+parser code {:
+    public void report_error(String message, Object info) { /* Ignore simple error */
+    }
+   
+    public void report_fatal_error(String message, Object info) throws Exception {
+        StringBuffer m = new StringBuffer("Error");
+   
+        if (info instanceof java_cup.runtime.Symbol) {
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
+   
+            if (s.left >= 0) {                
+                m.append(" in line "+(s.left+1));   
+                if (s.right >= 0)                    
+                    m.append(", column "+(s.right+1));
+            }
+        }
+   
+        m.append(" : "+message);
+
+	  throw new Exception(m.toString());
+    }
+:};
+   
+action code {:
+	public String sid(Object o) {
+    	String s = (String)o;
+    	return s.substring(1,s.length()-1);
+    }
+    public Statement appendStatement(Statement s1, Statement s2) {
+    	if (s1 instanceof NoOperationStatement) return s2;
+    	return new SequenceStatement(s1,s2);
+    }
+:}
+
+   
+/* ------------Declaration of Terminals and Non Terminals Section----------- */
+   
+terminal			LPAREN, RPAREN, CONFS, PID, COMMA, VALUE, STRING, STRINGID,
+					BOOL, ID, INT, GET, INTTYPE, BOOLTYPE, STRINGTYPE, ASSIGN,
+					LBRACKET, RBRACKET;
+   
+non terminal ArcInscription		inscription;
+non terminal Statement			statement;
+non terminal List<AssignStatement> assign_list; 
+non terminal Expression			expression;
+non terminal List<Expression>	exp_list;
+
+/* -------------Precedence and Associatively of Terminals Section----------- */
+   
+/* precedence left OR;  */
+/* precedence left AND; */
+
+/* ----------------------------Grammar Section-------------------- */
+			
+   inscription ::= PID
+   				   {: RESULT = new RouteInscription(); :}
+   				 | LPAREN PID COMMA statement:s RPAREN
+   				   {: if (s instanceof NoOperationStatement) RESULT = new TakeStateInscription();
+   				      else RESULT = new StatementInscription(s); :}
+   				 | LPAREN PID COMMA LBRACKET assign_list:al RBRACKET RPAREN
+   				   {: RESULT = new InitialConfigurationInscription(al); :}
+   				 ;
+   				 
+     statement ::= CONFS
+                   {: RESULT = new NoOperationStatement(); :}
+     			 | ASSIGN LPAREN STRINGID:var COMMA expression:e COMMA statement:s RPAREN
+     			   {: RESULT = appendStatement(s, new AssignStatement(sid(var), e)); :}
+   				 ;
+   				 
+   assign_list ::= LPAREN STRINGID:id COMMA expression:e RPAREN assign_list:al
+	 			   {: al.add(new AssignStatement(sid(id), e)); RESULT = al; :}
+	 			 | COMMA assign_list:al
+	 			   {: RESULT = al; :} 
+	 			 | {: RESULT = new ArrayList<AssignStatement>(); :}
+	 			 ;
+	 			    				 
+   	expression ::= VALUE
+   				   {: RESULT = new ValueExpression(); :}
+   				 | STRINGTYPE STRING:string
+   				   {: RESULT = new StringExpression(sid(string)); :}
+   				 | STRINGTYPE STRINGID:string
+   				   {: RESULT = new StringExpression(sid(string)); :}
+   				 | INTTYPE INT:integer
+   				   {: RESULT = new IntegerExpression(Integer.parseInt((String)integer)); :}
+   				 | BOOLTYPE BOOL:bool
+   				   {: RESULT = new BooleanExpression(Boolean.parseBoolean((String)bool)); :}
+   				 | ID:id LPAREN exp_list:el RPAREN
+   				   {: RESULT = new FunctionCallExpression((String)id, el); :} 
+   				 | GET LPAREN STRINGID:id COMMA CONFS RPAREN
+   				   {: RESULT = new IdentifierExpression(sid(id)); :}		  
+   				 ;
+
+      exp_list ::= expression:e exp_list:el 
+	 			   {: el.add(e); RESULT = el; :}
+	 			 | COMMA exp_list:el
+	 			   {: RESULT = el; :}
+	 			 | {: RESULT = new ArrayList<Expression>();; :}
+	 			 ;

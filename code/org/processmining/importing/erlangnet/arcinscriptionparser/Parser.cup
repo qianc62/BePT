@@ -1,0 +1,101 @@
+package org.processmining.importing.erlangnet.arcinscriptionparser;
+
+import java.util.*;
+import java_cup.runtime.*;
+import org.processmining.framework.models.erlangnet.inscription.*;
+import org.processmining.framework.models.erlangnet.statement.*;
+import org.processmining.framework.models.erlangnet.expression.*;
+
+parser code {:
+    public void report_error(String message, Object info) { /* Ignore simple error */
+    }
+   
+    public void report_fatal_error(String message, Object info) throws Exception {
+        StringBuffer m = new StringBuffer("Error");
+   
+        if (info instanceof java_cup.runtime.Symbol) {
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
+   
+            if (s.left >= 0) {                
+                m.append(" in line "+(s.left+1));   
+                if (s.right >= 0)                    
+                    m.append(", column "+(s.right+1));
+            }
+        }
+   
+        m.append(" : "+message);
+
+	  throw new Exception(m.toString());
+    }
+:};
+   
+action code {:
+	public String sid(Object o) {
+    	String s = (String)o;
+    	return s.substring(1,s.length()-1);
+    }
+:}
+
+   
+/* ------------Declaration of Terminals and Non Terminals Section----------- */
+   
+terminal			LPAREN, RPAREN, PID, ENV, SET, SENDER, ID, GET,
+					GETPID, PIDTYPE, INTTYPE, STRINGTYPE, BOOLTYPE,
+					RECEIVER, COMMA, SM, STRINGID, VALUE, INT, STRING,
+					BOOL;
+   
+non terminal ArcInscription		inscription;
+non terminal Statement			statement;
+non terminal Expression			expression;
+non terminal List<Expression>	exp_list;
+
+/* -------------Precedence and Associatively of Terminals Section----------- */
+   
+/* precedence left OR;  */
+/* precedence left AND; */
+
+/* ----------------------------Grammar Section-------------------- */
+			
+   inscription ::= LPAREN PID COMMA statement:s RPAREN
+		   		   {: RESULT = new RouteInscription(s); :}
+		   		 | LPAREN SENDER COMMA PID COMMA expression:e RPAREN
+		   		   {: RESULT = new ReceiveMessageInscription(e); :}
+		   		 | LPAREN PID COMMA 
+		   		   GETPID LPAREN STRINGID:receiver COMMA ENV RPAREN COMMA
+                   expression:exp RPAREN
+                   {: RESULT = new SendMessageInscription(sid(receiver), exp); :}
+		    	 ;
+
+	 statement ::= ENV:e
+	               {: RESULT = new NoOperationStatement((String)e); :}
+				 | SET LPAREN STRINGID:var COMMA expression:e COMMA statement:s RPAREN
+				   {: RESULT = new AssignmentStatement(sid(var), e, s); :}
+				 | SET LPAREN STRINGID:sender COMMA PIDTYPE SENDER COMMA ENV RPAREN
+				   {: RESULT = new ReceiveSenderStatement(sid(sender)); :}
+				 | SM LPAREN STRINGID:sender COMMA SENDER COMMA STRINGID:var COMMA VALUE COMMA statement:s RPAREN
+				   {: RESULT = new ReceiveSenderAndValueStatement(sid(sender),sid(var)); :} 
+				 ;
+
+    expression ::= VALUE
+   				   {: RESULT = new ValueExpression(); :}
+   				 | STRINGTYPE STRING:string
+   				   {: RESULT = new StringExpression(sid(string)); :}
+   				 | STRINGTYPE STRINGID:string
+   				   {: RESULT = new StringExpression(sid(string)); :}
+   				 | INTTYPE INT:integer
+   				   {: RESULT = new IntegerExpression(Integer.parseInt((String)integer)); :}
+   				 | BOOLTYPE BOOL:bool
+   				   {: RESULT = new BooleanExpression(Boolean.parseBoolean((String)bool)); :}
+   				 | ID:id LPAREN exp_list:el RPAREN
+   				   {: RESULT = new FunctionCallExpression((String)id, el); :} 
+   				 | GET LPAREN STRINGID:id COMMA ENV RPAREN
+   				   {: RESULT = new IdentifierExpression(sid(id)); :}		  
+   				 ;
+
+      exp_list ::= expression:e COMMA exp_list:el 
+	 			   {: el.add(e); RESULT = el; :}
+	 			 | expression:e
+	 			   {: List<Expression> expList = new ArrayList<Expression>();
+	 			      expList.add(e);
+	 			      RESULT = expList; :}
+	 			 ;

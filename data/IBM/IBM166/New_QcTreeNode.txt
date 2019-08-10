@@ -1,0 +1,42 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000115##s00003080.inputCriterion.s00000858
+        Trivial, callToTask.s00003087.inputCriterion.s00000700
+    BondTransition, 
+        Trivial, callToTask.s00003087.outputCriterion.s00000704
+        Trivial, callToTask.s00003086.inputCriterion.s00000858
+    BondTransition, 
+        Trivial, callToTask.s00003086.outputCriterion.s00000859
+        Trivial, decision.s00003081.activate.s00000708
+    BondPlace, 
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00003081.fire.s00000727
+                Trivial, callToProcess.s00002766.inputCriterion.s00000700
+            Trivial, callToProcess.s00002766.outputCriterion.s00000704
+            Trivial, merge.s00000730.activate.s00000738
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00003081.fire.s00000724
+                Trivial, callToProcess.s00002768.inputCriterion.s00000700
+            Trivial, callToProcess.s00002768.outputCriterion.s00000704
+            Trivial, merge.s00000730.activate.s00000735
+            Trivial, merge.s00000730.fire.s00000741
+        Polygon, 
+            Trivial, decision.s00003081.fire.s00000715
+            Trivial, callToProcess.s00002922.inputCriterion.s00000700
+            BondTransition, 
+                Trivial, callToProcess.s00002922.outputCriterion.s00000704
+                Trivial, callToTask.s00002525.inputCriterion.s00000858
+            Trivial, callToTask.s00002525.outputCriterion.s00000859
+            Trivial, merge.s00000730.activate.s00000733
+        Polygon, 
+            BondTransition, 
+                Trivial, decision.s00003081.fire.s00000711
+                Trivial, callToProcess.s00002557.inputCriterion.s00000700
+            BondTransition, 
+                Trivial, callToProcess.s00002557.outputCriterion.s00000704
+                Polygon, 
+                    Trivial, merge.s00000730.activate.s00000731
+                    Trivial, merge.s00000730.fire.s00000741
+                Trivial, process.s00000115##s00003080.outputCriterion.s00000859

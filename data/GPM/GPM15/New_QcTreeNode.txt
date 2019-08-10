@@ -1,0 +1,6 @@
+Polygon, 
+    RigidTransition, 
+        Polygon, 
+            Trivial, T0
+        RigidOtherBehavior, 
+            Trivial, T0

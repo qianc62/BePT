@@ -1,0 +1,20 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does Work\nArea. Subsequently, one of the following branches is executed: 
+        The manager does Accident. 
+        The manager does Agent. 
+        Once the above path is finished, the manager does Standard\nOperating\nProcedure. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 59
+
+SentenceNumber: 8
+
+Gold Depth: 3 1 3 1 
+
+Depth: 2 1 2 1 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 14.36 28.72 43.08 57.43 
+

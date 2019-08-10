@@ -1,0 +1,16 @@
+String: The 'manager' does 'Injury_nIllness\nLog_Entry\nProcessing'. Then, the 'manager' does 'Data\nTransfer\nInjury_nIllness\nLog_to_Accident'. At last, the process ends. 
+
+WordNumber: 14
+
+SentenceNumber: 3
+
+Gold Depth: 1 1 
+
+Depth: 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 26.00 
+
+Sentence Sum Gain: 26.00 
+

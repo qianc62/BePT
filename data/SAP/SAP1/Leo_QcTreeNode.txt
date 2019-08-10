@@ -1,0 +1,14 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, t17
+            Trivial, Document\nTemplate\nProcessing
+            Trivial, Report\nShipping
+        Polygon, 
+            Trivial, t17
+            Trivial, Substance\nReport\nProcessing
+            Trivial, Report\nShipping
+        Polygon, 
+            Trivial, t17
+            Trivial, Processing\nof_Substance\nReport\nGeneration\nVariants
+            Trivial, Report\nShipping

@@ -1,0 +1,9 @@
+In order to make the process model a workflow, it has to be preprocessed: 
+    Add some nodes: SuperP19 superT18. 
+After workflowfy this process model, the textual description can be generated. 
+
+The process begins. At first there are some procedures need to be finished sequentially: 
+    There is a region which allows for different execution paths listed as following: 
+    The 'manager' does 'superT18'. Then, the 'manager' does 'T0'. 
+    The 'manager' does 'superT18'. Subsequently, the 'manager' does 'T6'. 
+    When, all of the above paths are finished, the 'manager' does 'T9'. Subsequently, the above sequential part is finished. At last, the process ends. 

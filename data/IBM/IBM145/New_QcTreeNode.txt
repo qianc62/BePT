@@ -1,0 +1,7 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000025##s00000805.inputCriterion.s00000772
+        Trivial, callToTask.s00000808.inputCriterion.s00000772
+    Trivial, callToTask.s00000808.outputCriterion.s00000773
+    Trivial, callToTask.s00000806.inputCriterion.s00000772
+    Trivial, callToTask.s00000806.outputCriterion.s00000773

@@ -1,0 +1,110 @@
+Polygon, 
+    Trivial, process.s00000040##s00001001.inputCriterion.s00000892
+    Trivial, task.s00000895.inputCriterion.s00000892
+    Trivial, task.s00000895.outputCriterion.s00000894
+    Trivial, merge.s00000998.activate.s00000284
+    Polygon, 
+        Trivial, merge.s00000998.fire.s00000287
+        Trivial, decision.s00000920.activate.s00000271
+        BondPlace, 
+            Polygon, 
+                Trivial, decision.s00000920.fire.s00000274
+                Trivial, task.s00000897.inputCriterion.s00000892
+                Trivial, task.s00000897.outputCriterion.s00000894
+                Trivial, merge.s00000997.activate.s00000286
+            Polygon, 
+                Trivial, decision.s00000920.fire.s00000272
+                Trivial, merge.s00000997.activate.s00000284
+                Trivial, merge.s00000997.fire.s00000287
+                Trivial, task.s00000898.inputCriterion.s00000892
+                Trivial, task.s00000898.outputCriterion.s00000894
+                Trivial, decision.s00000925.activate.s00000271
+                BondPlace, 
+                    Polygon, 
+                        Trivial, decision.s00000925.fire.s00000274
+                        Trivial, task.s00000899.inputCriterion.s00000892
+                        Trivial, task.s00000899.outputCriterion.s00000894
+                        Trivial, decision.s00000926.activate.s00000271
+                        BondPlace, 
+                            Polygon, 
+                                Trivial, decision.s00000926.fire.s00000274
+                                Trivial, merge.s00000997.activate.s00000289
+                            Polygon, 
+                                Trivial, decision.s00000926.fire.s00000272
+                                Trivial, merge.s00000938.activate.s00000286
+                    Polygon, 
+                        Trivial, decision.s00000925.fire.s00000272
+                        Trivial, merge.s00000938.activate.s00000284
+                        Trivial, merge.s00000938.fire.s00000287
+                        Trivial, task.s00000901.inputCriterion.s00000892
+                        Trivial, task.s00000901.outputCriterion.s00000894
+                        Trivial, task.s00000902.inputCriterion.s00000892
+                        Trivial, task.s00000902.outputCriterion.s00000894
+                        Trivial, decision.s00000927.activate.s00000271
+                        BondPlace, 
+                            Polygon, 
+                                Trivial, decision.s00000927.fire.s00000274
+                                Trivial, merge.s00000998.activate.s00000289
+                            Polygon, 
+                                Trivial, decision.s00000927.fire.s00000272
+                                Trivial, task.s00000908.inputCriterion.s00000892
+                                Trivial, task.s00000908.outputCriterion.s00000894
+                                Trivial, decision.s00000928.activate.s00000271
+                                BondPlace, 
+                                    Polygon, 
+                                        Trivial, decision.s00000928.fire.s00000274
+                                        Trivial, task.s00000904.inputCriterion.s00000892
+                                        Trivial, task.s00000904.outputCriterion.s00000894
+                                        Trivial, merge.s00000933.activate.s00000286
+                                    Polygon, 
+                                        Trivial, decision.s00000928.fire.s00000272
+                                        Trivial, merge.s00000933.activate.s00000284
+                                        Trivial, merge.s00000933.fire.s00000287
+                                        Trivial, decision.s00000929.activate.s00000271
+                                        BondPlace, 
+                                            Polygon, 
+                                                Trivial, decision.s00000929.fire.s00000272
+                                                Trivial, task.s00000905.inputCriterion.s00000892
+                                                Trivial, task.s00000905.outputCriterion.s00000894
+                                                Trivial, merge.s00000934.activate.s00000284
+                                            Polygon, 
+                                                Trivial, decision.s00000929.fire.s00000274
+                                                Trivial, merge.s00000934.activate.s00000286
+                                                Trivial, merge.s00000934.fire.s00000287
+                                                Trivial, task.s00000115.inputCriterion.s00000892
+                                                Trivial, task.s00000115.outputCriterion.s00000894
+                                                Trivial, task.s00000906.inputCriterion.s00000892
+                                                Trivial, task.s00000906.outputCriterion.s00000894
+                                                Trivial, task.s00000910.inputCriterion.s00000892
+                                                Trivial, task.s00000910.outputCriterion.s00000894
+                                                Trivial, task.s00000911.inputCriterion.s00000892
+                                                Trivial, task.s00000911.outputCriterion.s00000894
+                                                Trivial, merge.s00000935.activate.s00000284
+                                                Trivial, merge.s00000935.fire.s00000287
+                                                Trivial, decision.s00000930.activate.s00000271
+                                                BondPlace, 
+                                                    Polygon, 
+                                                        Trivial, decision.s00000930.fire.s00000274
+                                                        Trivial, task.s00000912.inputCriterion.s00000892
+                                                        Trivial, task.s00000912.outputCriterion.s00000894
+                                                        Trivial, merge.s00000935.activate.s00000286
+                                                    Polygon, 
+                                                        Trivial, decision.s00000930.fire.s00000272
+                                                        Trivial, decision.s00000931.activate.s00000271
+                                                        BondPlace, 
+                                                            Polygon, 
+                                                                Trivial, decision.s00000931.fire.s00000272
+                                                                Trivial, task.s00000913.inputCriterion.s00000892
+                                                                Trivial, task.s00000913.outputCriterion.s00000894
+                                                                Trivial, merge.s00000936.activate.s00000284
+                                                            Polygon, 
+                                                                Trivial, decision.s00000931.fire.s00000274
+                                                                Trivial, decision.s00000932.activate.s00000271
+                                                                BondPlace, 
+                                                                    Polygon, 
+                                                                        Trivial, decision.s00000932.fire.s00000272
+                                                                        Trivial, merge.s00000936.activate.s00000286
+                                                                    Polygon, 
+                                                                        Trivial, decision.s00000932.fire.s00000274
+                                                                        Trivial, merge.s00000998.activate.s00000286
+    Trivial, merge.s00000936.fire.s00000287

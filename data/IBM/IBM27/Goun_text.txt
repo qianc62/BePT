@@ -1,0 +1,85 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000717##s00005121.InputCriterion.S00001053. Then, the manager does callToTask.S00005122.InputCriterion.S00001053. 
+        The manager does process.S00000717##s00005121.InputCriterion.S00001053. After that, the manager does callToTask.S00005122.InputCriterion.S00001053. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00005122.OutputCriterion.S00001055. After that, the manager does decision.S00001123.Activate.S00001072. 
+        The manager does callToTask.S00005122.OutputCriterion.S00001055. Subsequently, the manager does decision.S00001123.Activate.S00001072. 
+        When the above path is finished, one of the following branches is executed: 
+        There are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does decision.S00001123.Fire.S00001075. After that, the manager does callToTask.S00005124.InputCriterion.S00001053. 
+                The manager does decision.S00001123.Fire.S00001075. Then, the manager does callToTask.S00005124.InputCriterion.S00001053. 
+                When the above path is finished, one of the following branches is executed: 
+                The manager does callToTask.S00005124.OutputCriterion.S00001055. Then, the manager does decision.S00001157.Activate.S00001072. 
+                The manager does callToTask.S00005124.OutputCriterion.S00001055. Subsequently, the manager does decision.S00001157.Activate.S00001072. 
+                After the above path is finished, one of the following branches is executed: 
+                There are some procedures need to be finished sequentially: 
+                    One of the following branches is executed: 
+                        The manager does decision.S00001157.Fire.S00001075. Then, the manager does callToTask.S00002172.InputCriterion.S00001053. 
+                        The manager does decision.S00001157.Fire.S00001075. Subsequently, the manager does callToTask.S00002172.InputCriterion.S00001053. 
+                        When the above path is finished, one of the following branches is executed: 
+                        The manager does callToTask.S00002172.OutputCriterion.S00001055. Then, the manager does callToTask.S00002044.InputCriterion.S00001053. 
+                        The manager does callToTask.S00002172.OutputCriterion.S00001055. Subsequently, the manager does callToTask.S00002044.InputCriterion.S00001053. 
+                        When the above path is finished, one of the following branches is executed: 
+                        The manager does callToTask.S00002044.OutputCriterion.S00001055. Subsequently, the manager does decision.S00001126.Activate.S00001072. 
+                        The manager does callToTask.S00002044.OutputCriterion.S00001055. Subsequently, the manager does decision.S00001126.Activate.S00001072. 
+                        Once the above path is finished, one of the following branches is executed: 
+                        There are some procedures need to be finished sequentially: 
+                            One of the following branches is executed: 
+                                The manager does decision.S00001126.Fire.S00001075. Subsequently, the manager does merge.S00001160.Activate.S00001062. 
+                                The manager does decision.S00001126.Fire.S00001075. Then, the manager does merge.S00001160.Activate.S00001062. 
+                                After the above path is finished, then, the above sequential part is finished. 
+                        There are some procedures need to be finished sequentially: 
+                            One of the following branches is executed: 
+                                The manager does decision.S00001126.Fire.S00001073. After that, the manager does callToProcess.S00001294.InputCriterion.S00001053. 
+                                The manager does decision.S00001126.Fire.S00001073. After that, the manager does callToProcess.S00001294.InputCriterion.S00001053. 
+                                When the above path is finished, the manager does callToProcess.S00001294.OutputCriterion.S00001055. Then, the manager does merge.S00001160.Activate.S00001064. Then, the above sequential part is finished. 
+                        After the above path is finished, one of the following branches is executed: 
+                        The manager does merge.S00001160.Fire.S00001069. Then, the manager does callToTask.S00001729.InputCriterion.S00001053. 
+                        The manager does merge.S00001160.Fire.S00001069. Subsequently, the manager does callToTask.S00001729.InputCriterion.S00001053. 
+                        When the above path is finished, one of the following branches is executed: 
+                        The manager does callToTask.S00001729.OutputCriterion.S00001055. After that, the manager does decision.S00001158.Activate.S00001072. 
+                        The manager does callToTask.S00001729.OutputCriterion.S00001055. After that, the manager does decision.S00001158.Activate.S00001072. 
+                        Once the above path is finished, one of the following branches is executed: 
+                        There are some procedures need to be finished sequentially: 
+                            One of the following branches is executed: 
+                                The manager does decision.S00001158.Fire.S00001073. Then, the manager does merge.S00001061.Activate.S00001062. 
+                                The manager does decision.S00001158.Fire.S00001073. Then, the manager does merge.S00001061.Activate.S00001062. 
+                                Once the above path is finished, after that, the above sequential part is finished. 
+                        There are some procedures need to be finished sequentially: 
+                            One of the following branches is executed: 
+                                The manager does decision.S00001158.Fire.S00001075. After that, the manager does merge.S00001061.Activate.S00001064. 
+                                The manager does decision.S00001158.Fire.S00001075. Subsequently, the manager does merge.S00001061.Activate.S00001064. 
+                                After the above path is finished, then, the above sequential part is finished. 
+                        After the above path is finished, one of the following branches is executed: 
+                        The manager does merge.S00001061.Fire.S00001069. Then, the manager does callToProcess.S00001419.InputCriterion.S00001053. 
+                        The manager does merge.S00001061.Fire.S00001069. Subsequently, the manager does callToProcess.S00001419.InputCriterion.S00001053. 
+                        When the above path is finished, the manager does callToProcess.S00001419.OutputCriterion.S00001055. After that, the above sequential part is finished. 
+                There are some procedures need to be finished sequentially: 
+                    One of the following branches is executed: 
+                        The manager does decision.S00001157.Fire.S00001073. After that, the manager does callToTask.S00005123.InputCriterion.S00001053. 
+                        The manager does decision.S00001157.Fire.S00001073. Subsequently, the manager does callToTask.S00005123.InputCriterion.S00001053. 
+                        When the above path is finished, the manager does callToTask.S00005123.OutputCriterion.S00001055. After that, the above sequential part is finished. 
+                Once the above path is finished, subsequently, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does decision.S00001123.Fire.S00001073. Then, the manager does callToTask.S00004594.InputCriterion.S00001053. 
+                The manager does decision.S00001123.Fire.S00001073. Subsequently, the manager does callToTask.S00004594.InputCriterion.S00001053. 
+                After the above path is finished, the manager does callToTask.S00004594.OutputCriterion.S00001055. Subsequently, the manager does process.S00000717##s00005121.OutputCriterion.S00001055. After that, the above sequential part is finished. 
+        When the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 809
+
+SentenceNumber: 319
+
+Gold Depth: 7 7 3 7 9 9 3 5 7 7 5 7 3 5 5 7 5 1 3 7 5 5 9 7 5 5 3 5 9 5 7 3 7 7 5 1 3 7 
+
+Depth: 6 6 2 8 8 8 2 6 8 8 6 6 3 4 6 6 4 2 4 6 6 5 8 7 6 6 4 4 8 6 7 3 8 6 5 2 4 6 
+
+Correlation Coefficient: 0.90
+
+Sentence Gain: 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 14.36 26.00 20.59 14.36 26.00 20.59 26.00 
+
+Sentence Sum Gain: 26.00 46.59 72.59 93.18 119.18 139.77 165.77 186.37 212.37 232.96 258.96 279.55 305.55 326.14 352.14 372.73 398.73 419.32 445.32 471.32 491.92 517.92 538.51 564.51 585.10 611.10 631.69 657.69 678.28 692.64 718.64 739.23 753.59 779.59 800.18 826.18 
+

@@ -1,0 +1,16 @@
+String: The 'manager' does 'Material\nMaster\nProcessing\nEH+S'. At last, the process ends. 
+
+WordNumber: 9
+
+SentenceNumber: 2
+
+Gold Depth: 1 
+
+Depth: 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 14.36 
+
+Sentence Sum Gain: 14.36 
+

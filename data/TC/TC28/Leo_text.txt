@@ -1,0 +1,24 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does Start. Then, the manager does Preparation_of_notes_payable_and_the_financial_plan_approved_by_the_competent_. After that, one of the following branches is executed: 
+        The manager does Related_departments_assigned_to_each_supplier_. Subsequently, the manager does Signed_by_the_relevant_department_heads_. After that, the manager does Meet_the_accounting_and_auditing_. 
+        Notice that, after above paths are finished, the latter step is repeated: 
+            The manager does T5. Subsequently, the above loop part is finished. 
+        After the above path is finished, the manager does T6. Subsequently, one of the following branches is executed: 
+        The manager does Teller_a_deposit_. After that, the manager does Financial_planning_accounting_system_permits_. 
+        The manager does T15. 
+        Once the above path is finished, the manager does Handle_commercial_bills_or_apply_for_transfer_of_notes_receivable_. After that, the manager does Corresponding_accounts_payable_accounting_treatment_. Then, the manager does Notes_payable_due_back_guarantee,_posting_. After that, the manager does Business_votes_signature_acceptance,_taels_acceptance_. Then, the manager does Proof_of_payment_to_meet_the_accounting_. Then, the manager does End. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 158
+
+SentenceNumber: 23
+
+Gold Depth: 3 3 1 1 1 3 1 1 1 1 1 3 3 3 1 3 
+
+Depth: 3 2 1 1 1 2 1 1 1 1 1 2 2 2 1 2 
+
+Correlation Coefficient: 0.93
+
+Sentence Gain: 26.00 37.44 14.36 14.36 26.00 14.36 71.53 
+
+Sentence Sum Gain: 26.00 63.44 77.80 92.16 118.16 132.52 204.05 
+

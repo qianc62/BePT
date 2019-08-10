@@ -1,0 +1,9 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000147##s00001992.inputCriterion.s00001053
+        Trivial, callToProcess.s00001958.inputCriterion.s00001053
+    BondPlace, 
+        Polygon, 
+            Trivial, decision.s00001123.fire.s00001078
+        Polygon, 
+            Trivial, decision.s00001123.fire.s00001075

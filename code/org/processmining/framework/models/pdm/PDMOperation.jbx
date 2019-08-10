@@ -1,0 +1,14 @@
+[PropertyInfo]
+conditionList,List,false,false, , ,false,<default>
+cost,Integer,false,false, , ,false,<default>
+input,org.processmining.framework.models.pdm.PDMDataElementSet,false,false, , ,false,<default>
+kindOf,String,false,false, , ,false,<default>
+opID,String,false,false, , ,false,<default>
+output,org.processmining.framework.models.pdm.PDMDataElementSet,false,false, , ,false,<default>
+resourceRef,String,false,false, , ,false,<default>
+time,Integer,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

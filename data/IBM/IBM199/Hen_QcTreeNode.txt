@@ -1,0 +1,18 @@
+Polygon, 
+    Trivial, process.s00000052##s00001301.inputCriterion.s00000772
+    Trivial, callToTask.s00001304.inputCriterion.s00000772
+    Trivial, callToTask.s00001304.outputCriterion.s00000773
+    BondPlace, 
+        Polygon, 
+            Trivial, fork.s00001053.activate.s00000782
+            Trivial, fork.s00001053.fire.s00000787
+            Trivial, callToTask.s00000967.inputCriterion.s00000772
+            Trivial, callToTask.s00000967.outputCriterion.s00000773
+            Trivial, callToTask.s00001303.inputCriterion.s00000772
+            Trivial, callToTask.s00001303.outputCriterion.s00000773
+            Trivial, decision.s00000781.activate.s00000782
+        Polygon, 
+            Trivial, callToTask.s00001063.inputCriterion.s00000772
+            Trivial, callToTask.s00001063.outputCriterion.s00000773
+            Trivial, fork.s00001053.activate.s00000782
+    Trivial, fork.s00001053.fire.s00000784

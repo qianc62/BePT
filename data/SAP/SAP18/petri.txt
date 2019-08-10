@@ -1,0 +1,17 @@
+Transition trans_1 Implementation\nof_Long_Term\nIncentives\nProgram
+Transition trans_3 t11
+Place place_0 p4
+Transition trans_2 t9
+Transition trans_0 Design\nof_Long_Term\nIncentives\nProgram
+Place place_3 p8
+Place place_2 p7
+Place place_1 p5
+
+trans_3 -> place_3
+trans_2 -> place_3
+place_1 -> trans_2
+place_3 -> trans_0
+place_0 -> trans_1
+trans_1 -> place_2
+place_1 -> trans_3
+trans_0 -> place_0

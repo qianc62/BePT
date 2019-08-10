@@ -1,0 +1,24 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does Start. After that, the manager does Sales_staff_received_customer_business_bill_. Then, the manager does Inspection_notes_receivable_accounting,_pay_the_cashier_custody_. Subsequently, the manager does Accounting_Accounts_Receivable_processing_. After that, one of the following branches is executed: 
+        There are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does Discounted_financial_planning_accounting_process,_held_to_maturity_. Subsequently, the manager does Due_not_to_withdraw_the_accounting_Accounts_receivable_processing_. Then, the manager does Phone_or_E_mail_notification_sales_. Then, the manager does T9. 
+                The manager does Discounted_financial_planning_accounting_process,_held_to_maturity_. Subsequently, the manager does Bank_receivables,_account_receivable_accounting_. Then, the manager does T9. 
+                Once the above path is finished, after that, the above sequential part is finished. 
+        The manager does FI_270_Notes_payable_process_. 
+        Once the above path is finished, the manager does End. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 139
+
+SentenceNumber: 20
+
+Gold Depth: 1 3 3 1 1 5 5 5 5 1 1 
+
+Depth: 1 2 4 1 1 4 4 4 4 1 1 
+
+Correlation Coefficient: 0.95
+
+Sentence Gain: 48.83 48.83 37.44 14.36 14.36 
+
+Sentence Sum Gain: 48.83 97.66 135.10 149.46 163.82 
+

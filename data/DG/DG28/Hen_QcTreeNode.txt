@@ -1,0 +1,14 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            BondPlace, 
+                Polygon, 
+                    Trivial, Temporary_change_notice_issued
+                Polygon, 
+                    Trivial, t26
+            Trivial, Production_is_expected_to_change_a_single_vote
+        Polygon, 
+            Trivial, TOBE.C.MM241_material_substitution_process
+            Trivial, Material_substitution_through_a_single_vote_to_change_the_production_BOM
+    Trivial, Change_the_list_of_components_production_order
+    Trivial, TOME.C.MM.242_produce_a_single_vote_is_expected_to_issue_process

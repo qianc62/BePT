@@ -1,0 +1,27 @@
+Polygon, 
+    Trivial, Asset_information_creating_processes
+    Trivial, Maintain_internal_order__information_flow
+    Trivial, Examine_the_need_for_advance_payment
+    BondPlace, 
+        Polygon, 
+            Trivial, Advances_Process
+        Polygon, 
+            Trivial, t63
+    BondPlace, 
+        Polygon, 
+            Trivial, Supplier_invoices_received
+            Trivial, As_a_cost_accounting_to_the_internal_order
+            Trivial, Carried_forward_to_the_end_of_construction_in_progress
+            Trivial, Check_the_completion_of_construction_in_progress
+        Loop, 
+            Polygon, 
+                Trivial, t58
+    Trivial, Asset_information_to_create_processes
+    Trivial, Carried_forward_to_the_fixed_assets_under_construction_projects
+    Trivial, To_determine_whether_the_pre_fixed_switch
+    BondPlace, 
+        Polygon, 
+            Trivial, t51
+        Polygon, 
+            Trivial, General_ledger_accounts_to_handle_the_increased_book_value_of_assets
+    Trivial, Change_asset_information_flow

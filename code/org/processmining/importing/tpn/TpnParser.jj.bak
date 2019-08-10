@@ -1,0 +1,135 @@
+/**
+ * Parses a TPN file and produces a petri net.
+ *
+ * This implementation parses bounds and transition labels, but does not use them.
+ * Undeclared places will be created automatically without warning
+ * if they occur in the in set or out set of a transition.
+ * The parser is case insensitive.
+ *
+ * The parser is built with JavaCC, a free Java parser generator (like yacc).
+ * See https://javacc.dev.java.net/ for documentation.
+ *
+ * The TpnParser class can be rebuilt with the command 'javacc TpnParser.jj'.
+ */
+
+options {
+    STATIC = false;
+    OPTIMIZE_TOKEN_MANAGER = true;
+    IGNORE_CASE = true;
+}
+
+PARSER_BEGIN(TpnParser)
+package org.processmining.importing.tpn;
+
+import java.util.*;
+import org.processmining.framework.models.petrinet.*;
+
+public class TpnParser {
+    private void addPlace(PetriNet net, String placeName, int init) throws ParseException {
+        Place p = net.findPlace(placeName);
+
+        if (p == null) {
+            p = net.addPlace(placeName);
+        }
+        for (int i = 0; i < init; i++) {
+            p.addToken(new org.processmining.framework.models.petrinet.Token());
+        }
+    }
+
+    private void addTrans(PetriNet net, String name, String label, ArrayList in, ArrayList out)
+            throws ParseException {
+        // create transition
+        Transition t = net.addTransition(new Transition(name, net));
+
+        // create ingoing arcs
+        for (int i = 0; i < in.size(); i++) {
+            String placeName = in.get(i).toString();
+            Place p = net.findPlace(placeName);
+
+            if (p == null) {
+                p = net.addPlace(placeName);
+            }
+            if (!net.addEdge(p, t)) {
+                throw new ParseException("ingoing arc '" + placeName + "' declared twice");
+            }
+        }
+
+        // create outgoing arcs
+        for (int i = 0; i < out.size(); i++) {
+            String placeName = out.get(i).toString();
+            Place p = net.findPlace(placeName);
+
+            if (p == null) {
+                p = net.addPlace(placeName);
+            }
+            if (!net.addEdge(t, p)) {
+                throw new ParseException("outgoing arc '" + placeName + "' declared twice");
+            }
+        }
+    }
+
+    private String stripQuotes(String s) {
+        return s.length() >= 2 && s.charAt(0) == '"' && s.charAt(s.length() - 1) == '"'
+            ? s.substring(1, s.length() - 1)
+            : s;
+    }
+}
+
+PARSER_END(TpnParser)
+
+TOKEN : { "place"
+        | "trans"
+        | "init"
+        | "inf"
+        | "in"
+        | "out"
+        | "~"
+        | ";"
+        | < NAME:
+            ["a"-"z","A"-"Z"] ( ["a"-"z","A"-"Z","_","0"-"9","@","."] )*
+            | "\"" (~["\"","\n"])* "\"" >
+        | < NUMBER:
+            (["0"-"9"])+ ("." (["0"-"9"])*)? (<EXPONENT>)?
+            | "." (["0"-"9"])+ (<EXPONENT>)? >
+        | < #EXPONENT: ["e","E"] (["+","-"])? (["0"-"9"])+ >
+        }
+SKIP  : { " "
+        | < ~[" "] >
+        | < "--" (~["\n"])* >
+        }
+
+PetriNet Start() :
+{ PetriNet net = new PetriNet(); }
+{
+  ( Place(net) | Trans(net) )*
+  <EOF>
+  { return net; }
+}
+
+void Place(PetriNet net) :
+{ Token placeName, init = null; }
+{
+    ( "place" placeName=<NAME> ["init" init=<NUMBER>] ";" )
+    { addPlace(net, stripQuotes(placeName.toString()), init == null ? 0 : Integer.parseInt(init.toString())); }
+}
+
+void Trans(PetriNet net) :
+{ Token transName, label = null; ArrayList in = new ArrayList(), out = new ArrayList(); }
+{
+    ( "trans" transName=<NAME> ["~" label=<NAME>] ["in" in=Arcs()] ["out" out=Arcs()] ";" )
+    { addTrans(net, stripQuotes(transName.toString()), label == null ? "" : label.toString(), in, out); }
+}
+
+ArrayList Arcs() :
+{ ArrayList arcs = new ArrayList(); String s; }
+{
+    ( s=Arc() { arcs.add(s); } )*
+    { return arcs; }
+}
+
+String Arc() :
+{ Token name; }
+{
+    ( name=<NAME> [<NUMBER> [<NUMBER> | "inf"]] )
+    { return stripQuotes(name.toString()); }
+}

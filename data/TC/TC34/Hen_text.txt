@@ -1,0 +1,20 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does Start. Then, the manager does Products_have_been_shipped_factory. Subsequently, the manager does Organizations_and_departments_to_make_the_project_summary. 
+        The manager does Start. After that, the manager does No_contract,_the_successful_trial_of_new_. After that, the manager does Organizations_and_departments_to_make_the_project_summary. 
+        After the above path is finished, the manager does Related_documents_into_the_system. Subsequently, the manager does Project_Acceptance. After that, the manager does Make_the_evaluation_of_the_project. Then, the manager does Close_Project. Subsequently, the manager does End. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 97
+
+SentenceNumber: 15
+
+Gold Depth: 1 3 3 1 1 3 1 1 1 
+
+Depth: 1 2 2 1 1 2 2 1 1 
+
+Correlation Coefficient: 0.79
+
+Sentence Gain: 37.44 37.44 60.19 
+
+Sentence Sum Gain: 37.44 74.89 135.08 
+

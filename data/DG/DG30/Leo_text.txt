@@ -1,0 +1,16 @@
+String: The manager does TOBE.#.0P.103_Auxiliary_equipment,_spare_parts_production_orders_issued_by_Flow. Subsequently, the manager does Confirmed_that_the_month_finished_goods. Subsequently, the manager does In_the_SAP_system_for_goods_receipt_posting_operations. Then, the manager does TOBE.#.3D.040_Products_shipped_Process. At last, the process ends. 
+
+WordNumber: 24
+
+SentenceNumber: 11
+
+Gold Depth: 1 1 1 1 
+
+Depth: 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 48.83 
+
+Sentence Sum Gain: 48.83 
+

@@ -1,0 +1,3 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000081##s00001552.InputCriterion.S00001053'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToProcess.S00001373.InputCriterion.S00001053'. The 'manager' does 'callToProcess.S00001373.OutputCriterion.S00001055'. Then, the above sequential part is finished. At last, the process ends. 

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="epc-aid" foregroundRGB="255,255,255" description="" id="org.processmining.analysis.epc" metadata="uml2-1.0" initialized="true" scrolledX="642" scrolledY="421" tag="10" key="32303036313232312045504320436F6D706C657869747920416E616C79736973">
+  <children xsi:type="editmodel:ClassEditModel" name="EPCComplexityCalculator" location="686,629" size="205,169" id="org.processmining.analysis.epc/EPCComplexityCalculator" runTimeClassModel="getHtmlDescription(),getInputItems(),getName(),analyse([Lorg.processmining.analysis.AnalysisInputItem;),EPCComplexityCalculator()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,90">
+      <children xsi:type="editmodel:MethodEditModel" name="EPCComplexityCalculator" id="org.processmining.analysis.epc/EPCComplexityCalculator#EPCComplexityCalculator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="analyse" id="org.processmining.analysis.epc/EPCComplexityCalculator#analyse([Lorg.processmining.analysis.AnalysisInputItem;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHtmlDescription" id="org.processmining.analysis.epc/EPCComplexityCalculator#getHtmlDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInputItems" id="org.processmining.analysis.epc/EPCComplexityCalculator#getInputItems()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/EPCComplexityCalculator#getName()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="EPCComplexityCalculatorUI" location="922,265" size="218,331" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI" runTimeClassModel="epc,EPCComplexityCalculatorUI(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),jbInit(),tMetrics,spTableMouseMoved(Ljava.awt.event.MouseEvent;),lEFTDIVIDERLOCATION,spTable,splitpaneMain,spErrorTextArea,errorTextArea,getValues(),mAINDIVIDERLOCATION,epcVis,splitpaneLeft">
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="epcVis" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#epcVis"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="errorTextArea" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#errorTextArea"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lEFTDIVIDERLOCATION" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#lEFTDIVIDERLOCATION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mAINDIVIDERLOCATION" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#mAINDIVIDERLOCATION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spErrorTextArea" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#spErrorTextArea"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spTable" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#spTable"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="splitpaneLeft" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#splitpaneLeft"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="splitpaneMain" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#splitpaneMain"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tMetrics" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#tMetrics"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,72">
+      <children xsi:type="editmodel:MethodEditModel" name="EPCComplexityCalculatorUI" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#EPCComplexityCalculatorUI(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValues" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#getValues()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="jbInit" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#jbInit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="spTableMouseMoved" id="org.processmining.analysis.epc/EPCComplexityCalculatorUI#spTableMouseMoved(Ljava.awt.event.MouseEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="org.processmining.analysis.epc/EPCComplexityCalculator->org.processmining.analysis/AnalysisInputItem" source="//@children.1" target="//@children.6" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="198,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,165"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NumberOfORs" location="730,12" size="176,223" id="org.processmining.analysis.epc/NumberOfORs" runTimeClassModel="epc,NumberOfORs(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),getName(),getType(),Calculate(),tYPE,VerifyBasicRequirements(),nAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/NumberOfORs#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/NumberOfORs#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/NumberOfORs#tYPE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/NumberOfORs#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NumberOfORs" id="org.processmining.analysis.epc/NumberOfORs#NumberOfORs(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/NumberOfORs#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/NumberOfORs#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/NumberOfORs#getType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/NumberOfORs" source="//@children.2" target="//@children.4/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,223" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NumberOfFunctions" location="1369,588" size="176,223" id="org.processmining.analysis.epc/NumberOfFunctions" runTimeClassModel="epc,getType(),getName(),Calculate(),tYPE,VerifyBasicRequirements(),NumberOfFunctions(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),nAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/NumberOfFunctions#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/NumberOfFunctions#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/NumberOfFunctions#tYPE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/NumberOfFunctions#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NumberOfFunctions" id="org.processmining.analysis.epc/NumberOfFunctions#NumberOfFunctions(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/NumberOfFunctions#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" location="11,160" id="org.processmining.analysis.epc/NumberOfFunctions#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/NumberOfFunctions#getType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/NumberOfFunctions" source="//@children.3" target="//@children.4/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Density" location="715,265" size="176,349" id="org.processmining.analysis.epc/Density" runTimeClassModel="epc,events,getName(),functions,initializeElements(),nodes,VerifyBasicRequirements(),power(II),Density(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),arcs,getType(),Calculate(),connectors,tYPE,nAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="arcs" id="org.processmining.analysis.epc/Density#arcs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="connectors" id="org.processmining.analysis.epc/Density#connectors"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/Density#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="events" id="org.processmining.analysis.epc/Density#events"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="functions" id="org.processmining.analysis.epc/Density#functions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/Density#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nodes" id="org.processmining.analysis.epc/Density#nodes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/Density#tYPE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/Density#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Density" id="org.processmining.analysis.epc/Density#Density(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/Density#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/Density#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/Density#getType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initializeElements" id="org.processmining.analysis.epc/Density#initializeElements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="power" id="org.processmining.analysis.epc/Density#power(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.7/@sourceConnections.0 //@children.10/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.11/@sourceConnections.0 //@children.3/@sourceConnections.0" size="2,1" autoLocated="true" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/Density" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,165" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NumberOfEvents" location="943,12" size="176,223" id="org.processmining.analysis.epc/NumberOfEvents" runTimeClassModel="epc,getName(),getType(),Calculate(),tYPE,VerifyBasicRequirements(),NumberOfEvents(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),nAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/NumberOfEvents#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/NumberOfEvents#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/NumberOfEvents#tYPE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/NumberOfEvents#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NumberOfEvents" id="org.processmining.analysis.epc/NumberOfEvents#NumberOfEvents(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/NumberOfEvents#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/NumberOfEvents#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/NumberOfEvents#getType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/NumberOfEvents" source="//@children.5" target="//@children.4/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,223" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.4/@sourceConnections.0" name="ICalculator" location="1173,50" size="176,165" id="org.processmining.analysis.epc/ICalculator" runTimeClassModel="getName(),getType(),Calculate(),VerifyBasicRequirements()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/ICalculator#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/ICalculator#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/ICalculator#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/ICalculator#getType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NumberOfANDs" location="1173,265" size="176,223" id="org.processmining.analysis.epc/NumberOfANDs" runTimeClassModel="epc,getName(),getType(),Calculate(),NumberOfANDs(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),tYPE,VerifyBasicRequirements(),nAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/NumberOfANDs#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/NumberOfANDs#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/NumberOfANDs#tYPE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/NumberOfANDs#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NumberOfANDs" id="org.processmining.analysis.epc/NumberOfANDs#NumberOfANDs(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/NumberOfANDs#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/NumberOfANDs#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/NumberOfANDs#getType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/NumberOfANDs" source="//@children.7" target="//@children.4/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Modularity" location="1380,12" size="176,223" id="org.processmining.analysis.epc/Modularity" runTimeClassModel="epc,getName(),getType(),Calculate(),tYPE,Modularity(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),VerifyBasicRequirements(),nAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/Modularity#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/Modularity#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/Modularity#tYPE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/Modularity#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Modularity" id="org.processmining.analysis.epc/Modularity#Modularity(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/Modularity#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/Modularity#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/Modularity#getType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/Modularity" source="//@children.8" target="//@children.4/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,223" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NumberOfXORs" location="905,613" size="176,223" id="org.processmining.analysis.epc/NumberOfXORs" runTimeClassModel="epc,getName(),getType(),Calculate(),tYPE,VerifyBasicRequirements(),NumberOfXORs(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),nAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/NumberOfXORs#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/NumberOfXORs#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/NumberOfXORs#tYPE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/NumberOfXORs#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NumberOfXORs" id="org.processmining.analysis.epc/NumberOfXORs#NumberOfXORs(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/NumberOfXORs#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/NumberOfXORs#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/NumberOfXORs#getType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/NumberOfXORs" source="//@children.9" target="//@children.4/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="9,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ControlFlow" location="1380,265" size="176,313" id="org.processmining.analysis.epc/ControlFlow" runTimeClassModel="epc,getName(),fanout(Lorg.processmining.framework.models.epcpack.EPCObject;),VerifyBasicRequirements(),power(II),oR,aND,getType(),Calculate(),xOR,tYPE,nAME,ControlFlow(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="aND" id="org.processmining.analysis.epc/ControlFlow#aND"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" location="-4,68" id="org.processmining.analysis.epc/ControlFlow#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/ControlFlow#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="oR" id="org.processmining.analysis.epc/ControlFlow#oR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/ControlFlow#tYPE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="xOR" id="org.processmining.analysis.epc/ControlFlow#xOR"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/ControlFlow#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ControlFlow" id="org.processmining.analysis.epc/ControlFlow#ControlFlow(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/ControlFlow#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fanout" id="org.processmining.analysis.epc/ControlFlow#fanout(Lorg.processmining.framework.models.epcpack.EPCObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/ControlFlow#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/ControlFlow#getType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="power" id="org.processmining.analysis.epc/ControlFlow#power(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/ControlFlow" source="//@children.10" target="//@children.4/@sourceConnections.0" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Coupling" location="1153,503" size="176,295" id="org.processmining.analysis.epc/Coupling" runTimeClassModel="epc,getNumberOfActivities(),getType(),getName(),aND,Calculate(),xOR,tYPE,VerifyBasicRequirements(),power(II),Coupling(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;),nAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="aND" id="org.processmining.analysis.epc/Coupling#aND"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="epc" id="org.processmining.analysis.epc/Coupling#epc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="org.processmining.analysis.epc/Coupling#nAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tYPE" id="org.processmining.analysis.epc/Coupling#tYPE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="xOR" id="org.processmining.analysis.epc/Coupling#xOR"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Calculate" id="org.processmining.analysis.epc/Coupling#Calculate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Coupling" id="org.processmining.analysis.epc/Coupling#Coupling(Lorg.processmining.framework.models.epcpack.ConfigurableEPC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerifyBasicRequirements" id="org.processmining.analysis.epc/Coupling#VerifyBasicRequirements()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.processmining.analysis.epc/Coupling#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumberOfActivities" id="org.processmining.analysis.epc/Coupling#getNumberOfActivities()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.processmining.analysis.epc/Coupling#getType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="power" id="org.processmining.analysis.epc/Coupling#power(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="org.processmining.analysis.epc/ICalculator&lt;-org.processmining.analysis.epc/Coupling" source="//@children.11" target="//@children.4/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="8,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="3" showScope="InPackage" properties="wireOptions=0"/>
+  <boardSetting snapToGeometry="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

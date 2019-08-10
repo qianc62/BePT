@@ -1,0 +1,23 @@
+Polygon, 
+    Trivial, Start
+    Trivial, End_Product_Packaging_preparednes
+    Trivial, Determine_transportation
+    BondPlace, 
+        Polygon, 
+            Trivial, T3
+            BondPlace, 
+                Polygon, 
+                    Trivial, Track_escort_vehicles_over_the_export_permit_process
+                    Trivial, To_export_cars_to_cross_the_track_to_deliver_supplies_department_escort_license
+                    Trivial, Export_of_vehicles_and_transport_fees,_processing_stations
+                    Trivial, Notify_the_Production_Department_has_completed_the_formalities_related_to_export_cars
+                Polygon, 
+                    Trivial, T5
+            Trivial, Organizational_vehicle_factory
+            Trivial, And_handle_the_transfer_station_and_transport_issues
+        Polygon, 
+            Trivial, Shipment_of_non_rail_transport
+            Trivial, Transportation_costs,_handling_matters
+    Trivial, Notify_the_project_office_products_factory
+    Trivial, Notify_the_Finance_Department
+    Trivial, End

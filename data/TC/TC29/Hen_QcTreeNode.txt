@@ -1,0 +1,18 @@
+Polygon, 
+    Trivial, Start
+    BondPlace, 
+        Polygon, 
+            Trivial, N6
+            BondPlace, 
+                Polygon, 
+                    Trivial, Submit_applications_for_customer_master_data_maintenance_
+                Loop, 
+                    Polygon, 
+                        Trivial, T3
+            Trivial, Complete_financial_view_
+        Loop, 
+            Polygon, 
+                Trivial, T4
+    Trivial, Customer_master_data_to_create,_modify,_freeze,_delete_
+    Trivial, Phone_or_E_mail_to_inform_the_Finance_Ministry_and_related_departments_
+    Trivial, End

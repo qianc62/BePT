@@ -1,0 +1,8 @@
+The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000147##s00001992.InputCriterion.S00001053. Then, the manager does callToProcess.S00001958.InputCriterion.S00001053. 
+        The manager does process.S00000147##s00001992.InputCriterion.S00001053. Subsequently, the manager does callToProcess.S00001958.InputCriterion.S00001053. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does decision.S00001123.Fire.S00001078. 
+        The manager does decision.S00001123.Fire.S00001075. 
+        Once the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 

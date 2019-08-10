@@ -1,0 +1,17 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does T0. The manager does T20. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 34
+
+SentenceNumber: 5
+
+Gold Depth: 3 3 3 3 3 3 3 1 3 3 3 3 3 3 3 3 1 3 3 3 3 
+
+Depth: -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 
+
+Correlation Coefficient: -1.00
+
+Sentence Gain: 14.36 60.19 60.19 55.92 14.36 14.36 14.36 14.36 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 14.36 74.55 134.73 190.65 205.01 219.37 233.73 248.09 262.45 276.81 291.17 305.52 319.88 
+

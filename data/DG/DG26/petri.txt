@@ -1,0 +1,14 @@
+Transition trans_0 TOBE.C.SD.050_Sales_Billing_Process
+Place place_0 p6
+Place place_2 p8
+Transition trans_1 Sales_Order_Shipping
+Place place_1 p7
+Transition trans_2 Production_Order_Receipt_Process
+Place place_3 p9
+
+place_0 -> trans_0
+place_2 -> trans_1
+trans_1 -> place_0
+trans_0 -> place_1
+place_3 -> trans_2
+trans_2 -> place_2

@@ -1,0 +1,17 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Asset_inventory_to_determine_the_scope_of_
+    Trivial, Print_inventory_list_
+    Trivial, Inventory_
+    BondPlace, 
+        Polygon, 
+            Trivial, Assessing_applications_
+            Trivial, To_assess_the_value_
+            Trivial, FI_050_fixed_asset_master_data_maintenance_process_
+            Trivial, Accounting_Treatment_of_overage_
+        Polygon, 
+            Trivial, Finance_to_pending_Sun_Yi_
+            Trivial, FI_430_fixed_processing_
+        Polygon, 
+            Trivial, T11
+    Trivial, End

@@ -1,0 +1,22 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'callToTask.S00003139.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00003138.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00003138.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToTask.S00003135.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00003135.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00003136.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00003136.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToTask.S00003137.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00003137.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00003134.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00003134.OutputCriterion.S00001055'. After that, the 'manager' does 'process.S00000359##s00003133.OutputCriterion.S00001055'. After that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 163
+
+SentenceNumber: 57
+
+Gold Depth: 3 3 1 3 3 3 3 5 1 3 3 3 3 1 5 1 1 1 3 3 1 5 3 3 1 
+
+Depth: -1 -1 2 2 -1 2 -1 -1 1 -1 2 -1 -1 -1 -1 2 2 1 -1 2 2 -1 -1 2 2 
+
+Correlation Coefficient: -0.54
+
+Sentence Gain: 14.36 26.00 14.36 26.00 26.00 26.00 26.00 14.36 14.36 26.00 20.59 26.00 26.00 14.36 14.36 26.00 26.00 26.00 26.00 26.00 26.00 26.00 
+
+Sentence Sum Gain: 14.36 40.36 54.72 80.72 106.72 132.72 158.72 173.07 187.43 213.43 234.02 260.02 286.02 300.38 314.74 340.74 366.74 392.74 418.74 444.74 470.74 496.74 
+

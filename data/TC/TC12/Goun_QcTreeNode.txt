@@ -1,0 +1,20 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Sales_staff_received_customer_business_bill_
+    Trivial, Inspection_notes_receivable_accounting,_pay_the_cashier_custody_
+    Trivial, Accounting_Accounts_Receivable_processing_
+    BondPlace, 
+        Polygon, 
+            Trivial, FI_270_Notes_payable_process_
+        Polygon, 
+            BondPlace, 
+                Polygon, 
+                    Trivial, Discounted_financial_planning_accounting_process,_held_to_maturity_
+                    Trivial, Due_not_to_withdraw_the_accounting_Accounts_receivable_processing_
+                    Trivial, Phone_or_E_mail_notification_sales_
+                    Trivial, T9
+                Polygon, 
+                    Trivial, Discounted_financial_planning_accounting_process,_held_to_maturity_
+                    Trivial, Bank_receivables,_account_receivable_accounting_
+                    Trivial, T9
+    Trivial, End

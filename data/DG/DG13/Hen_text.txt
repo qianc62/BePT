@@ -1,0 +1,16 @@
+String: The manager does The_end_of_checkout_process_CO. Subsequently, the manager does Calculation_of_current_costs_of_the_project's_revenue_should_be_recognized. Then, the manager does Sales_Billing_Process. At last, the process ends. 
+
+WordNumber: 19
+
+SentenceNumber: 4
+
+Gold Depth: 1 1 1 
+
+Depth: 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 37.44 
+
+Sentence Sum Gain: 37.44 
+

@@ -1,0 +1,60 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000067##s00001795.InputCriterion.S00000858'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00001815.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001815.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00001816.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001816.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'decision.S00001362.Activate.S00000708'. One of following paths needs to be finished: 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'decision.S00001362.Fire.S00000711'. All of following paths are processing at the same time: 
+            When the above paths are finished, the 'manager' does 'callToProcess.S00000950.InputCriterion.S00000858'. The 'manager' does 'callToProcess.S00000950.OutputCriterion.S00000859'. Subsequently, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+            One of following paths needs to be finished: 
+                The 'manager' does 'decision.S00001362.Fire.S00000796'. After that, the 'manager' does 'callToProcess.S00001437.InputCriterion.S00000700'. After that, the 'manager' does 'callToProcess.S00001437.OutputCriterion.S00000704'. After that, the 'manager' does 'merge.S00000730.Activate.S00000806'. 
+                There are some procedures need to be finished sequentially: 
+                        The 'manager' does 'decision.S00001362.Fire.S00000790'. All of following paths are processing at the same time: 
+                    After the above paths are finished, the 'manager' does 'callToTask.S00001813.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001813.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+                    When the above paths are finished, the 'manager' does 'merge.S00000730.Activate.S00000735'. After that, the above sequential part is finished. 
+                There are some procedures need to be finished sequentially: 
+                        The 'manager' does 'decision.S00001362.Fire.S00000799'. All of following paths are processing at the same time: 
+                    Once the above paths are finished, the 'manager' does 'callToTask.S00001811.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001811.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+                    Once the above paths are finished, the 'manager' does 'merge.S00000730.Activate.S00000808'. Subsequently, the above sequential part is finished. 
+                There are some procedures need to be finished sequentially: 
+                        The 'manager' does 'decision.S00001362.Fire.S00000727'. All of following paths are processing at the same time: 
+                    After the above paths are finished, the 'manager' does 'callToTask.S00001812.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001812.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+                    When the above paths are finished, the 'manager' does 'merge.S00000730.Activate.S00000733'. After that, the above sequential part is finished. 
+                There are some procedures need to be finished sequentially: 
+                        The 'manager' does 'decision.S00001362.Fire.S00000724'. All of following paths are processing at the same time: 
+                    Once the above paths are finished, the 'manager' does 'callToTask.S00001817.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001817.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+                    When the above paths are finished, the 'manager' does 'merge.S00000742.Activate.S00000731'. The 'manager' does 'merge.S00000742.Fire.S00000741'. All of following paths are processing at the same time: 
+                    Once the above paths are finished, the 'manager' does 'callToTask.S00001810.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001810.OutputCriterion.S00000859'. After that, the above sequential part is finished. 
+                There are some procedures need to be finished sequentially: 
+                        The 'manager' does 'decision.S00001362.Fire.S00000715'. All of following paths are processing at the same time: 
+                    When the above paths are finished, the 'manager' does 'callToTask.S00001821.InputCriterion.S00000700'. The 'manager' does 'callToTask.S00001821.OutputCriterion.S00000704'. All of following paths are processing at the same time: 
+                    Once the above paths are finished, the 'manager' does 'callToTask.S00001818.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001818.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+                    Once the above paths are finished, the 'manager' does 'callToTask.S00001820.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001820.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+                    Once the above paths are finished, the 'manager' does 'merge.S00000730.Activate.S00000731'. Then, the above sequential part is finished. 
+                There are some procedures need to be finished sequentially: 
+                        The 'manager' does 'decision.S00001362.Fire.S00000793'. All of following paths are processing at the same time: 
+                    After the above paths are finished, the 'manager' does 'callToTask.S00001814.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001814.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+                    Once the above paths are finished, the 'manager' does 'merge.S00000730.Activate.S00000738'. The 'manager' does 'merge.S00000730.Fire.S00000741'. All of following paths are processing at the same time: 
+                    After the above paths are finished, the 'manager' does 'callToTask.S00001819.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001819.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+                        There are some procedures need to be finished sequentially: 
+                            The 'manager' does 'merge.S00000742.Activate.S00000733'. The 'manager' does 'merge.S00000742.Fire.S00000741'. All of following paths are processing at the same time: 
+                            Once the above paths are finished, the 'manager' does 'callToTask.S00001810.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00001810.OutputCriterion.S00000859'. Then, the above sequential part is finished. 
+                    When the above paths are finished, the 'manager' does 'process.S00000067##s00001795.OutputCriterion.S00000859'. Then, the above sequential part is finished. 
+                Once the above path is finished, then, the above sequential part is finished. 
+        Once the above path is finished, after that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 812
+
+SentenceNumber: 254
+
+Gold Depth: 7 9 7 5 7 7 7 3 7 9 9 5 5 7 9 5 5 9 7 7 7 9 7 7 3 9 9 7 9 9 7 5 9 9 5 7 7 1 3 1 5 3 3 7 1 7 3 7 7 
+
+Depth: 6 6 6 6 6 4 8 4 6 6 6 6 8 6 6 6 7 6 6 6 6 6 6 6 2 6 6 4 6 6 6 4 6 6 6 6 4 2 6 2 7 2 3 6 2 6 2 6 4 
+
+Correlation Coefficient: 0.65
+
+Sentence Gain: 26.00 26.00 26.00 26.00 14.36 48.83 26.00 26.00 26.00 26.00 26.00 26.00 26.00 26.00 26.00 14.36 26.00 26.00 26.00 26.00 26.00 26.00 26.00 14.36 14.36 20.59 14.36 14.36 
+
+Sentence Sum Gain: 26.00 52.00 78.00 104.00 118.36 167.19 193.19 219.19 245.18 271.18 297.18 323.18 349.18 375.18 401.18 415.54 441.54 467.54 493.54 519.54 545.54 571.54 597.54 611.90 626.26 646.85 661.21 675.57 
+

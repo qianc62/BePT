@@ -1,0 +1,14 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000083##s00004105.inputCriterion.s00000937
+        Trivial, callToTask.s00004107.inputCriterion.s00000937
+    BondTransition, 
+        Trivial, callToTask.s00004107.outputCriterion.s00000939
+        Trivial, callToTask.s00004108.inputCriterion.s00000937
+    BondTransition, 
+        Trivial, callToTask.s00004108.outputCriterion.s00000939
+        Trivial, callToTask.s00004106.inputCriterion.s00000937
+    BondTransition, 
+        Trivial, callToTask.s00004106.outputCriterion.s00000939
+        Trivial, callToTask.s00004109.inputCriterion.s00000937
+    Trivial, callToTask.s00004109.outputCriterion.s00000939

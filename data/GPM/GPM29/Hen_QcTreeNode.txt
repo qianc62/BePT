@@ -1,0 +1,46 @@
+Polygon, 
+    Trivial, T0
+    RigidPlace, 
+        Polygon, 
+            Trivial, T1
+            Trivial, T10
+            Trivial, T12
+            Trivial, T22
+            Trivial, T7
+            Trivial, T8
+            Trivial, T23
+            Trivial, T13
+            Trivial, T11
+            Trivial, T14
+        RigidOtherBehavior, 
+            Trivial, T2
+            Trivial, T15
+            Trivial, T20
+            Trivial, T7
+        RigidOtherBehavior, 
+            Trivial, T8
+            Trivial, T17
+            Trivial, T16
+            Trivial, T21
+        RigidOtherBehavior, 
+            Trivial, T12
+            Trivial, T5
+            Trivial, T6
+            Trivial, T13
+        RigidOtherBehavior, 
+            Trivial, T15
+            Trivial, T19
+            Trivial, T16
+        RigidOtherBehavior, 
+            Trivial, T10
+            Trivial, T4
+            Trivial, T11
+        RigidOtherBehavior, 
+            Trivial, T2
+            Trivial, T18
+            Trivial, T21
+        RigidOtherBehavior, 
+            Trivial, T1
+            Trivial, T3
+            Trivial, T14
+    Trivial, T9

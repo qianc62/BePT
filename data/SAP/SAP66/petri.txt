@@ -1,0 +1,10 @@
+Transition trans_1 Agent\nProcessing
+Place place_1 p5
+Transition trans_0 Exposure\nLog_Processing
+Place place_2 p6
+Place place_0 p4
+
+place_0 -> trans_1
+trans_1 -> place_2
+trans_0 -> place_1
+place_2 -> trans_0

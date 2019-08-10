@@ -1,0 +1,22 @@
+The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000110##s00003058.InputCriterion.S00000700. Then, the manager does callToService.S00003059.InputCriterion.S00000700. 
+        The manager does process.S00000110##s00003058.InputCriterion.S00000700. After that, the manager does callToService.S00003059.InputCriterion.S00000700. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToService.S00003059.OutputCriterion.S00000704. Subsequently, the manager does callToProcess.S00002085.InputCriterion.S00000700. 
+        There are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does callToService.S00003059.OutputCriterion.S00000704. Then, the manager does callToTask.S00002295.InputCriterion.S00000858. 
+                The manager does callToService.S00003059.OutputCriterion.S00000704. Then, the manager does callToTask.S00002295.InputCriterion.S00000858. 
+                After the above path is finished, one of the following branches is executed: 
+                The manager does callToTask.S00002295.OutputCriterion.S00000859. Then, the manager does callToProcess.S00002085.InputCriterion.S00000700. 
+                The manager does callToTask.S00002295.OutputCriterion.S00000859. Subsequently, the manager does callToProcess.S00002085.InputCriterion.S00000700. 
+                Once the above path is finished, after that, the above sequential part is finished. 
+        The manager does callToService.S00003059.OutputCriterion.S00000704. After that, the manager does callToProcess.S00002085.InputCriterion.S00000700. 
+        Once the above path is finished, one of the following branches is executed: 
+        The manager does callToProcess.S00002085.OutputCriterion.S00000704. Then, the manager does callToTask.S00002315.InputCriterion.S00000700. 
+        The manager does callToProcess.S00002085.OutputCriterion.S00000704. After that, the manager does callToTask.S00002315.InputCriterion.S00000700. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00002315.OutputCriterion.S00000704. Then, the manager does process.S00000110##s00003058.OutputCriterion.S00000704. 
+        The manager does callToTask.S00002315.OutputCriterion.S00000704. Then, the manager does process.S00000110##s00003058.OutputCriterion.S00000704. 
+        Once the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 

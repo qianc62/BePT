@@ -1,0 +1,17 @@
+Polygon, 
+    Trivial, Start
+    Polygon, 
+        Trivial, Production_planning_and_maintenance_of_
+        Trivial, Run_the_main_production_plan
+        Trivial, Check_the_main_result_of_the_production_
+        BondPlace, 
+            Polygon, 
+                Trivial, Material_Requirements_Planning
+            Polygon, 
+                Trivial, Assessment_of_operational_capability
+                BondPlace, 
+                    Polygon, 
+                        Trivial, Order_to_maintain_process_plant_level
+                    Polygon, 
+                        Trivial, T7
+    Trivial, End

@@ -1,0 +1,10 @@
+Polygon, 
+    BondTransition, 
+        Trivial, t17
+        Polygon, 
+            Trivial, Processing\nof_Substance\nReport\nGeneration\nVariants
+        Polygon, 
+            Trivial, Document\nTemplate\nProcessing
+        Polygon, 
+            Trivial, Substance\nReport\nProcessing
+        Trivial, Report\nShipping

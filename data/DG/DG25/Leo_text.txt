@@ -1,0 +1,24 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does t61. 
+        The manager does Ledger_voucher_processing. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does Audit. 
+        The manager does Test_results_are_consistent. 
+        The manager does On_the_recovery_of_funds_individually_identified. 
+        Once the above path is finished, the manager does Receivables_details_of_individual_finds_that_provision_for_. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 83
+
+SentenceNumber: 11
+
+Gold Depth: 3 3 3 3 1 3 3 3 3 3 3 3 3 
+
+Depth: -1 -1 -1 2 1 2 2 -1 2 -1 2 -1 -1 
+
+Correlation Coefficient: -0.14
+
+Sentence Gain: 48.83 37.44 32.72 14.36 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 48.83 86.27 118.99 133.35 147.71 162.07 176.43 190.79 205.14 
+

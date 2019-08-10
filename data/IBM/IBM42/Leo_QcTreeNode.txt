@@ -1,0 +1,13 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, process.s00000463##s00003459.inputCriterion.s00000772
+            Trivial, join.s00000879.activate.s00000817
+            Trivial, join.s00000879.fire.s00000824
+        Polygon, 
+            Trivial, process.s00000463##s00003459.inputCriterion.s00000772
+            Trivial, join.s00000879.activate.s00000816
+            Trivial, join.s00000879.fire.s00000824
+    Trivial, callToProcess.s00000982.inputCriterion.s00000772
+    Trivial, callToProcess.s00000982.outputCriterion.s00000773
+    Trivial, process.s00000463##s00003459.outputCriterion.s00000773

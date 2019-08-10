@@ -1,0 +1,10 @@
+Transition trans_0 The_end_of_settlement_assets
+Place place_2 p6
+Place place_0 p4
+Transition trans_1 Asset_fiscal_year_change
+Place place_1 p5
+
+trans_1 -> place_2
+trans_0 -> place_0
+place_2 -> trans_0
+place_1 -> trans_1

@@ -1,0 +1,20 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does To_determine_the_list_of_suppliers. Subsequently, the manager does Run_vendor_evaluation. Then, the manager does The_preparation_of_vendor_performance_evaluation_form. 
+        The manager does To_determine_the_list_of_suppliers. Subsequently, the manager does Assessment_Rating. Subsequently, the manager does The_preparation_of_vendor_performance_evaluation_form. 
+        After the above path is finished, the manager does Audit_vendor_performance_evaluation_form. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 74
+
+SentenceNumber: 11
+
+Gold Depth: 1 3 3 3 1 
+
+Depth: 1 2 2 2 2 
+
+Correlation Coefficient: 0.61
+
+Sentence Gain: 37.44 37.44 14.36 
+
+Sentence Sum Gain: 37.44 74.89 89.25 
+

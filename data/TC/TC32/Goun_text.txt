@@ -1,0 +1,24 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does Start. Then, the manager does End_products_Readiness. After that, the manager does Packing. Subsequently, one of the following branches is executed: 
+        There are some procedures need to be finished sequentially: 
+            The manager does T4. Subsequently, one of the following branches is executed: 
+                The manager does T7. 
+                The manager does Track_escort_vehicles_over_the_export_permit_process. After that, the manager does To_export_cars_to_cross_the_track_to_deliver_supplies_department_escort_license. After that, the manager does Export_of_vehicles_and_transport_fees,_processing_stations. After that, the manager does Notify_the_Production_Department_has_completed_the_formalities_related_to_export_cars. 
+                After the above path is finished, the manager does Organizational_vehicle_factory. After that, the manager does And_handle_the_transfer_station_and_transport_issues. After that, the above sequential part is finished. 
+        The manager does Shipping_issues. After that, the manager does Transportation_costs,_handling_matters. 
+        Once the above path is finished, the manager does Notify_the_project_office_products_factory. Subsequently, the manager does Notify_the_Finance_Department. Subsequently, the manager does End. After that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 158
+
+SentenceNumber: 23
+
+Gold Depth: 3 3 1 5 3 3 5 5 1 5 3 1 5 1 1 1 
+
+Depth: 3 2 1 4 2 3 4 4 1 4 3 1 4 1 1 1 
+
+Correlation Coefficient: 0.98
+
+Sentence Gain: 37.44 14.36 14.36 48.83 26.00 26.00 37.44 
+
+Sentence Sum Gain: 37.44 51.80 66.16 114.99 140.99 166.99 204.43 
+

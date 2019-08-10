@@ -1,0 +1,13 @@
+Polygon, 
+    Trivial, Processing\nthe_Configuration\nFolder
+    Trivial, Download\nObjects
+    Trivial, Offline\nObject\nProcessing
+    Trivial, Upload\nObjects
+    Trivial, Status\nTracking
+    Trivial, Object\nComparison
+    BondPlace, 
+        Polygon, 
+            Trivial, t31
+        Polygon, 
+            Trivial, Review
+    Trivial, Object\nTransfer

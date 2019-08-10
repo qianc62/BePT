@@ -1,0 +1,21 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 't17'. All of following paths are processing at the same time: 
+        The 'manager' does 'Recipient\nList\nProcessing'. 
+        The 'manager' does 'Recipient\nProcessing'. 
+        The 'manager' does 'Document\nDistribution'. 
+    After the above paths are finished, the 'manager' does 'Distribution\nMonitoring'. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 67
+
+SentenceNumber: 10
+
+Gold Depth: 3 3 3 3 1 
+
+Depth: 2 2 2 2 2 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 14.36 28.72 43.08 57.43 71.79 
+

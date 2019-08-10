@@ -1,0 +1,16 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Fixed_assets,_impairment_of_intangible_assets_and_construction_in_progress_for_
+    BondPlace, 
+        Polygon, 
+            Trivial, T6
+        Polygon, 
+            Trivial, T2
+            BondPlace, 
+                Polygon, 
+                    Trivial, Accounting_for_impairment_of_financial_assets_disposal_plan_to_do_
+                Loop, 
+                    Polygon, 
+                        Trivial, Revising_
+            Trivial, Evidence_of_an_impairment_of_assets_accounting_entry_
+    Trivial, End

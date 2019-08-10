@@ -1,0 +1,53 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'process.S00000040##s00001001.InputCriterion.S00000892'. Then, the 'manager' does 'task.S00000895.InputCriterion.S00000892'. Then, the 'manager' does 'task.S00000895.OutputCriterion.S00000894'. Subsequently, the 'manager' does 'merge.S00000998.Activate.S00000284'. After that, there are some procedures need to be finished sequentially: 
+        The 'manager' does 'merge.S00000998.Fire.S00000287'. After that, the 'manager' does 'decision.S00000920.Activate.S00000271'. Then, one of following paths needs to be finished: 
+            The 'manager' does 'decision.S00000920.Fire.S00000274'. Subsequently, the 'manager' does 'task.S00000897.InputCriterion.S00000892'. Then, the 'manager' does 'task.S00000897.OutputCriterion.S00000894'. After that, the 'manager' does 'merge.S00000997.Activate.S00000286'. 
+            There are some procedures need to be finished sequentially: 
+                The 'manager' does 'decision.S00000920.Fire.S00000272'. Then, the 'manager' does 'merge.S00000997.Activate.S00000284'. After that, the 'manager' does 'merge.S00000997.Fire.S00000287'. Then, the 'manager' does 'task.S00000898.InputCriterion.S00000892'. Then, the 'manager' does 'task.S00000898.OutputCriterion.S00000894'. After that, the 'manager' does 'decision.S00000925.Activate.S00000271'. Subsequently, one of following paths needs to be finished: 
+                    There are some procedures need to be finished sequentially: 
+                        The 'manager' does 'decision.S00000925.Fire.S00000274'. After that, the 'manager' does 'task.S00000899.InputCriterion.S00000892'. After that, the 'manager' does 'task.S00000899.OutputCriterion.S00000894'. Subsequently, the 'manager' does 'decision.S00000926.Activate.S00000271'. Then, one of following paths needs to be finished: 
+                            The 'manager' does 'decision.S00000926.Fire.S00000274'. Subsequently, the 'manager' does 'merge.S00000997.Activate.S00000289'. 
+                            The 'manager' does 'decision.S00000926.Fire.S00000272'. Subsequently, the 'manager' does 'merge.S00000938.Activate.S00000286'. 
+                            After the above path is finished, after that, the above sequential part is finished. 
+                    There are some procedures need to be finished sequentially: 
+                        The 'manager' does 'decision.S00000925.Fire.S00000272'. Subsequently, the 'manager' does 'merge.S00000938.Activate.S00000284'. Then, the 'manager' does 'merge.S00000938.Fire.S00000287'. Then, the 'manager' does 'task.S00000901.InputCriterion.S00000892'. Then, the 'manager' does 'task.S00000901.OutputCriterion.S00000894'. Then, the 'manager' does 'task.S00000902.InputCriterion.S00000892'. Then, the 'manager' does 'task.S00000902.OutputCriterion.S00000894'. After that, the 'manager' does 'decision.S00000927.Activate.S00000271'. Subsequently, one of following paths needs to be finished: 
+                            The 'manager' does 'decision.S00000927.Fire.S00000274'. Then, the 'manager' does 'merge.S00000998.Activate.S00000289'. 
+                            There are some procedures need to be finished sequentially: 
+                                The 'manager' does 'decision.S00000927.Fire.S00000272'. After that, the 'manager' does 'task.S00000908.InputCriterion.S00000892'. Subsequently, the 'manager' does 'task.S00000908.OutputCriterion.S00000894'. Then, the 'manager' does 'decision.S00000928.Activate.S00000271'. After that, one of following paths needs to be finished: 
+                                    The 'manager' does 'decision.S00000928.Fire.S00000274'. After that, the 'manager' does 'task.S00000904.InputCriterion.S00000892'. Subsequently, the 'manager' does 'task.S00000904.OutputCriterion.S00000894'. After that, the 'manager' does 'merge.S00000933.Activate.S00000286'. 
+                                    There are some procedures need to be finished sequentially: 
+[10]The 'manager' does 'decision.S00000928.Fire.S00000272'. [10]Then, the 'manager' does 'merge.S00000933.Activate.S00000284'. [10]After that, the 'manager' does 'merge.S00000933.Fire.S00000287'. [10]Then, the 'manager' does 'decision.S00000929.Activate.S00000271'. [10]Subsequently, one of following paths needs to be finished: 
+[11]The 'manager' does 'decision.S00000929.Fire.S00000272'. [11]Subsequently, the 'manager' does 'task.S00000905.InputCriterion.S00000892'. [11]Subsequently, the 'manager' does 'task.S00000905.OutputCriterion.S00000894'. [11]Then, the 'manager' does 'merge.S00000934.Activate.S00000284'. 
+[11]There are some procedures need to be finished sequentially: 
+[12]The 'manager' does 'decision.S00000929.Fire.S00000274'. [12]After that, the 'manager' does 'merge.S00000934.Activate.S00000286'. [12]Subsequently, the 'manager' does 'merge.S00000934.Fire.S00000287'. [12]Then, the 'manager' does 'task.S00000115.InputCriterion.S00000892'. [12]Then, the 'manager' does 'task.S00000115.OutputCriterion.S00000894'. [12]Then, the 'manager' does 'task.S00000906.InputCriterion.S00000892'. [12]Then, the 'manager' does 'task.S00000906.OutputCriterion.S00000894'. [12]Subsequently, the 'manager' does 'task.S00000910.InputCriterion.S00000892'. [12]Subsequently, the 'manager' does 'task.S00000910.OutputCriterion.S00000894'. [12]Then, the 'manager' does 'task.S00000911.InputCriterion.S00000892'. [12]Subsequently, the 'manager' does 'task.S00000911.OutputCriterion.S00000894'. [12]Subsequently, the 'manager' does 'merge.S00000935.Activate.S00000284'. [12]Subsequently, the 'manager' does 'merge.S00000935.Fire.S00000287'. [12]Then, the 'manager' does 'decision.S00000930.Activate.S00000271'. [12]Then, one of following paths needs to be finished: 
+[13]The 'manager' does 'decision.S00000930.Fire.S00000274'. [13]Then, the 'manager' does 'task.S00000912.InputCriterion.S00000892'. [13]Subsequently, the 'manager' does 'task.S00000912.OutputCriterion.S00000894'. [13]Subsequently, the 'manager' does 'merge.S00000935.Activate.S00000286'. 
+[13]There are some procedures need to be finished sequentially: 
+[14]The 'manager' does 'decision.S00000930.Fire.S00000272'. [14]Subsequently, the 'manager' does 'decision.S00000931.Activate.S00000271'. [14]Then, one of following paths needs to be finished: 
+[15]The 'manager' does 'decision.S00000931.Fire.S00000272'. [15]Then, the 'manager' does 'task.S00000913.InputCriterion.S00000892'. [15]Then, the 'manager' does 'task.S00000913.OutputCriterion.S00000894'. [15]After that, the 'manager' does 'merge.S00000936.Activate.S00000284'. 
+[15]There are some procedures need to be finished sequentially: 
+[16]The 'manager' does 'decision.S00000931.Fire.S00000274'. [16]After that, the 'manager' does 'decision.S00000932.Activate.S00000271'. [16]Then, one of following paths needs to be finished: 
+[17]The 'manager' does 'decision.S00000932.Fire.S00000272'. [17]After that, the 'manager' does 'merge.S00000936.Activate.S00000286'. 
+[17]The 'manager' does 'decision.S00000932.Fire.S00000274'. [17]Then, the 'manager' does 'merge.S00000998.Activate.S00000286'. 
+[17]Once the above path is finished, [16]subsequently, the above sequential part is finished. 
+[15]After the above path is finished, [14]subsequently, the above sequential part is finished. 
+[13]Once the above path is finished, [12]then, the above sequential part is finished. 
+[11]Once the above path is finished, [10]after that, the above sequential part is finished. 
+                                    Once the above path is finished, then, the above sequential part is finished. 
+                            After the above path is finished, subsequently, the above sequential part is finished. 
+                    After the above path is finished, then, the above sequential part is finished. 
+            Once the above path is finished, then, the above sequential part is finished. The 'manager' does 'merge.S00000936.Fire.S00000287'. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 730
+
+SentenceNumber: 355
+
+Gold Depth: 3 7 7 5 7 5 3 3 5 3 1 5 5 5 5 5 3 7 5 3 3 7 1 7 5 3 3 7 3 7 3 5 5 5 3 5 3 3 5 3 7 5 7 7 3 1 5 5 3 3 3 3 7 3 5 1 1 7 5 7 3 7 7 5 7 3 3 5 3 7 7 5 5 5 7 5 5 3 3 3 5 
+
+Depth: 8 3 6 12 6 11 12 8 12 12 1 12 13 6 13 2 17 6 7 15 15 3 1 4 7 10 8 6 17 4 17 11 12 9 15 10 16 12 9 12 7 13 4 6 17 1 10 6 14 10 8 12 6 12 11 1 1 7 6 7 14 3 4 6 4 16 12 9 15 3 7 9 2 6 4 13 6 12 12 12 11 
+
+Correlation Coefficient: -0.34
+
+Sentence Gain: 48.83 26.00 48.83 71.53 48.83 26.00 26.00 94.20 26.00 48.83 48.83 48.83 48.83 162.13 48.83 26.00 48.83 26.00 26.00 26.00 14.36 
+
+Sentence Sum Gain: 48.83 74.83 123.66 195.19 244.02 270.02 296.01 390.21 416.21 465.04 513.87 562.70 611.52 773.65 822.48 848.48 897.31 923.31 949.31 975.31 989.67 
+

@@ -1,0 +1,21 @@
+Transition trans_0 Whether_the_recognition_of_revenue_Construction_Contracts
+Place place_3 p14
+Transition trans_1 Maintenance_Sales_Order_Billing_Plan
+Transition trans_3 Sales_invoicing
+Transition trans_4 t22
+Place place_2 p10
+Transition trans_2 The_construction_process_proportion
+Place place_1 p8
+Place place_0 p1
+Place place_4 p12
+
+place_2 -> trans_0
+trans_0 -> place_0
+place_3 -> trans_3
+trans_1 -> place_3
+place_0 -> trans_2
+place_0 -> trans_4
+trans_4 -> place_3
+trans_3 -> place_1
+place_4 -> trans_1
+trans_2 -> place_4

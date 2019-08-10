@@ -1,0 +1,20 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000106##s00002964.InputCriterion.S00000700'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00002904.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00002904.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToProcess.S00002557.InputCriterion.S00000700'. The 'manager' does 'callToProcess.S00002557.OutputCriterion.S00000704'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'process.S00000106##s00002964.OutputCriterion.S00000704'. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 102
+
+SentenceNumber: 31
+
+Gold Depth: 1 3 1 1 3 3 
+
+Depth: 2 2 2 2 2 2 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 26.00 26.00 26.00 
+
+Sentence Sum Gain: 26.00 52.00 78.00 
+

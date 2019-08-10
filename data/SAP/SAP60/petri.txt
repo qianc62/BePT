@@ -1,0 +1,10 @@
+Transition trans_1 Injury_nIllness\nLog_Entry\nProcessing
+Place place_0 p4
+Place place_1 p5
+Place place_2 p6
+Transition trans_0 Data\nTransfer\nInjury_nIllness\nLog_to_Accident
+
+place_0 -> trans_0
+trans_0 -> place_2
+place_1 -> trans_1
+trans_1 -> place_0

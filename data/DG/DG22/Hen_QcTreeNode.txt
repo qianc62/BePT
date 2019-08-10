@@ -1,0 +1,3 @@
+Polygon, 
+    Trivial, Finished_product_quality_and_margin_calculations
+    Trivial, General_Ledger_Business_Processes

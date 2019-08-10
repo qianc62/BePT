@@ -1,0 +1,17 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does callToTask.S00002453.OutputCriterion.S00000939. After that, the manager does process.S00000533##s00002451.OutputCriterion.S00000939. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 36
+
+SentenceNumber: 11
+
+Gold Depth: 3 3 3 3 3 3 3 1 5 5 1 1 
+
+Depth: -1 -1 -1 -1 -1 -1 -1 1 -1 -1 1 -1 
+
+Correlation Coefficient: -0.64
+
+Sentence Gain: 14.36 37.44 26.00 20.59 37.44 37.44 26.00 20.59 26.00 20.59 20.59 26.00 20.59 20.59 26.00 
+
+Sentence Sum Gain: 14.36 51.80 77.80 98.39 135.84 173.28 199.28 219.88 245.87 266.47 287.06 313.06 333.65 354.24 380.24 
+

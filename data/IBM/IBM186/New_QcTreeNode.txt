@@ -1,0 +1,6 @@
+Polygon, 
+    Trivial, process.s00000869##s00006542.inputCriterion.s00001053
+    Trivial, callToTask.s00006543.inputCriterion.s00001053
+    Trivial, callToTask.s00006543.outputCriterion.s00001055
+    Trivial, callToTask.s00006544.inputCriterion.s00001053
+    Trivial, callToTask.s00006544.outputCriterion.s00001055

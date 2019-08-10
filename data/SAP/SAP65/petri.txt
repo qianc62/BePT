@@ -1,0 +1,10 @@
+Place place_2 p6
+Transition trans_1 Prepare\nBusiness\nCase\nfor_Project
+Place place_0 p4
+Place place_1 p5
+Transition trans_0 Project\nApproval
+
+trans_1 -> place_2
+place_1 -> trans_1
+place_2 -> trans_0
+trans_0 -> place_0

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml>
+<net id="workflownet" type="http://www.informatik.hu-berlin.de/top/pnml/basicPNML.rng">
+    <place id="place_0">
+        <graphics>
+            <position x="228" y="32" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p3</text>
+         </name>
+    </place>
+    <place id="place_1">
+        <graphics>
+            <position x="16" y="32" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p7</text>
+         </name>
+    </place>
+    <place id="place_2">
+        <graphics>
+            <position x="406" y="32" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p10</text>
+         </name>
+    </place>
+    <place id="place_3">
+        <graphics>
+            <position x="300" y="32" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p11</text>
+         </name>
+    </place>
+    <place id="place_4">
+        <graphics>
+            <position x="122" y="32" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p9</text>
+         </name>
+    </place>
+    <transition id="trans_0">
+        <graphics>
+            <position  x="69" y="32" />
+            <dimension x="46" y="43" />
+        </graphics>
+        <name>
+            <text>Vendor\nDown\nPayment\nRequest</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Vendor\nDown\nPayment\nRequest</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_1">
+        <graphics>
+            <position  x="175" y="32" />
+            <dimension x="46" y="35" />
+        </graphics>
+        <name>
+            <text>Vendor\nDown\nPayment</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Vendor\nDown\nPayment</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_2">
+        <graphics>
+            <position  x="353" y="32" />
+            <dimension x="46" y="43" />
+        </graphics>
+        <name>
+            <text>Vendor\nDown\nPayment\nClearing</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Vendor\nDown\nPayment\nClearing</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_3">
+        <graphics>
+            <position  x="264" y="32" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>t17</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+        </toolspecific>
+    </transition>
+    <arc id="arc_0" source="place_0" target="trans_3">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="235" y="32" />
+                <point x="240" y="32" />
+                <point x="246" y="32" />
+                <point x="252" y="32" />
+                <end x="257" y="32" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_1" source="trans_1" target="place_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="199" y="32" />
+                <point x="205" y="32" />
+                <point x="211" y="32" />
+                <point x="216" y="32" />
+                <end x="221" y="32" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_2" source="trans_2" target="place_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="377" y="32" />
+                <point x="383" y="32" />
+                <point x="389" y="32" />
+                <point x="394" y="32" />
+                <end x="399" y="32" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_3" source="place_3" target="trans_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="307" y="32" />
+                <point x="312" y="32" />
+                <point x="318" y="32" />
+                <point x="324" y="32" />
+                <end x="329" y="32" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_4" source="place_1" target="trans_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="23" y="32" />
+                <point x="28" y="32" />
+                <point x="34" y="32" />
+                <point x="40" y="32" />
+                <end x="45" y="32" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_5" source="trans_3" target="place_3">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="271" y="32" />
+                <point x="276" y="32" />
+                <point x="282" y="32" />
+                <point x="288" y="32" />
+                <end x="293" y="32" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_6" source="place_4" target="trans_1">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="129" y="32" />
+                <point x="134" y="32" />
+                <point x="140" y="32" />
+                <point x="146" y="32" />
+                <end x="151" y="32" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_7" source="trans_0" target="place_4">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="93" y="32" />
+                <point x="99" y="32" />
+                <point x="105" y="32" />
+                <point x="110" y="32" />
+                <end x="115" y="32" />
+            </spline>
+        </toolspecific>
+    </arc>
+</net>
+</pnml>

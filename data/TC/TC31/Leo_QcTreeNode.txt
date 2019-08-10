@@ -1,0 +1,36 @@
+Polygon, 
+    Trivial, start
+    BondPlace, 
+        Polygon, 
+            Trivial, MM_090_010_to_send_delivery_notification
+            Trivial, MM_090_020_receives_notification_of_delivery_and_to_check_the_number_of_delivery
+        Loop, 
+            Polygon, 
+                Trivial, MM_090_030_supplies_the_Department_under_the_proposed_buyer's_check_the_results_of_the_number_of_shipments_adjusted
+    Trivial, T4
+    BondPlace, 
+        Polygon, 
+            Trivial, MM_090_050_actual_delivery
+            Trivial, MM_090_060_counted_and_received_cache_region
+            BondPlace, 
+                Polygon, 
+                    Trivial, T19
+                Polygon, 
+                    Trivial, MM_090_070_notice_does_not_match_the_number_of_suppliers_to_adjust_the_operation_accordingly
+            Trivial, MM_090_080_delivered_in_accordance_with_the_actual_number_of_purchase_orders_to_receiving_the_corresponding
+            BondPlace, 
+                Polygon, 
+                    Trivial, MM_090_100_will_need_to_check_the_goods_placed_in_the_area_to_be_tested
+                    Trivial, MM_090_110_view,_and_print_quality_testing_state_inventory_list_of_storage_test
+                    BondPlace, 
+                        Polygon, 
+                            Trivial, MM_090_120_will_be_transferred_to_the_frozen_state_quality_testing_state
+                            Trivial, MM_090_150_will_be_returned_in_kind_to_repair_isolated_areas
+                            Trivial, Repair_process_of_the_procurement_Returns
+                        Polygon, 
+                            Trivial, MM_090_130_will_be_released_into_the_normal_quality_control_status_of_inventory_stock
+                            Trivial, MM_090_140_will_actually_put_the_goods_to_the_appropriate_library_spaces
+                Polygon, 
+                    Trivial, MM_090_090_will_actually_put_the_goods_to_the_appropriate_storage_areas
+        Polygon, 
+            Trivial, MM_090_040_notice_under_the_delivery_receipt_accordingly_plan

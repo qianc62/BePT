@@ -1,0 +1,13 @@
+Place place_1 p6
+Transition trans_1 Dangerous\nGoods
+Place place_2 p9
+Place place_0 p5
+Transition trans_2 Material\nMaster
+Transition trans_0 Product\nSafety
+
+trans_0 -> place_2
+trans_1 -> place_2
+place_0 -> trans_1
+place_0 -> trans_0
+trans_2 -> place_0
+place_1 -> trans_2

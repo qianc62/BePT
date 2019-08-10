@@ -1,0 +1,23 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'process.S00000541##s00003954.InputCriterion.S00000772'. Then, the 'manager' does 'callToTask.S00003956.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00003956.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00003955.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00003955.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00001340.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00001340.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToProcess.S00000843.InputCriterion.S00000772'. The 'manager' does 'callToProcess.S00000843.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToTask.S00003957.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00003957.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00003948.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00003948.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00002917.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00002917.OutputCriterion.S00000773'. After that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 191
+
+SentenceNumber: 70
+
+Gold Depth: 3 1 3 1 1 3 1 1 1 1 3 1 3 1 3 
+
+Depth: 2 2 2 1 2 2 2 2 1 2 2 1 2 2 2 
+
+Correlation Coefficient: 0.41
+
+Sentence Gain: 26.00 26.00 26.00 26.00 26.00 26.00 26.00 14.36 
+
+Sentence Sum Gain: 26.00 52.00 78.00 104.00 130.00 156.00 182.00 196.36 
+

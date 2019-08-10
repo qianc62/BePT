@@ -1,0 +1,16 @@
+String: The 'manager' does 'process.S00000529##s00003787.InputCriterion.S00000772'. After that, the 'manager' does 'callToTask.S00003781.InputCriterion.S00000772'. Subsequently, the 'manager' does 'callToTask.S00003781.OutputCriterion.S00000773'. Subsequently, the 'manager' does 'callToTask.S00003509.InputCriterion.S00000772'. Then, the 'manager' does 'callToTask.S00003509.OutputCriterion.S00000773'. At last, the process ends. 
+
+WordNumber: 30
+
+SentenceNumber: 21
+
+Gold Depth: 1 1 1 1 1 
+
+Depth: 0 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 60.19 
+
+Sentence Sum Gain: 60.19 
+

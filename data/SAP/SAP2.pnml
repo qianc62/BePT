@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml>
+<net id="workflownet" type="http://www.informatik.hu-berlin.de/top/pnml/basicPNML.rng">
+    <place id="place_0">
+        <graphics>
+            <position x="130" y="85" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p10</text>
+         </name>
+    </place>
+    <place id="place_1">
+        <graphics>
+            <position x="16" y="85" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p11</text>
+         </name>
+    </place>
+    <place id="place_2">
+        <graphics>
+            <position x="254" y="85" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p12</text>
+         </name>
+    </place>
+    <transition id="trans_0">
+        <graphics>
+            <position  x="73" y="138" />
+            <dimension x="43" y="43" />
+        </graphics>
+        <name>
+            <text>Manual\nSending\nof PDM\nObjects</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Manual\nSending\nof PDM\nObjects</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_1">
+        <graphics>
+            <position  x="73" y="85" />
+            <dimension x="56" y="25" />
+        </graphics>
+        <name>
+            <text>Document\nDistribution</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Document\nDistribution</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_2">
+        <graphics>
+            <position  x="73" y="32" />
+            <dimension x="51" y="43" />
+        </graphics>
+        <name>
+            <text>Automatic\nSending\nof PDM\nObjects</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Automatic\nSending\nof PDM\nObjects</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_3">
+        <graphics>
+            <position  x="192" y="85" />
+            <dimension x="66" y="43" />
+        </graphics>
+        <name>
+            <text>Cross-System\nProduct\nStructure\nNavigation</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Cross-System\nProduct\nStructure\nNavigation</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <arc id="arc_0" source="trans_2" target="place_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="97" y="54" />
+                <point x="105" y="62" />
+                <point x="114" y="70" />
+                <point x="120" y="76" />
+                <end x="124" y="80" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_1" source="place_0" target="trans_3">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="137" y="85" />
+                <point x="141" y="85" />
+                <point x="147" y="85" />
+                <point x="154" y="85" />
+                <end x="159" y="85" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_2" source="place_1" target="trans_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="21" y="80" />
+                <point x="26" y="75" />
+                <point x="36" y="66" />
+                <point x="45" y="58" />
+                <end x="49" y="54" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_3" source="trans_3" target="place_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="225" y="85" />
+                <point x="231" y="85" />
+                <point x="237" y="85" />
+                <point x="242" y="85" />
+                <end x="247" y="85" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_4" source="trans_0" target="place_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="96" y="117" />
+                <point x="104" y="109" />
+                <point x="114" y="100" />
+                <point x="121" y="94" />
+                <end x="125" y="90" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_5" source="trans_1" target="place_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="101" y="85" />
+                <point x="107" y="85" />
+                <point x="113" y="85" />
+                <point x="118" y="85" />
+                <end x="123" y="85" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_6" source="place_1" target="trans_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="21" y="90" />
+                <point x="27" y="95" />
+                <point x="37" y="104" />
+                <point x="46" y="113" />
+                <end x="50" y="117" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_7" source="place_1" target="trans_1">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="23" y="85" />
+                <point x="28" y="85" />
+                <point x="34" y="85" />
+                <point x="40" y="85" />
+                <end x="45" y="85" />
+            </spline>
+        </toolspecific>
+    </arc>
+</net>
+</pnml>

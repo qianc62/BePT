@@ -1,0 +1,34 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000104##s00002851.inputCriterion.s00000700
+        Trivial, callToProcess.s00002832.inputCriterion.s00000700
+    BondTransition, 
+        Trivial, callToProcess.s00002832.outputCriterion.s00000704
+        Trivial, callToProcess.s00002843.inputCriterion.s00000700
+    BondTransition, 
+        Trivial, callToProcess.s00002843.outputCriterion.s00000704
+        Trivial, decision.s00001165.activate.s00000708
+    BondPlace, 
+        Polygon, 
+            Trivial, decision.s00001165.fire.s00000724
+            Trivial, merge.s00000742.activate.s00000733
+        Polygon, 
+            BondPlace, 
+                Polygon, 
+                    BondTransition, 
+                        Trivial, decision.s00001165.fire.s00000711
+                        Trivial, merge.s00000730.activate.s00000731
+                Polygon, 
+                    BondTransition, 
+                        Trivial, decision.s00001165.fire.s00000715
+                        Trivial, callToTask.s00002289.inputCriterion.s00000700
+                    BondTransition, 
+                        Trivial, callToTask.s00002289.outputCriterion.s00000704
+                        Trivial, merge.s00000730.activate.s00000733
+            BondTransition, 
+                Trivial, merge.s00000730.fire.s00000741
+                Trivial, callToProcess.s00002058.inputCriterion.s00000700
+            Trivial, callToProcess.s00002058.outputCriterion.s00000704
+            Trivial, merge.s00000742.activate.s00000731
+    Trivial, merge.s00000742.fire.s00000741
+    Trivial, process.s00000104##s00002851.outputCriterion.s00000704

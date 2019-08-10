@@ -1,0 +1,17 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000427##s00006116.InputCriterion.S00000937'. All of following paths are processing at the same time: 
+        The 'manager' does 'join.S00001294.Activate.S00000946'. 
+        The 'manager' does 'join.S00001294.Activate.S00000948'. 
+    When the above paths are finished, the 'manager' does 'join.S00001294.Fire.S00000953'. The 'manager' does 'callToTask.S00001551.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00001551.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+. 
+    !fter the above paths are finished, the 'manager' does 'callToTask.S00006117.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00006117.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'decision.S00000989.Activate.S00000990'. One of following paths needs to be finished: 
+        The 'manager' does 'decision.S00000989.Fire.S00000993'. 
+        One of following paths needs to be finished: 
+            There are some procedures need to be finished sequentially: 
+                    The 'manager' does 'decision.S00000989.Fire.S00000991'. All of following paths are processing at the same time: 
+                When the above paths are finished, the 'manager' does 'merge.S00000945.Activate.S00000948'. The 'manager' does 'merge.S00000945.Fire.S00000953'. All of following paths are processing at the same time: 
+                Once the above paths are finished, the 'manager' does 'callToTask.S00005929.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00005929.OutputCriterion.S00000939'. Subsequently, the above sequential part is finished. 
+. 
+            !fter the above path is finished,. 
+        Once the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 

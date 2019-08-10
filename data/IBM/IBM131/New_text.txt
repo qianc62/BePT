@@ -1,0 +1,4 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000108##s00002990.InputCriterion.S00000858'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToTask.S00003000.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00003000.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'decision.S00002994.Activate.S00000708'. After that, the above sequential part is finished. At last, the process ends. 

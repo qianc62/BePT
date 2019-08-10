@@ -1,0 +1,8 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Asset_procurement_department_for_construction_in_the_carry_over_
+    Trivial, Construction_in_accounting_for_other_costs_Guiji_
+    Trivial, Construction_in_the_amount_of_accounting_to_determine_the_carry_over_
+    Trivial, FI_050_fixed_asset_master_data_maintenance_process_
+    Trivial, Accounting_treatment_of_accounting_for_fixed_assets_
+    Trivial, End

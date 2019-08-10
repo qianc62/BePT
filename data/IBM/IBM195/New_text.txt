@@ -1,0 +1,13 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000601##s00004606.InputCriterion.S00000772'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToProcess.S00002443.InputCriterion.S00000772'. The 'manager' does 'callToProcess.S00002443.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+. 
+. 
+. 
+. 
+. 
+    !&4er the above paths are finished, the 'manager' does 'callToTask.S00004616.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00004616.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00004617.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00004617.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToProcess.S00000843.InputCriterion.S00000772'. The 'manager' does 'callToProcess.S00000843.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00004614.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00004614.OutputCriterion.S00000773'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00004615.InputCriterion.S00000772'. The 'manager' does 'callToTask.S00004615.OutputCriterion.S00000773'. After that, the 'manager' does 'process.S00000601##s00004606.OutputCriterion.S00000773'. After that, the above sequential part is finished. At last, the process ends. 

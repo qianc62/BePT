@@ -1,0 +1,18 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Intention_of_signing_the_contract_or_be_sold_
+    Polygon, 
+        Trivial, Maintenance_of_sales_orders_
+        Trivial, To_the_Project_Office_and_other_relevant_departments_contract_explanation_
+        Trivial, Organization_of_project_implementation_
+        BondPlace, 
+            Polygon, 
+                Trivial, T7
+            Polygon, 
+                Trivial, Assessment_of_customer_needs_
+                BondPlace, 
+                    Polygon, 
+                        Trivial, T6
+                    Polygon, 
+                        Trivial, T8
+    Trivial, End

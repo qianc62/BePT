@@ -1,0 +1,18 @@
+Place p36 callToProcess.s00000984.input.s00000938
+Place p31 callToProcess.s00000984.inputCriterion.s00000937.used
+Transition t6 process.s00000205##s00004859.inputCriterion.s00000937
+Place N8 superSource8
+Transition t16 process.s00000205##s00004859.outputCriterion.s00000939
+Place p35 startNode.s00000940.output.default
+Transition t33 callToProcess.s00000984.outputCriterion.s00000939
+Place p37 alpha
+Transition t30 callToProcess.s00000984.inputCriterion.s00000937
+
+p36 -> t16
+p37 -> t6
+p31 -> t33
+t30 -> p31
+p35 -> t30
+t6 -> p35
+t33 -> p36
+t16 -> N8

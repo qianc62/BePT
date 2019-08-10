@@ -1,0 +1,18 @@
+Transition trans_1 In_the_SAP_system_for_goods_receipt_posting_operations
+Transition trans_0 TOBE.C.SD.040_products_shipped_Process
+Place place_1 p9
+Place place_2 p10
+Place place_4 p12
+Place place_3 p11
+Transition trans_2 TOBE.C.PP.103_auxiliary_equipment,_spare_parts_production_orders_issued_by_Flow
+Place place_0 p8
+Transition trans_3 Confirmed_that_the_month_finished_goods
+
+place_1 -> trans_2
+trans_0 -> place_3
+trans_2 -> place_0
+trans_3 -> place_2
+place_0 -> trans_3
+trans_1 -> place_4
+place_4 -> trans_0
+place_2 -> trans_1

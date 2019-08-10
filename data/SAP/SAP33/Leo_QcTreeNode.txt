@@ -1,0 +1,10 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, Product\nSpecification
+            Trivial, Technical\ndetail\nspecification
+            Trivial, t14
+        Polygon, 
+            Trivial, Product\nSpecification
+            Trivial, Specification\nof_functions
+            Trivial, t14

@@ -1,0 +1,21 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000426##s00004567.InputCriterion.S00000772. Then, the manager does callToProcess.S00004552.InputCriterion.S00000772. 
+        The manager does process.S00000426##s00004567.InputCriterion.S00000772. Then, the manager does callToProcess.S00004552.InputCriterion.S00000772. 
+        The manager does process.S00000426##s00004567.InputCriterion.S00000772. After that, the manager does callToProcess.S00004552.InputCriterion.S00000772. 
+        When the above path is finished, the manager does callToProcess.S00004552.OutputCriterion.S00000773. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 75
+
+SentenceNumber: 32
+
+Gold Depth: 1 1 3 
+
+Depth: 1 2 2 
+
+Correlation Coefficient: 0.50
+
+Sentence Gain: 26.00 20.59 20.59 14.36 
+
+Sentence Sum Gain: 26.00 46.59 67.18 81.54 
+

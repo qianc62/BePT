@@ -1,0 +1,5 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000491##s00003681.inputCriterion.s00000772
+        Trivial, callToProcess.s00003645.inputCriterion.s00000772
+    RigidTransition, 

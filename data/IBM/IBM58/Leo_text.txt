@@ -1,0 +1,35 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does process.S00000669##s00003264.InputCriterion.S00000937. Then, the manager does callToTask.S00003266.InputCriterion.S00000937. After that, one of the following branches is executed: 
+        The manager does callToTask.S00003266.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00003195.InputCriterion.S00000937. 
+        The manager does callToTask.S00003266.OutputCriterion.S00000939. After that, the manager does callToTask.S00003195.InputCriterion.S00000937. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003195.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00003196.InputCriterion.S00000937. 
+        The manager does callToTask.S00003195.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00003196.InputCriterion.S00000937. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003196.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00003198.InputCriterion.S00000937. 
+        The manager does callToTask.S00003196.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00003198.InputCriterion.S00000937. 
+        Once the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003198.OutputCriterion.S00000939. Then, the manager does callToProcess.S00001177.InputCriterion.S00000937. 
+        The manager does callToTask.S00003198.OutputCriterion.S00000939. Subsequently, the manager does callToProcess.S00001177.InputCriterion.S00000937. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does callToProcess.S00001177.OutputCriterion.S00000939. Then, the manager does callToTask.S00003211.InputCriterion.S00000937. 
+        The manager does callToProcess.S00001177.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00003211.InputCriterion.S00000937. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003211.OutputCriterion.S00000939. Then, the manager does callToTask.S00003265.InputCriterion.S00000937. 
+        The manager does callToTask.S00003211.OutputCriterion.S00000939. Then, the manager does callToTask.S00003265.InputCriterion.S00000937. 
+        Once the above path is finished, the manager does callToTask.S00003265.OutputCriterion.S00000939. Then, the manager does process.S00000669##s00003264.OutputCriterion.S00000939. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 251
+
+SentenceNumber: 121
+
+Gold Depth: 1 1 3 1 1 1 3 3 3 1 1 3 3 1 1 1 
+
+Depth: 2 1 2 2 2 1 2 2 2 2 1 2 2 1 2 2 
+
+Correlation Coefficient: 0.45
+
+Sentence Gain: 26.00 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 20.59 26.00 
+
+Sentence Sum Gain: 26.00 52.00 72.59 98.59 119.18 145.18 165.77 191.77 212.37 238.37 258.96 284.96 305.55 331.55 
+

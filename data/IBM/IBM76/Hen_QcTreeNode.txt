@@ -1,0 +1,16 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, process.s00000239##s00002645.inputCriterion.s00001053
+            Trivial, callToTask.s00002646.inputCriterion.s00001053
+        Polygon, 
+            Trivial, process.s00000239##s00002645.inputCriterion.s00001053
+            Trivial, callToTask.s00002646.inputCriterion.s00001053
+    BondPlace, 
+        Polygon, 
+            Trivial, callToTask.s00002646.outputCriterion.s00001055
+            Trivial, callToTask.s00002647.inputCriterion.s00001053
+        Polygon, 
+            Trivial, callToTask.s00002646.outputCriterion.s00001055
+            Trivial, callToTask.s00002647.inputCriterion.s00001053
+    Trivial, callToTask.s00002647.outputCriterion.s00001055

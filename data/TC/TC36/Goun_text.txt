@@ -1,0 +1,21 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does Start. Then, the manager does Transfer_applications_submitted_to_fixed_assets_. Then, the manager does Relevant_departments_and_the_leadership_of_four_plant_level_approval_. After that, one of the following branches is executed: 
+        The manager does Transfer_of_assets_determine_the_type_of_accounting_. Then, the manager does Transfer_outside_the_company's_accounting_and_system_. After that, the manager does End. 
+        The manager does Transfer_of_assets_determine_the_type_of_accounting_. After that, the manager does Cost_center_master_data_between_the_transfer_of_assets_to_maintain_. After that, the manager does End. 
+        The manager does Transfer_of_assets_determine_the_type_of_accounting_. After that, the manager does Account_inter_company_transfers_within_the_system_. Subsequently, the manager does End. 
+        Once the above path is finished, then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 105
+
+SentenceNumber: 16
+
+Gold Depth: 3 1 1 1 3 3 3 1 
+
+Depth: 2 1 1 1 2 2 2 2 
+
+Correlation Coefficient: 0.77
+
+Sentence Gain: 37.44 37.44 37.44 37.44 
+
+Sentence Sum Gain: 37.44 74.89 112.33 149.78 
+

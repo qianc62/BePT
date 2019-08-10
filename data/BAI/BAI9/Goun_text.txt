@@ -1,0 +1,12 @@
+The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does superT29. After that, the manager does T4. After that, the manager does superT31. 
+        The manager does superT29. Then, the manager does T0. Subsequently, the manager does superT31. 
+        The manager does superT29. After that, the manager does T3. After that, the manager does superT31. 
+        The manager does superT29. Then, the manager does T9. After that, the manager does superT31. 
+        The manager does superT29. Subsequently, the manager does T7. Then, the manager does T8. After that, the manager does superT31. 
+        The manager does superT29. Then, the manager does T6. Then, the manager does superT31. 
+        The manager does superT29. After that, the manager does T5. Subsequently, the manager does superT31. 
+        The manager does superT29. Then, the manager does T1. After that, the manager does superT31. 
+        The manager does superT29. After that, the manager does T2. Then, the manager does superT31. 
+        Once the above path is finished, after that, the above sequential part is finished. At last, the process ends. 

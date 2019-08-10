@@ -1,0 +1,16 @@
+String: The manager does process.S00000281##s00003813.InputCriterion.S00000937. Then, the manager does callToTask.S00003814.InputCriterion.S00000937. Subsequently, the manager does callToTask.S00003814.OutputCriterion.S00000939. After that, the manager does callToTask.S00003815.InputCriterion.S00000937. Then, the manager does callToTask.S00003815.OutputCriterion.S00000939. After that, the manager does callToTask.S00003816.InputCriterion.S00000937. Subsequently, the manager does callToTask.S00003816.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00003817.InputCriterion.S00000937. Subsequently, the manager does callToTask.S00003817.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00003818.InputCriterion.S00000937. Then, the manager does callToTask.S00003818.OutputCriterion.S00000939. Subsequently, the manager does callToTask.S00002799.InputCriterion.S00000937. After that, the manager does callToTask.S00002799.OutputCriterion.S00000939. At last, the process ends. 
+
+WordNumber: 72
+
+SentenceNumber: 53
+
+Gold Depth: 1 1 1 1 1 1 1 1 1 1 1 1 1 
+
+Depth: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 150.81 
+
+Sentence Sum Gain: 150.81 
+

@@ -1,0 +1,16 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Create_Sales_Order_
+    Trivial, Inadequate_credit_system_to_freeze_customer_orders_
+    Trivial, Sales_department_for_order_release_
+    BondPlace, 
+        Polygon, 
+            Trivial, T4
+            BondPlace, 
+                Polygon, 
+                    Trivial, Finance_Department_release_orders_
+                Polygon, 
+                    Trivial, T8
+        Polygon, 
+            Trivial, T5
+    Trivial, End

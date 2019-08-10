@@ -1,0 +1,39 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, process.s00000155##s00003481.inputCriterion.s00000937
+            Trivial, callToTask.s00003484.inputCriterion.s00000937
+        Polygon, 
+            Trivial, process.s00000155##s00003481.inputCriterion.s00000937
+            Trivial, callToTask.s00003484.inputCriterion.s00000937
+    BondPlace, 
+        Polygon, 
+            Trivial, callToTask.s00003484.inputCriterion.s00000937
+            Trivial, callToTask.s00003484.outputCriterion.s00000939
+        Polygon, 
+            BondPlace, 
+                Polygon, 
+                    Trivial, callToTask.s00003484.outputCriterion.s00000939
+                    Trivial, callToTask.s00003482.inputCriterion.s00000937
+                Polygon, 
+                    Trivial, callToTask.s00003484.outputCriterion.s00000939
+                    Trivial, callToTask.s00003482.inputCriterion.s00000937
+            BondPlace, 
+                Polygon, 
+                    Trivial, callToTask.s00003482.outputCriterion.s00000939
+                    Trivial, callToTask.s00003483.inputCriterion.s00000937
+                Polygon, 
+                    Trivial, callToTask.s00003482.outputCriterion.s00000939
+                    Trivial, callToTask.s00003483.inputCriterion.s00000937
+            BondPlace, 
+                Polygon, 
+                    Trivial, callToTask.s00003483.outputCriterion.s00000939
+                    Trivial, callToProcess.s00001177.inputCriterion.s00000937
+                Polygon, 
+                    Trivial, callToTask.s00003483.outputCriterion.s00000939
+                    Trivial, callToProcess.s00001177.inputCriterion.s00000937
+                Polygon, 
+                    Trivial, callToTask.s00003483.outputCriterion.s00000939
+                    Trivial, callToProcess.s00001177.inputCriterion.s00000937
+            Trivial, callToProcess.s00001177.outputCriterion.s00000939
+            Trivial, callToTask.s00003484.inputCriterion.s00000937

@@ -1,0 +1,10 @@
+Transition trans_0 General_Ledger_Business_Processes
+Place place_2 p5
+Place place_0 p1
+Transition trans_1 Finished_product_quality_and_margin_calculations
+Place place_1 p4
+
+place_1 -> trans_0
+place_2 -> trans_1
+trans_1 -> place_1
+trans_0 -> place_0

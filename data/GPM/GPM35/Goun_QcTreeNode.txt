@@ -1,0 +1,33 @@
+Polygon, 
+    Trivial, T0
+    RigidTransition, 
+        Polygon, 
+            Loop, 
+                BondPlace, 
+                    Polygon, 
+                        Trivial, T1
+                        BondPlace, 
+                            Polygon, 
+                                Trivial, T2
+                                Trivial, T5
+                                Trivial, T4
+                            Polygon, 
+                                Trivial, T2
+                                Trivial, T3
+                                Trivial, T4
+                        Trivial, T9
+                    Polygon, 
+                        Trivial, T1
+                        Trivial, T6
+                        BondPlace, 
+                            Polygon, 
+                                Trivial, T7
+                                Trivial, T8
+                                Trivial, T9
+                            Polygon, 
+                                Trivial, T7
+                                Trivial, T11
+                                Trivial, T5
+                                Trivial, T4
+                                Trivial, T9
+    Trivial, T10

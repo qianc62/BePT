@@ -1,0 +1,24 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        There are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does t17. 
+                The manager does t15. 
+                When the above path is finished, the manager does Design\nof_Personnel\nAppraisal\nSystem. After that, the above sequential part is finished. 
+        The manager does t10. 
+        Once the above path is finished, the manager does Implementation\nof_Personnel\nAppraisal\nSystem. After that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 97
+
+SentenceNumber: 12
+
+Gold Depth: 3 5 5 3 1 
+
+Depth: 2 4 4 3 1 
+
+Correlation Coefficient: 0.96
+
+Sentence Gain: 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 14.36 28.72 43.08 57.43 71.79 
+

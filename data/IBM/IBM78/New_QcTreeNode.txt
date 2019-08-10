@@ -1,0 +1,39 @@
+Polygon, 
+    BondTransition, 
+        Trivial, process.s00000117##s00003105.inputCriterion.s00000700
+        Trivial, callToTask.s00001342.inputCriterion.s00000858
+    BondTransition, 
+        Trivial, callToTask.s00001342.outputCriterion.s00000859
+        Trivial, decision.s00003106.activate.s00000708
+    BondPlace, 
+        Polygon, 
+            Trivial, decision.s00003106.fire.s00000715
+            Trivial, merge.s00000730.activate.s00000731
+            Trivial, merge.s00000730.fire.s00000741
+        Polygon, 
+            Loop, 
+                BondTransition, 
+                    Trivial, decision.s00003106.fire.s00000711
+                    Trivial, callToProcess.s00003098.inputCriterion.s00000858
+                BondTransition, 
+                    Trivial, callToProcess.s00003098.outputCriterion.s00000859
+                    Trivial, decision.s00003110.activate.s00000708
+                BondPlace, 
+                    Polygon, 
+                    Polygon, 
+                        BondTransition, 
+                            Trivial, decision.s00003110.fire.s00000715
+                            Trivial, callToProcess.s00003092.inputCriterion.s00000858
+                        BondTransition, 
+                            Trivial, callToProcess.s00003092.outputCriterion.s00000859
+                            Trivial, decision.s00003107.activate.s00000708
+                        BondPlace, 
+                            Polygon, 
+                                BondTransition, 
+                                    Trivial, decision.s00003107.fire.s00000715
+                                    Trivial, callToTask.s00003114.inputCriterion.s00000700
+                                Trivial, callToTask.s00003114.outputCriterion.s00000704
+                            Polygon, 
+                                BondTransition, 
+                                    Trivial, decision.s00003107.fire.s00000711
+                                    Trivial, callToTask.s00003113.inputCriterion.s00000700

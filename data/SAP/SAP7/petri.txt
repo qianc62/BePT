@@ -1,0 +1,22 @@
+Place place_1 p9
+Place place_2 p13
+Transition trans_1 Distribution\nNetwork
+Place place_0 p1
+Transition trans_3 DRP__\nDistribution\nResource\nPlanning\nRun
+Place place_3 p14
+Transition trans_2 Deployment
+Place place_4 p8
+Transition trans_0 Planning
+Transition trans_4 t20
+Place place_5 p10
+
+trans_0 -> place_0
+place_2 -> trans_1
+trans_3 -> place_5
+place_3 -> trans_3
+place_5 -> trans_2
+trans_1 -> place_4
+trans_4 -> place_3
+place_4 -> trans_0
+trans_2 -> place_1
+place_0 -> trans_4

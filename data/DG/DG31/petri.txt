@@ -1,0 +1,25 @@
+Place place_2 p23
+Transition trans_4 Run_vendor_evaluation
+Transition trans_0 To_determine_the_list_of_suppliers
+Place place_6 p22
+Place place_0 p12
+Place place_1 p15
+Place place_4 p10
+Transition trans_1 The_preparation_of_vendor_performance_evaluation_form
+Transition trans_2 Assessment_Rating
+Transition trans_3 Audit_vendor_performance_evaluation_form
+Place place_5 p14
+Place place_3 p13
+
+place_2 -> trans_4
+place_0 -> trans_0
+place_3 -> trans_1
+place_6 -> trans_2
+trans_0 -> place_6
+place_4 -> trans_3
+trans_1 -> place_4
+trans_4 -> place_3
+trans_0 -> place_2
+trans_2 -> place_5
+place_5 -> trans_1
+trans_3 -> place_1

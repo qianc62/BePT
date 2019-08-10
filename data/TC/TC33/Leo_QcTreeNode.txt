@@ -1,0 +1,20 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Determine_the_approval_process_and_enter_the_expense_account_
+    Trivial, Department_heads_for_approval_
+    BondPlace, 
+        Polygon, 
+            Trivial, T3
+        Polygon, 
+            Trivial, Plant_level_leadership_for_approval_
+    Trivial, Reimbursement_of_expenses_for_audit_
+    Trivial, Finance_Director_approval_
+    BondPlace, 
+        Polygon, 
+            Trivial, Cashier_payment_and_personal_accounts_or_to_pay_into_the_employees_are_
+            Trivial, Reimbursement_accounting_posting_
+            Trivial, End
+        Polygon, 
+            Trivial, Cashier_payment_and_personal_accounts_or_to_pay_into_the_employees_are_
+            Trivial, Way_of_telephone_or_E_MAIL_Feedback_
+            Trivial, End

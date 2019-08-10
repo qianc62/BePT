@@ -1,0 +1,20 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'Start'. All of following paths are processing at the same time: 
+        The 'manager' does 'PLM_050_010_Original_Entry_System'. 
+        The 'manager' does 'PLM_050_020_Translation'. Then, the 'manager' does 'PLM_010_document_master_record_'. Then, the 'manager' does 'PLM_030_approval_document_release_process'. 
+    When the above paths are finished, the 'manager' does 'End'. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 72
+
+SentenceNumber: 11
+
+Gold Depth: 3 3 1 3 3 3 
+
+Depth: 2 2 2 2 2 2 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 14.36 14.36 37.44 14.36 
+
+Sentence Sum Gain: 14.36 28.72 66.16 80.52 
+

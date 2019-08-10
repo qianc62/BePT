@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml>
+<net id="workflownet" type="http://www.informatik.hu-berlin.de/top/pnml/basicPNML.rng">
+    <place id="place_0">
+        <graphics>
+            <position x="352" y="36" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p6</text>
+         </name>
+    </place>
+    <place id="place_1">
+        <graphics>
+            <position x="252" y="36" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p7</text>
+         </name>
+    </place>
+    <place id="place_2">
+        <graphics>
+            <position x="16" y="36" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p8</text>
+         </name>
+    </place>
+    <place id="place_3">
+        <graphics>
+            <position x="140" y="36" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p9</text>
+         </name>
+    </place>
+    <transition id="trans_0">
+        <graphics>
+            <position  x="196" y="36" />
+            <dimension x="51" y="53" />
+        </graphics>
+        <name>
+            <text>Credit\nMemo\nRequest\nfor Rebate\nSettlement</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Credit\nMemo\nRequest\nfor Rebate\nSettlement</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_1">
+        <graphics>
+            <position  x="78" y="36" />
+            <dimension x="64" y="43" />
+        </graphics>
+        <name>
+            <text>Rebate\n/ Commission\nCalculation\nProcessing</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Rebate\n/ Commission\nCalculation\nProcessing</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_2">
+        <graphics>
+            <position  x="302" y="36" />
+            <dimension x="40" y="35" />
+        </graphics>
+        <name>
+            <text>Rebate\nCredit\nMemo</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Rebate\nCredit\nMemo</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <arc id="arc_0" source="trans_0" target="place_1">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="223" y="36" />
+                <point x="229" y="36" />
+                <point x="235" y="36" />
+                <point x="240" y="36" />
+                <end x="245" y="36" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_1" source="trans_1" target="place_3">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="111" y="36" />
+                <point x="117" y="36" />
+                <point x="123" y="36" />
+                <point x="128" y="36" />
+                <end x="133" y="36" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_2" source="trans_2" target="place_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="323" y="36" />
+                <point x="329" y="36" />
+                <point x="335" y="36" />
+                <point x="340" y="36" />
+                <end x="345" y="36" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_3" source="place_2" target="trans_1">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="23" y="36" />
+                <point x="28" y="36" />
+                <point x="34" y="36" />
+                <point x="40" y="36" />
+                <end x="45" y="36" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_4" source="place_1" target="trans_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="259" y="36" />
+                <point x="264" y="36" />
+                <point x="270" y="36" />
+                <point x="276" y="36" />
+                <end x="281" y="36" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_5" source="place_3" target="trans_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="147" y="36" />
+                <point x="152" y="36" />
+                <point x="158" y="36" />
+                <point x="164" y="36" />
+                <end x="169" y="36" />
+            </spline>
+        </toolspecific>
+    </arc>
+</net>
+</pnml>

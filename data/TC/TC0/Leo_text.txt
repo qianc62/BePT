@@ -1,0 +1,25 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does Start. After that, the manager does Do_financial_processing_receivable_accounting_. After that, one of the following branches is executed: 
+        There are some procedures need to be finished sequentially: 
+            The manager does T2. After that, one of the following branches is executed: 
+                The manager does Receivables_line_of_credit_to_maintain_the_master_data_accounting_. 
+                Notice that, after above paths are finished, the latter step is repeated: 
+                    The manager does T6. Subsequently, the above loop part is finished. 
+                After the above path is finished, the manager does T4. After that, the above sequential part is finished. 
+        The manager does T7. 
+        When the above path is finished, the manager does End. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 134
+
+SentenceNumber: 17
+
+Gold Depth: 3 5 3 1 1 5 1 3 
+
+Depth: 3 5 2 1 1 4 1 3 
+
+Correlation Coefficient: 0.96
+
+Sentence Gain: 26.00 14.36 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 26.00 40.36 54.72 69.08 83.43 97.79 112.15 
+

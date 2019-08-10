@@ -1,0 +1,20 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'Processing\nthe_Configuration\nFolder'. Then, the 'manager' does 'Download\nObjects'. Then, the 'manager' does 'Offline\nObject\nProcessing'. Then, the 'manager' does 'Upload\nObjects'. After that, the 'manager' does 'Status\nTracking'. After that, the 'manager' does 'Object\nComparison'. Subsequently, one of following paths needs to be finished: 
+        The 'manager' does 'Review'. 
+        The 'manager' does 't31'. 
+        After the above path is finished, the 'manager' does 'Object\nTransfer'. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 88
+
+SentenceNumber: 14
+
+Gold Depth: 1 1 3 1 1 3 1 1 1 
+
+Depth: 1 1 2 1 1 2 1 1 1 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 71.53 14.36 14.36 14.36 
+
+Sentence Sum Gain: 71.53 85.89 100.25 114.61 
+

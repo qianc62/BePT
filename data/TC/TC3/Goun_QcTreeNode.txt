@@ -1,0 +1,23 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Submit_applications_for_disposal_of_fixed_assets_
+    BondPlace, 
+        Polygon, 
+            Trivial, T10
+        Polygon, 
+            Trivial, Asset_Accounting_to_verify_the_data_
+            BondPlace, 
+                Polygon, 
+                    Trivial, Fixed_assets_disposal_program_
+                Loop, 
+                    Polygon, 
+                        Trivial, T11
+            Trivial, Implementation_of_the_fixed_asset_disposal_program_
+            Trivial, Disposal_of_fixed_assets_
+            BondPlace, 
+                Polygon, 
+                    Trivial, Sales_invoicing_and_receivables_
+                Polygon, 
+                    Trivial, T7
+            Trivial, Profit_and_loss_carried_forward_
+    Trivial, End

@@ -1,0 +1,5 @@
+Polygon, 
+    Trivial, TOBE.C.PP.103_auxiliary_equipment,_spare_parts_production_orders_issued_by_Flow
+    Trivial, Confirmed_that_the_month_finished_goods
+    Trivial, In_the_SAP_system_for_goods_receipt_posting_operations
+    Trivial, TOBE.C.SD.040_products_shipped_Process

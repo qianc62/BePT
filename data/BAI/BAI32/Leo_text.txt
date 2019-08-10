@@ -1,0 +1,20 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does T0. After that, one of the following branches is executed: 
+        The manager does T2. 
+        The manager does T1. 
+        After the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 56
+
+SentenceNumber: 7
+
+Gold Depth: 1 3 3 
+
+Depth: 1 2 2 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 14.36 14.36 14.36 
+
+Sentence Sum Gain: 14.36 28.72 43.08 
+

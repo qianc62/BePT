@@ -1,0 +1,20 @@
+Transition trans_3 t17
+Place place_1 p5
+Place place_0 p4
+Transition trans_2 t15
+Transition trans_1 Implementation\nof_Personnel\nAppraisal\nSystem
+Place place_3 p14
+Place place_2 p9
+Transition trans_0 Design\nof_Personnel\nAppraisal\nSystem
+Transition trans_4 t10
+
+trans_2 -> place_3
+place_3 -> trans_0
+place_2 -> trans_1
+trans_1 -> place_0
+trans_3 -> place_3
+trans_0 -> place_2
+place_1 -> trans_4
+place_1 -> trans_3
+place_1 -> trans_2
+trans_4 -> place_2

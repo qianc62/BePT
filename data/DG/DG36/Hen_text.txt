@@ -1,0 +1,16 @@
+String: The manager does Inform_the_project_team. After that, the manager does Check_the_work_center_information_is_complete. Then, the manager does Increase_in_work_center. At last, the process ends. 
+
+WordNumber: 20
+
+SentenceNumber: 4
+
+Gold Depth: 1 1 1 
+
+Depth: 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 37.44 
+
+Sentence Sum Gain: 37.44 
+

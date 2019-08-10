@@ -1,0 +1,21 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000083##s00004105.InputCriterion.S00000937'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00004107.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00004107.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00004108.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00004108.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00004106.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00004106.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00004109.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00004109.OutputCriterion.S00000939'. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 131
+
+SentenceNumber: 44
+
+Gold Depth: 3 1 1 3 3 3 1 1 1 
+
+Depth: 2 2 2 2 2 2 1 2 2 
+
+Correlation Coefficient: 0.32
+
+Sentence Gain: 26.00 26.00 26.00 26.00 14.36 
+
+Sentence Sum Gain: 26.00 52.00 78.00 104.00 118.36 
+

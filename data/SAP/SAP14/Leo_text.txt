@@ -1,0 +1,16 @@
+String: The manager does Change\nMaster\nRecord\nProcessing. After that, the manager does Object\nManagement\nRecord\nProcessing\nW__ECR_CO. Subsequently, the manager does Change\nExecution\nW__ECR_nECO. At last, the process ends. 
+
+WordNumber: 20
+
+SentenceNumber: 4
+
+Gold Depth: 1 1 1 
+
+Depth: 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 37.44 
+
+Sentence Sum Gain: 37.44 
+

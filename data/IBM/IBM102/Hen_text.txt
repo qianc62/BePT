@@ -1,0 +1,20 @@
+The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000689##s00005379.InputCriterion.S00000937. After that, the manager does callToTask.S00005383.InputCriterion.S00000937. 
+        The manager does process.S00000689##s00005379.InputCriterion.S00000937. Subsequently, the manager does callToTask.S00005383.InputCriterion.S00000937. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00005383.OutputCriterion.S00000939. Then, the manager does callToTask.S00005382.InputCriterion.S00000937. 
+        The manager does callToTask.S00005383.OutputCriterion.S00000939. Then, the manager does callToTask.S00005382.InputCriterion.S00000937. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00005382.OutputCriterion.S00000939. After that, the manager does decision.S00000989.Activate.S00000990. 
+        The manager does callToTask.S00005382.OutputCriterion.S00000939. Then, the manager does decision.S00000989.Activate.S00000990. 
+        When the above path is finished, one of the following branches is executed: 
+. 
+        4here are some procedures need to be finished sequentially: 
+            One of the following branches is executed: 
+                The manager does decision.S00000989.Fire.S00000991. Subsequently, the manager does callToTask.S00005380.InputCriterion.S00000937. 
+                The manager does decision.S00000989.Fire.S00000991. Then, the manager does callToTask.S00005380.InputCriterion.S00000937. 
+                After the above path is finished, the manager does callToTask.S00005380.OutputCriterion.S00000939. Then, the above sequential part is finished. 
+        The manager does decision.S00000989.Fire.S00000993. 
+        The manager does decision.S00000989.Fire.S00000995. 
+        Once the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 

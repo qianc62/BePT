@@ -1,0 +1,19 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, TOBE.C.PP.101_boilers,_nuclear_power,_production_proliferation,_the_proliferation
+        Polygon, 
+            Trivial, TOBE.C.PP.104_technological_transformation_processes_of_production_orders_issued
+        Polygon, 
+            Trivial, TOBE.C.PP.109_cost_of_quality_production_orders_issued_by_processes_to_create
+        Polygon, 
+            Trivial, TOBE.C.PP.103_auxiliary_equipment,_spare_parts_production_orders_issued_by_Flow
+        Polygon, 
+            Trivial, TOBE.C.PP.105_Tooling_Production_Order_issued_Flow
+        Polygon, 
+            Trivial, TOBE.C.PP.102_scientific_research,_testing,_assessment_of_production_orders_issue
+        Polygon, 
+            Trivial, TOBE.C.PP.108_flow_into_the_approval_document_issued_production_orders
+        Polygon, 
+            Trivial, TOBE.C.PP.107_three_packs_of_production_orders_issued_by_Process
+    Trivial, Reported_that_orders_for_production_workers

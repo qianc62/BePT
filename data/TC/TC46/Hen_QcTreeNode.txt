@@ -1,0 +1,17 @@
+Polygon, 
+    Trivial, Start
+    BondPlace, 
+        Polygon, 
+            Trivial, Check_this_month_Accounts_in_assets
+        Loop, 
+            Polygon, 
+                Trivial, Accounting_Treatment_of_assets_
+    Trivial, T3
+    BondPlace, 
+        Polygon, 
+            Trivial, Simulation_run_depreciation_program_
+        Loop, 
+            Polygon, 
+                Trivial, Modified_error_
+    Trivial, Run_the_depreciation_program_official_
+    Trivial, End

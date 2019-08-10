@@ -1,0 +1,14 @@
+Place P2 P2
+Transition T2 T2
+Place P0 P0
+Place P3 P3
+Transition T0 T0
+Place P1 P1
+Transition T1 T1
+
+P1 -> T1
+P0 -> T0
+T1 -> P2
+T0 -> P1
+T2 -> P3
+P2 -> T2

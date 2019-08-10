@@ -1,0 +1,17 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'callToTask.S00002453.OutputCriterion.S00000939'. After that, the 'manager' does 'process.S00000533##s00002451.OutputCriterion.S00000939'. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 37
+
+SentenceNumber: 12
+
+Gold Depth: 3 3 3 3 3 3 3 1 1 5 5 1 
+
+Depth: -1 -1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 
+
+Correlation Coefficient: -0.64
+
+Sentence Gain: 14.36 26.00 14.36 26.00 14.36 26.00 14.36 26.00 26.00 26.00 26.00 32.72 14.36 14.36 32.72 26.00 14.36 26.00 26.00 
+
+Sentence Sum Gain: 14.36 40.36 54.72 80.72 95.08 121.08 135.43 161.43 187.43 213.43 239.43 272.15 286.51 300.87 333.59 359.59 373.95 399.95 425.95 
+

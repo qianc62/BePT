@@ -1,0 +1,12 @@
+Polygon, 
+    Trivial, t20
+    BondPlace, 
+        Polygon, 
+            Trivial, Changes_to_collect_customer_information
+            Trivial, Determine_the_focal_point_changes_to_customer_information
+            Trivial, Project_management,_customer_changes_the_Department_of_Information_Audit
+        Loop, 
+            Polygon, 
+                Trivial, t29
+    Trivial, t27
+    Trivial, Change_log_SAP_Customer_Information_System

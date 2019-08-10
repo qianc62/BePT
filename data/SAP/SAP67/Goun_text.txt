@@ -1,0 +1,21 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does Project\nClosing\nDocumentation. After that, the manager does Final\nSettlement. Subsequently, the manager does Set_Project\nClosed\nStatus. 
+        The manager does Project\nClosing\nDocumentation. After that, the manager does Final\nResults\nAnalysis. Then, the manager does Set_Project\nClosed\nStatus. 
+        The manager does Project\nClosing\nDocumentation. Then, the manager does Final\nInvoice\nProcessing. Then, the manager does Set_Project\nClosed\nStatus. 
+        After the above path is finished, then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 87
+
+SentenceNumber: 13
+
+Gold Depth: 3 3 3 1 3 
+
+Depth: 2 2 2 2 2 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 37.44 37.44 37.44 
+
+Sentence Sum Gain: 37.44 74.89 112.33 
+

@@ -1,0 +1,20 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does t7. After that, the manager does Substance\nSearch\nUsing\nSubstance\nInformation_System. Subsequently, the manager does t11. 
+        The manager does t7. Subsequently, the manager does Report\nSearch\nUsing\nReport\nInformation_System. After that, the manager does t11. 
+        After the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 72
+
+SentenceNumber: 10
+
+Gold Depth: 3 3 1 3 
+
+Depth: 2 2 2 2 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 37.44 37.44 
+
+Sentence Sum Gain: 37.44 74.89 
+

@@ -1,0 +1,6 @@
+The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does superT15. After that, the manager does T0. Then, the manager does T1. Then, the manager does T2. After that, the manager does T3. Subsequently, the manager does superT17. 
+        The manager does superT15. Then, the manager does T4. Subsequently, the manager does superT17. 
+        The manager does superT15. Subsequently, the manager does T5. Then, the manager does superT17. 
+        Once the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 

@@ -1,0 +1,22 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Develop_pre_investment_plan
+    Trivial, Develop_pre_investment_plan
+    Trivial, Input_pre_investment_scheme
+    Trivial, Pre_cast_simulation_program_running
+    Trivial, Check_and_run_the_results_derived
+    BondPlace, 
+        Polygon, 
+            Trivial, Formulating_the_proposals_the_number_of_
+            Trivial, On_the_proposal_for_approval_the_number_of_pre_cast
+        Loop, 
+            Polygon, 
+                Trivial, T11
+    Trivial, Maintenance_of_pre_cast_production_plan
+    BondTransition, 
+        Trivial, Run_pre_cast_production_plan
+        Polygon, 
+            Trivial, Procurement_processes_for_maintenance
+        Polygon, 
+            Trivial, Factory_class__workshop_order_to_
+        Trivial, End

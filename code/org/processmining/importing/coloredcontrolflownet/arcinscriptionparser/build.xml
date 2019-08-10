@@ -1,0 +1,20 @@
+<project name="Erlang net arc inscription parser" default="parser" basedir=".">
+
+	<taskdef classname="JFlex.anttask.JFlexTask" 
+		classpath="../../../../../../../lib/JFlex.jar:../../../../../../../lib/java-cup-v11a.jar" name="jflex" />
+
+	<taskdef name="cup" classname="java_cup.anttask.CUPTask" classpath="../../../../../../../lib/java-cup-11a.jar" />
+
+	<description>
+		Build file for Erlang net arc inscription parser
+	</description>
+	 
+	<target name="parser">
+		<delete file="parser.java" />
+		<delete file="sym.java" />
+		<delete file="Scanner.java" />
+		<jflex file="Scanner.flex" />
+		<cup destDir="../../../../.." srcfile="Parser.cup" debug="false" />
+	</target>
+
+</project>

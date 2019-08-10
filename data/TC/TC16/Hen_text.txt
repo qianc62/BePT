@@ -1,0 +1,21 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does Start. Subsequently, the manager does FI_400_fixed_assets_acquisition_process_. Subsequently, the manager does Acceptance_of_fixed_assets_. After that, the manager does Recorded_for_fixed_assets_Zangu_. After that, one of the following branches is executed: 
+        The manager does Fixed_assets_are_stated_at_the_financial_processing_solutions_Zangu_. 
+        Attention, after above paths are finished, the latter step is repeated: 
+            The manager does Revising_. After that, the above loop part is finished. 
+        After the above path is finished, the manager does Fixed_assets_are_stated_at_handling_Zangu_. After that, the manager does FI_450_depreciation_of_fixed_assets_process_. Then, the manager does To_obtain_an_official_receipt_or_determine_the_final_amount_should_be_transferred_to_solid_. Subsequently, the manager does Adjust_the_cost_of_assets_and_depreciation_. Subsequently, the manager does End. After that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 118
+
+SentenceNumber: 17
+
+Gold Depth: 1 1 1 3 1 1 1 3 1 1 1 
+
+Depth: 1 1 1 2 1 1 1 3 1 1 1 
+
+Correlation Coefficient: 0.94
+
+Sentence Gain: 48.83 14.36 14.36 60.19 
+
+Sentence Sum Gain: 48.83 63.19 77.55 137.73 
+

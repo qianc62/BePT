@@ -1,0 +1,28 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'Start'. Subsequently, the 'manager' does 'Project_started'. Then, one of following paths needs to be finished: 
+        The 'manager' does 'Complete_settlement_rule_maintenance_'. After that, the 'manager' does 'Head_of_Finance_for_approval_and_'. 
+        Notice that, after above paths are finished, there is a loop path which can happen depending on the running conditions: 
+            The 'manager' does 'T5'. Subsequently, the above loop path is finished. 
+        Once the above path is finished, the 'manager' does 'Settlement_rule_maintenance'. After that, one of following paths needs to be finished: 
+        The 'manager' does 'T6'. 
+        There are some procedures need to be finished sequentially: 
+            The 'manager' does 'At_the_end_of_implementation_of_the_'. After that, one of following paths needs to be finished: 
+                The 'manager' does 'T8'. 
+                The 'manager' does 'Implementation_of_the_financial_year_end'. 
+                When the above path is finished, after that, the above sequential part is finished. 
+        When the above path is finished, the 'manager' does 'End'. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 176
+
+SentenceNumber: 22
+
+Gold Depth: 3 5 3 5 1 3 1 1 3 1 3 
+
+Depth: 3 4 2 4 1 3 1 1 2 1 2 
+
+Correlation Coefficient: 0.95
+
+Sentence Gain: 26.00 26.00 14.36 14.36 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 26.00 52.00 66.36 80.72 95.08 109.43 123.79 138.15 152.51 
+

@@ -1,0 +1,24 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does Start. Then, the manager does Improve_the_WBS_hierarchy_and_network_. 
+        The manager does Investment_budget_and_to_issue_process. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does Allocation_of_project_budget. 
+        Notice that, after above paths are finished, the latter step is repeated: 
+            The manager does T3. Subsequently, the above loop part is finished. 
+        After the above path is finished, the manager does Assigned_project_budget. Subsequently, the manager does End. Then, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 108
+
+SentenceNumber: 14
+
+Gold Depth: 3 3 1 3 1 3 3 
+
+Depth: 2 2 1 2 1 2 3 
+
+Correlation Coefficient: 0.85
+
+Sentence Gain: 26.00 14.36 14.36 14.36 26.00 
+
+Sentence Sum Gain: 26.00 40.36 54.72 69.08 95.08 
+

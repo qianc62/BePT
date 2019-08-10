@@ -1,0 +1,9 @@
+Polygon, 
+    Trivial, Determination\nof_Relevant\nMethods\nfor_Remuneration\nCalculation
+    BondPlace, 
+        Polygon, 
+            Trivial, Calculation\nof_Agreed\nRemuneration
+        Polygon, 
+            Trivial, Calculation\nof_Time_Dependent\nRemuneration
+        Polygon, 
+            Trivial, Calculation\nof_Benefit_Dependent\nRemuneration

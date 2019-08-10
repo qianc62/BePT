@@ -1,0 +1,15 @@
+[PropertyInfo]
+buttonsPanel,javax.swing.JPanel,false,false, , ,false,<default>
+calculateCouplingCohesionButton,javax.swing.JButton,false,false, , ,false,<default>
+design,org.processmining.framework.models.pdm.PDMDesign,false,false, , ,false,<default>
+gp,org.processmining.framework.models.ModelGraphPanel,false,false, , ,false,<default>
+loadDesignButton,javax.swing.JButton,false,false, , ,false,<default>
+mapping,java.util.HashMap,false,false, , ,false,<default>
+model,org.processmining.framework.models.pdm.PDMModel,false,false, , ,false,<default>
+netContainer,javax.swing.JScrollPane,false,false, , ,false,<default>
+showPDMButton,javax.swing.JButton,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

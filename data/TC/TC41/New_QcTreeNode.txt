@@ -1,0 +1,27 @@
+Polygon, 
+    Trivial, Start
+    Trivial, FI_300_sales_invoicing_process_
+    Trivial, Print_accounts_receivable_account_receivable_accounting_certificate_
+    Trivial, Receivable_accounting_system_Zhibao_Jin_Guo_account_
+    BondPlace, 
+        Polygon, 
+            Trivial, Cashier_Receivables_
+            BondPlace, 
+                Polygon, 
+                    Trivial, Receivable_accounting_system_reseller_Zhibao_Jin_
+                Polygon, 
+                    Trivial, T10
+        Polygon, 
+            Trivial, T4
+            Trivial, Charge_to_submit_claims_for_the_quality_of_
+            BondPlace, 
+                Polygon, 
+                    Trivial, T11
+                Polygon, 
+                    Trivial, T5
+                    BondPlace, 
+                        Polygon, 
+                            Trivial, T7
+                        Polygon, 
+                            Trivial, Sales_charge_of_quality_and_customer_enter_into_an_agreement_
+    Trivial, End

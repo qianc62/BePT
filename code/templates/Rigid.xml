@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsynt>
+<action>contain</action>
+<object>process</object>
+<addition>a region which allows for different execution paths listed as following</addition>
+</dsynt>

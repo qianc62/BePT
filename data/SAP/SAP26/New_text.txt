@@ -1,0 +1,20 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'Work\nArea'. After that, one of following paths needs to be finished: 
+        The 'manager' does 'Agent'. 
+        The 'manager' does 'Accident'. 
+        Once the above path is finished, the 'manager' does 'Standard\nOperating\nProcedure'. After that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 63
+
+SentenceNumber: 9
+
+Gold Depth: 3 3 1 1 
+
+Depth: 2 2 1 1 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 14.36 28.72 43.08 57.43 
+

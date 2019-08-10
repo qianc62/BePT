@@ -1,0 +1,23 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000607##s00004685.InputCriterion.S00001053'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00004688.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00004688.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'fork.S00001071.Activate.S00001072'. The 'manager' does 'fork.S00001071.Activate.S00001072'. All of following paths are processing at the same time: 
+        The 'manager' does 'fork.S00001071.Fire.S00001073'. Then, the 'manager' does 'callToTask.S00004686.InputCriterion.S00001053'. Subsequently, the 'manager' does 'callToTask.S00004686.OutputCriterion.S00001055'. 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'fork.S00001071.Fire.S00001296'. All of following paths are processing at the same time: 
+            When the above paths are finished, the 'manager' does 'callToTask.S00003981.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00003981.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+            Once the above paths are finished, the 'manager' does 'callToTask.S00001360.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00001360.OutputCriterion.S00001055'. Subsequently, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'fork.S00001071.Fire.S00001075'. All of following paths are processing at the same time: 
+            After the above paths are finished, the 'manager' does 'callToTask.S00004689.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00004689.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+            After the above paths are finished, the 'manager' does 'callToTask.S00001813.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00001813.OutputCriterion.S00001055'. Then, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'fork.S00001071.Fire.S00001078'. All of following paths are processing at the same time: 
+            Once the above paths are finished, the 'manager' does 'callToTask.S00003977.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00003977.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+            After the above paths are finished, the 'manager' does 'callToTask.S00003979.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00003979.OutputCriterion.S00001055'. Then, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'join.S00001163.Fire.S00001069'. All of following paths are processing at the same time: 
+            After the above paths are finished, the 'manager' does 'callToTask.S00004616.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00004616.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+            When the above paths are finished, the 'manager' does 'fork.S00001298.Activate.S00001072'. Subsequently, the above sequential part is finished. 
+    After the above paths are finished, the 'manager' does 'callToTask.S00004687.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00004687.OutputCriterion.S00001055'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'process.S00000607##s00004685.OutputCriterion.S00001055'. Subsequently, the above sequential part is finished. At last, the process ends. 

@@ -1,0 +1,15 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, Start
+            Trivial, Products_have_been_shipped_factory
+            Trivial, Organizations_and_departments_to_make_the_project_summary
+        Polygon, 
+            Trivial, Start
+            Trivial, No_contract,_the_successful_trial_of_new_
+            Trivial, Organizations_and_departments_to_make_the_project_summary
+    Trivial, Related_documents_into_the_system
+    Trivial, Project_Acceptance
+    Trivial, Make_the_evaluation_of_the_project
+    Trivial, Close_Project
+    Trivial, End

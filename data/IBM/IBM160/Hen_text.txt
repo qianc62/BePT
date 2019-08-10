@@ -1,0 +1,23 @@
+The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000423##s00003205.InputCriterion.S00001053. Then, the manager does callToTask.S00003209.InputCriterion.S00001053. 
+        The manager does process.S00000423##s00003205.InputCriterion.S00001053. Subsequently, the manager does callToTask.S00003209.InputCriterion.S00001053. 
+        The manager does process.S00000423##s00003205.InputCriterion.S00001053. Then, the manager does callToTask.S00003209.InputCriterion.S00001053. 
+        The manager does process.S00000423##s00003205.InputCriterion.S00001053. Then, the manager does callToTask.S00003209.InputCriterion.S00001053. 
+        The manager does process.S00000423##s00003205.InputCriterion.S00001053. Then, the manager does callToTask.S00003209.InputCriterion.S00001053. 
+        The manager does process.S00000423##s00003205.InputCriterion.S00001053. After that, the manager does callToTask.S00003209.InputCriterion.S00001053. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003209.OutputCriterion.S00001055. After that, the manager does callToTask.S00003210.InputCriterion.S00001053. 
+        The manager does callToTask.S00003209.OutputCriterion.S00001055. Then, the manager does callToTask.S00003210.InputCriterion.S00001053. 
+        The manager does callToTask.S00003209.OutputCriterion.S00001055. Then, the manager does callToTask.S00003210.InputCriterion.S00001053. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003210.OutputCriterion.S00001055. Then, the manager does callToTask.S00003207.InputCriterion.S00001053. 
+        The manager does callToTask.S00003210.OutputCriterion.S00001055. Then, the manager does callToTask.S00003207.InputCriterion.S00001053. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003207.OutputCriterion.S00001055. Subsequently, the manager does callToTask.S00003206.InputCriterion.S00001053. 
+        The manager does callToTask.S00003207.OutputCriterion.S00001055. After that, the manager does callToTask.S00003206.InputCriterion.S00001053. 
+        The manager does callToTask.S00003207.OutputCriterion.S00001055. Then, the manager does callToTask.S00003206.InputCriterion.S00001053. 
+        After the above path is finished, the manager does callToTask.S00003206.OutputCriterion.S00001055. Subsequently, the manager does decision.S00001123.Activate.S00001072. After that, one of the following branches is executed: 
+        The manager does decision.S00001123.Fire.S00001073. 
+        The manager does decision.S00001123.Fire.S00001075. 
+        Once the above path is finished, then, the above sequential part is finished. At last, the process ends. 

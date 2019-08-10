@@ -1,0 +1,87 @@
+Polygon, 
+    RigidTransition, 
+        Polygon, 
+            Trivial, process.s00000723##s00005165.inputCriterion.s00001053
+            Trivial, fork.s00001298.activate.s00001072
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, process.s00000723##s00005165.inputCriterion.s00001053
+                Polygon, 
+                    Trivial, fork.s00001298.activate.s00001072
+                    Trivial, fork.s00001298.fire.s00001081
+                Trivial, callToTask.s00005167.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, fork.s00001298.activate.s00001072
+                Polygon, 
+                    Trivial, fork.s00001298.fire.s00001078
+                Polygon, 
+                    Trivial, fork.s00001298.fire.s00001081
+                    Trivial, callToTask.s00005167.inputCriterion.s00001053
+                    Trivial, callToTask.s00005167.outputCriterion.s00001055
+                    Trivial, decision.s00001126.activate.s00001072
+                    Trivial, decision.s00001126.fire.s00001073
+                Trivial, callToTask.s00001984.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, fork.s00001298.activate.s00001072
+                Polygon, 
+                    Trivial, fork.s00001298.fire.s00001075
+                Polygon, 
+                    BondTransition, 
+                        Trivial, callToTask.s00005166.outputCriterion.s00001055
+                        Trivial, fork.s00001071.activate.s00001072
+                    Trivial, fork.s00001071.fire.s00001073
+                Trivial, callToTask.s00001131.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, fork.s00001298.activate.s00001072
+                Polygon, 
+                    Trivial, fork.s00001298.fire.s00001073
+                Polygon, 
+                    Trivial, callToTask.s00001984.outputCriterion.s00001055
+                Trivial, callToTask.s00005166.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            Trivial, fork.s00001298.activate.s00001072
+            Trivial, fork.s00001298.fire.s00001081
+            Trivial, callToTask.s00005167.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            Trivial, fork.s00001071.activate.s00001072
+            Trivial, fork.s00001071.fire.s00001075
+        RigidOtherBehavior, 
+            Trivial, fork.s00001071.activate.s00001072
+            Trivial, fork.s00001071.fire.s00001073
+            Trivial, callToTask.s00001131.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, fork.s00001071.fire.s00001075
+                Trivial, callToTask.s00001406.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            Trivial, callToTask.s00001406.inputCriterion.s00001053
+            Trivial, callToTask.s00001406.outputCriterion.s00001055
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, callToTask.s00001406.outputCriterion.s00001055
+                Trivial, callToProcess.s00001294.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            Trivial, callToProcess.s00001294.inputCriterion.s00001053
+            Trivial, callToProcess.s00001294.outputCriterion.s00001055
+            Trivial, callToTask.s00005168.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            Trivial, callToTask.s00001131.inputCriterion.s00001053
+            Trivial, callToTask.s00001131.outputCriterion.s00001055
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, callToTask.s00001131.outputCriterion.s00001055
+                Trivial, callToTask.s00005168.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            Trivial, callToTask.s00005168.inputCriterion.s00001053
+            Trivial, callToTask.s00005168.outputCriterion.s00001055
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, callToTask.s00005168.outputCriterion.s00001055
+                Trivial, callToProcess.s00001419.inputCriterion.s00001053
+        RigidOtherBehavior, 
+            Trivial, callToProcess.s00001419.inputCriterion.s00001053
+            Trivial, callToProcess.s00001419.outputCriterion.s00001055
+            Trivial, process.s00000723##s00005165.outputCriterion.s00001055

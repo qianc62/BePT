@@ -1,0 +1,16 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000667##s00003234.InputCriterion.S00000937'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToProcess.S00003188.InputCriterion.S00000937'. The 'manager' does 'callToProcess.S00003188.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+. 
+. 
+. 
+. 
+        /.% of following paths needs to be finished: 
+            The 'manager' does 'N26'. 
+            The 'manager' does 'callToProcess.S00002997.InputCriterion.S00000937'. 
+            After the above path is finished,. 
+    When the above paths are finished, the 'manager' does 'callToTask.S00003197.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00003197.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00003198.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00003198.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToProcess.S00001177.InputCriterion.S00000937'. The 'manager' does 'callToProcess.S00001177.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00003211.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00003211.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToTask.S00003240.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00003240.OutputCriterion.S00000939'. After that, the 'manager' does 'process.S00000667##s00003234.OutputCriterion.S00000939'. After that, the above sequential part is finished. At last, the process ends. 

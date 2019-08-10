@@ -1,0 +1,6 @@
+Transition trans_0 Goods\nIssue\nProcessing
+Place place_1 p3
+Place place_0 p2
+
+trans_0 -> place_1
+place_0 -> trans_0

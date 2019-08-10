@@ -1,0 +1,24 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    The 'manager' does 'Start'. Then, the 'manager' does 'Create_Sales_Order_'. Then, the 'manager' does 'Inadequate_credit_system_to_freeze_customer_orders_'. Then, the 'manager' does 'Sales_department_for_order_release_'. Then, one of following paths needs to be finished: 
+        The 'manager' does 'T5'. 
+        There are some procedures need to be finished sequentially: 
+            The 'manager' does 'T4'. Then, one of following paths needs to be finished: 
+                The 'manager' does 'Finance_Department_release_orders_'. 
+                The 'manager' does 'T8'. 
+                When the above path is finished, subsequently, the above sequential part is finished. 
+        When the above path is finished, the 'manager' does 'End'. After that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 120
+
+SentenceNumber: 17
+
+Gold Depth: 3 3 5 1 5 1 1 1 1 
+
+Depth: 3 2 4 1 4 1 1 1 1 
+
+Correlation Coefficient: 0.98
+
+Sentence Gain: 48.83 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 48.83 63.19 77.55 91.90 106.26 120.62 
+

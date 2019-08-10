@@ -1,0 +1,21 @@
+Place place_2 p4
+Transition trans_0 Deployment\nfor_Plant
+Transition trans_1 Deployment\nfor_Material
+Transition trans_2 t7
+Place place_4 p8
+Place place_3 p5
+Transition trans_3 t11
+Place place_1 p3
+Place place_5 p9
+Place place_0 p1
+
+trans_2 -> place_4
+trans_3 -> place_3
+trans_2 -> place_5
+place_2 -> trans_2
+place_4 -> trans_0
+trans_1 -> place_1
+place_5 -> trans_1
+place_1 -> trans_3
+trans_0 -> place_0
+place_0 -> trans_3

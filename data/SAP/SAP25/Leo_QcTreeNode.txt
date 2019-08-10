@@ -1,0 +1,20 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, Specification
+            Trivial, Design
+            Trivial, t40
+        Polygon, 
+            Trivial, Specification
+            Trivial, Similar\nPart\nSearch
+            Trivial, t40
+    BondPlace, 
+        Polygon, 
+            Trivial, Product\nStructure\nManagement\nW__Variants
+        Polygon, 
+            Trivial, Product\nStructure\nManagement\nfor_Variant\nProducts
+        Polygon, 
+            Trivial, Product\nStructure\nManagement\nvia_CAD
+    Trivial, Schedule\nUpdate\nand_Confirmation
+    Trivial, Project\nMonitoring\nand_Analysis
+    Trivial, Project\nCompletion\nActivities

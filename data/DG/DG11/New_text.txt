@@ -1,0 +1,16 @@
+String: The 'manager' does 'Plant_material_back_to_the_Treasury_back'. After that, the 'manager' does 'Treasury_discharge'. Then, the 'manager' does 'The_number_of_inventory_check'. Subsequently, the 'manager' does 'Record_production_of_refunding_single_(red_collar_BOM)_postings'. Subsequently, the 'manager' does 'Print_Production_refunding_single'. Then, the 'manager' does 'Production_refunding_single_(red_limit_requisition_...)'. 4(en, the 'manager' does 'Waste_material_over_to_the_failed_bank_accounts'. Subsequently, the 'manager' does 'TOBE.#M.134'. !t last, the process ends. 
+
+WordNumber: 45
+
+SentenceNumber: 14
+
+Gold Depth: 1 1 1 1 1 1 1 1 
+
+Depth: 0 0 0 0 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 94.20 
+
+Sentence Sum Gain: 94.20 
+

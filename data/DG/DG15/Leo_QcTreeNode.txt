@@ -1,0 +1,26 @@
+Polygon, 
+    Trivial, TOME.C.MM.244_non_productive_investment_and_material_control_process
+    Trivial, Material_Preparation
+    Trivial, Fa_Liu
+    Trivial, Determine_whether_you_need_a_single_code_issued_lbs
+    BondPlace, 
+        Polygon, 
+            Trivial, t46
+        Polygon, 
+            Trivial, Fill_pounds_yards_Shan
+    Trivial, Heap_pile_card_write_offs
+    Trivial, Investment_is_expected_to_determine_whether_to_split_a_single_material
+    BondPlace, 
+        Polygon, 
+            Trivial, t61
+        Polygon, 
+            Trivial, Split_vote_BOM_Material
+    Trivial, Investment_is_expected_to_determine_whether_a_single_natural_alternative_material
+    BondPlace, 
+        Polygon, 
+            Trivial, t66
+        Polygon, 
+            Trivial, Right_to_vote_is_expected_to_make_changes_to_a_single_material
+    Trivial, Pushdown_fill_in_non_production_alone_is_expected_to_vote_requisition_postings
+    Trivial, Print_requisition
+    Trivial, Requisition_signed_confirmed

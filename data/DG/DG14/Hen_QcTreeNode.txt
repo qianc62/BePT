@@ -1,0 +1,15 @@
+Polygon, 
+    Trivial, Calculating_gross_margin_is_expected_to_sell
+    BondPlace, 
+        Polygon, 
+            Trivial, Calculate_the_provision_for_contract_losses_in_the_budget
+            Trivial, To_determine_whether_the_loss_is_expected_to_contract_less_than_the_pre_contract_
+            BondPlace, 
+                Polygon, 
+                    Trivial, Supplement_their_current_provision_for_calculating_the_amount_to_be
+                    Trivial, Supplement_their_current_accrual_rate_should_be
+                Polygon, 
+                    Trivial, Calculate_the_estimated_amount_for_contract_losses_reversed
+                    Trivial, Reversed_the_loss_is_expected_to_contract
+        Polygon, 
+            Trivial, t36

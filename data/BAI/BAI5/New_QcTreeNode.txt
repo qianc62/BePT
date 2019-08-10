@@ -1,0 +1,35 @@
+Polygon, 
+    RigidTransition, 
+        Polygon, 
+            BondTransition, 
+                Trivial, T0
+                Polygon, 
+                    Trivial, T10
+                Polygon, 
+                    Trivial, T7
+                Polygon, 
+                    Trivial, T4
+                    Trivial, T13
+                    Trivial, T14
+                Trivial, T1
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, T0
+                Polygon, 
+                    Trivial, T9
+                Polygon, 
+                    Trivial, T6
+                Polygon, 
+                    Trivial, T12
+                    Trivial, T15
+                Trivial, T3
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, T0
+                Polygon, 
+                    Trivial, T5
+                Polygon, 
+                    Trivial, T11
+                Polygon, 
+                    Trivial, T8
+                Trivial, T2

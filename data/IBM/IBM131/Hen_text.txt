@@ -1,0 +1,10 @@
+The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000108##s00002990.InputCriterion.S00000858. Subsequently, the manager does callToTask.S00003000.InputCriterion.S00000858. 
+        The manager does process.S00000108##s00002990.InputCriterion.S00000858. Subsequently, the manager does callToTask.S00003000.InputCriterion.S00000858. 
+        The manager does process.S00000108##s00002990.InputCriterion.S00000858. Then, the manager does callToTask.S00003000.InputCriterion.S00000858. 
+        After the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00003000.OutputCriterion.S00000859. Subsequently, the manager does decision.S00002994.Activate.S00000708. 
+        The manager does callToTask.S00003000.OutputCriterion.S00000859. After that, the manager does decision.S00002994.Activate.S00000708. 
+        The manager does callToTask.S00003000.OutputCriterion.S00000859. Subsequently, the manager does decision.S00002994.Activate.S00000708. 
+        When the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 

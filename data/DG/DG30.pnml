@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml>
+<net id="workflownet" type="http://www.informatik.hu-berlin.de/top/pnml/basicPNML.rng">
+    <place id="place_0">
+        <graphics>
+            <position x="374" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p8</text>
+         </name>
+    </place>
+    <place id="place_1">
+        <graphics>
+            <position x="16" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p9</text>
+         </name>
+    </place>
+    <place id="place_2">
+        <graphics>
+            <position x="588" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p10</text>
+         </name>
+    </place>
+    <place id="place_3">
+        <graphics>
+            <position x="1076" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p11</text>
+         </name>
+    </place>
+    <place id="place_4">
+        <graphics>
+            <position x="852" y="18" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p12</text>
+         </name>
+    </place>
+    <transition id="trans_0">
+        <graphics>
+            <position  x="964" y="18" />
+            <dimension x="166" y="17" />
+        </graphics>
+        <name>
+            <text>TOBE.C.SD.040 products shipped Process</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>TOBE.C.SD.040 products shipped Process</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_1">
+        <graphics>
+            <position  x="720" y="18" />
+            <dimension x="203" y="17" />
+        </graphics>
+        <name>
+            <text>In the SAP system for goods receipt posting operations</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>In the SAP system for goods receipt posting operations</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_2">
+        <graphics>
+            <position  x="195" y="18" />
+            <dimension x="298" y="17" />
+        </graphics>
+        <name>
+            <text>TOBE.C.PP.103 auxiliary equipment, spare parts production orders issued by Flow</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>TOBE.C.PP.103 auxiliary equipment, spare parts production orders issued by Flow</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <transition id="trans_3">
+        <graphics>
+            <position  x="481" y="18" />
+            <dimension x="156" y="17" />
+        </graphics>
+        <name>
+            <text>Confirmed that the month finished goods</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Confirmed that the month finished goods</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <arc id="arc_0" source="trans_1" target="place_4">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="823" y="18" />
+                <point x="829" y="18" />
+                <point x="835" y="18" />
+                <point x="840" y="18" />
+                <end x="845" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_1" source="place_1" target="trans_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="23" y="18" />
+                <point x="27" y="18" />
+                <point x="33" y="18" />
+                <point x="40" y="18" />
+                <end x="45" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_2" source="place_4" target="trans_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="859" y="18" />
+                <point x="863" y="18" />
+                <point x="869" y="18" />
+                <point x="876" y="18" />
+                <end x="881" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_3" source="trans_2" target="place_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="345" y="18" />
+                <point x="351" y="18" />
+                <point x="357" y="18" />
+                <point x="362" y="18" />
+                <end x="367" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_4" source="place_2" target="trans_1">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="595" y="18" />
+                <point x="599" y="18" />
+                <point x="605" y="18" />
+                <point x="612" y="18" />
+                <end x="617" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_5" source="trans_3" target="place_2">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="559" y="18" />
+                <point x="565" y="18" />
+                <point x="571" y="18" />
+                <point x="576" y="18" />
+                <end x="581" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_6" source="trans_0" target="place_3">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="1047" y="18" />
+                <point x="1053" y="18" />
+                <point x="1059" y="18" />
+                <point x="1064" y="18" />
+                <end x="1069" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_7" source="place_0" target="trans_3">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="381" y="18" />
+                <point x="385" y="18" />
+                <point x="391" y="18" />
+                <point x="398" y="18" />
+                <end x="403" y="18" />
+            </spline>
+        </toolspecific>
+    </arc>
+</net>
+</pnml>

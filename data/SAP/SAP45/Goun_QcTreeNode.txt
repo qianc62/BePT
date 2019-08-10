@@ -1,0 +1,14 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, t17
+            Trivial, Recipient\nProcessing
+            Trivial, Distribution\nMonitoring
+        Polygon, 
+            Trivial, t17
+            Trivial, Document\nDistribution
+            Trivial, Distribution\nMonitoring
+        Polygon, 
+            Trivial, t17
+            Trivial, Recipient\nList\nProcessing
+            Trivial, Distribution\nMonitoring

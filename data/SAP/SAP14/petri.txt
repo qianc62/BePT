@@ -1,0 +1,14 @@
+Place place_2 p8
+Place place_1 p7
+Transition trans_1 Change\nMaster\nRecord\nProcessing
+Transition trans_0 Change\nExecution\nW__ECR_nECO
+Place place_0 p6
+Place place_3 p9
+Transition trans_2 Object\nManagement\nRecord\nProcessing\nW__ECR_CO
+
+place_1 -> trans_1
+trans_0 -> place_2
+trans_2 -> place_0
+trans_1 -> place_3
+place_3 -> trans_2
+place_0 -> trans_0

@@ -1,0 +1,31 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    One of following paths needs to be finished: 
+        The 'manager' does 'Recognized_the_need_to_raise_money_for_bad_debts'. Then, the 'manager' does 'The_preparation_of_bad_debt_loss_estimation_analysis_table'. Subsequently, the 'manager' does 'Bad_debt_loss_estimation_analysis_table'. 
+        There are some procedures need to be finished sequentially: 
+            The 'manager' does 'Audit_bad_debt_loss_estimation_analysis_table'. After that, one of following paths needs to be finished: 
+                The 'manager' does 't66'. 
+                The 'manager' does 'Provision_for_bad_debts'. Subsequently, the 'manager' does 'Check_whether_the_provision_for_bad_debts_is_consistent_'. 
+                After the above path is finished, subsequently, the above sequential part is finished. 
+        Once the above path is finished, one of following paths needs to be finished: 
+        The 'manager' does 'Ledger_voucher_processing'. 
+        The 'manager' does 't61'. 
+        After the above path is finished, one of following paths needs to be finished: 
+        The 'manager' does 'On_the_recovery_of_funds_individually_identified'. 
+        The 'manager' does 'Audit'. 
+        The 'manager' does 'Test_results_are_consistent'. 
+        After the above path is finished, the 'manager' does 'Receivables_details_of_individual_finds_that_provision_for_'. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 170
+
+SentenceNumber: 23
+
+Gold Depth: 3 3 3 3 1 3 3 3 3 3 3 3 3 
+
+Depth: 4 2 2 2 1 2 2 4 2 3 2 2 4 
+
+Correlation Coefficient: 0.45
+
+Sentence Gain: 37.44 14.36 14.36 26.00 14.36 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 37.44 51.80 66.16 92.16 106.52 120.88 135.24 149.60 163.96 178.31 
+

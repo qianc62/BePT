@@ -1,0 +1,9 @@
+Polygon, 
+    Trivial, Plant_material_back_to_the_Treasury_back
+    Trivial, Treasury_discharge
+    Trivial, The_number_of_inventory_check
+    Trivial, Record_production_of_refunding_single_(red_collar_BOM)_postings
+    Trivial, Print_Production_refunding_single
+    Trivial, Production_refunding_single_(red_limit_requisition_...)
+    Trivial, Waste_material_over_to_the_failed_bank_accounts
+    Trivial, TOBE.CM.134

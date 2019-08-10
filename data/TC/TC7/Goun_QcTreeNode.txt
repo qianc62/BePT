@@ -1,0 +1,19 @@
+Polygon, 
+    Trivial, Start
+    BondPlace, 
+        Polygon, 
+            Trivial, N6
+            BondPlace, 
+                Polygon, 
+                    Trivial, Employees_submitted_applications_for_master_data_maintenance_
+                Loop, 
+                    Polygon, 
+                        Trivial, T2
+            Trivial, T3
+        Loop, 
+            Polygon, 
+                Trivial, T4
+    Trivial, Complete_financial_view_of_cost_accounting_
+    Trivial, Create,_modify,_freeze,_remove_the_employee_master_data_
+    Trivial, Feedback_to_apply_for_department_staff_
+    Trivial, End

@@ -1,0 +1,16 @@
+String: The manager does Characteristics. Subsequently, the manager does Basic\nkey_figures. Subsequently, the manager does Field\ngroups. Subsequently, the manager does Aspect. After that, the manager does Calculated\nKey_Figures. Subsequently, the manager does Comment\ntables. After that, the manager does Fixed\nCharacteristics. After that, the manager does Summarization\nlevels. Subsequently, the manager does Currency\nTranslation\nTypes\nfor_Data\nTransfer_and_Planning_Layouts. Subsequently, the manager does Derivation. Then, the manager does Validation. After that, the manager does Data\nslices. At last, the process ends. 
+
+WordNumber: 68
+
+SentenceNumber: 13
+
+Gold Depth: 1 1 1 1 1 1 1 1 1 1 1 1 
+
+Depth: 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 139.49 
+
+Sentence Sum Gain: 139.49 
+

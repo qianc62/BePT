@@ -1,0 +1,3 @@
+Polygon, 
+    Trivial, Material\nAssignment\nto_Activities
+    Trivial, Material\nRequirements\nPlanning

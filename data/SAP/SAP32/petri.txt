@@ -1,0 +1,6 @@
+Place place_0 p2
+Transition trans_0 Statistical\nKey_Figure\nPlanning
+Place place_1 p3
+
+place_0 -> trans_0
+trans_0 -> place_1

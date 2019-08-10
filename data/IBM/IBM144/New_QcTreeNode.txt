@@ -1,0 +1,57 @@
+Polygon, 
+    RigidTransition, 
+        Polygon, 
+            BondTransition, 
+                Trivial, process.s00000533##s00002451.inputCriterion.s00000937
+                Polygon, 
+                    Trivial, fork.s00001067.activate.s00000990
+                    Trivial, fork.s00001067.fire.s00000995
+                Trivial, callToTask.s00002455.inputCriterion.s00000937
+        RigidOtherBehavior, 
+            Trivial, process.s00000533##s00002451.inputCriterion.s00000937
+            Trivial, fork.s00001067.activate.s00000990
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, process.s00000533##s00002451.inputCriterion.s00000937
+                Polygon, 
+                    Trivial, fork.s00001067.activate.s00000990
+                    Trivial, fork.s00001067.fire.s00000993
+                Trivial, callToTask.s00002454.inputCriterion.s00000937
+        RigidOtherBehavior, 
+            Trivial, callToTask.s00002455.inputCriterion.s00000937
+            Trivial, callToTask.s00002455.outputCriterion.s00000939
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, callToTask.s00002455.outputCriterion.s00000939
+                Trivial, callToTask.s00002453.inputCriterion.s00000937
+        RigidOtherBehavior, 
+            Trivial, callToTask.s00002454.inputCriterion.s00000937
+            Trivial, callToTask.s00002454.outputCriterion.s00000939
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, callToTask.s00002454.outputCriterion.s00000939
+                Trivial, callToTask.s00002453.inputCriterion.s00000937
+        RigidOtherBehavior, 
+            Trivial, fork.s00001067.activate.s00000990
+            Trivial, fork.s00001067.fire.s00000995
+            Trivial, callToTask.s00002455.inputCriterion.s00000937
+        RigidOtherBehavior, 
+            BondTransition, 
+                Trivial, fork.s00001067.activate.s00000990
+                Polygon, 
+                    Trivial, fork.s00001067.fire.s00000991
+                Polygon, 
+                    Trivial, fork.s00001067.fire.s00000993
+                    Trivial, callToTask.s00002454.inputCriterion.s00000937
+                    Trivial, callToTask.s00002454.outputCriterion.s00000939
+                Polygon, 
+                    Trivial, fork.s00001067.fire.s00000995
+                    Trivial, callToTask.s00002455.inputCriterion.s00000937
+                    Trivial, callToTask.s00002455.outputCriterion.s00000939
+                Trivial, callToTask.s00002453.inputCriterion.s00000937
+        RigidOtherBehavior, 
+            Trivial, fork.s00001067.activate.s00000990
+            Trivial, fork.s00001067.fire.s00000993
+            Trivial, callToTask.s00002454.inputCriterion.s00000937
+    Trivial, callToTask.s00002453.outputCriterion.s00000939
+    Trivial, process.s00000533##s00002451.outputCriterion.s00000939

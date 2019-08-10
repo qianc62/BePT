@@ -1,0 +1,37 @@
+Polygon, 
+    Trivial, Start
+    Trivial, PLM_010_010_check_the_document_master_record
+    BondPlace, 
+        Polygon, 
+            Trivial, PLM_010_020_create_a_document_master_
+            BondPlace, 
+                Polygon, 
+                    Trivial, T6
+                Polygon, 
+                    Trivial, T7
+                    BondPlace, 
+                        Polygon, 
+                            Trivial, T9
+                        Polygon, 
+                            Trivial, PLM_030_approval_document_release_process
+        Polygon, 
+            Trivial, T3
+            RigidPlace, 
+                BondPlace, 
+                    Polygon, 
+                        BondPlace, 
+                            Polygon, 
+                                Trivial, PLM_010_030_changes_to_the_document_master_record
+                                Trivial, T11
+                            Polygon, 
+                                Trivial, T5
+                        Trivial, PLM_040_document_modification_process
+                    Polygon, 
+                        Trivial, PLM_010_030_changes_to_the_document_master_record
+                        BondPlace, 
+                            Polygon, 
+                                Trivial, T11
+                                Trivial, PLM_040_document_modification_process
+                            Polygon, 
+                                Trivial, T10
+    Trivial, End

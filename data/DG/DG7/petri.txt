@@ -1,0 +1,18 @@
+Place place_4 p12
+Transition trans_3 Maintenance_of_the_implementation_status_of_purchase_orders
+Place place_3 p11
+Place place_0 p8
+Place place_2 p10
+Transition trans_2 Material_conditions_to_identify_needs
+Transition trans_1 TOBE.C.MM.131_process_purchase_orders_issued_by
+Place place_1 p9
+Transition trans_0 Look_for_Purchase_Order_Delivery_Time
+
+trans_0 -> place_3
+place_0 -> trans_1
+place_3 -> trans_2
+place_1 -> trans_3
+trans_2 -> place_1
+trans_1 -> place_4
+trans_3 -> place_2
+place_4 -> trans_0

@@ -1,0 +1,3 @@
+Polygon, 
+    Trivial, Invoice\nReversal
+    Trivial, Manual\nClearing

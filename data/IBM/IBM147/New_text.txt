@@ -1,0 +1,20 @@
+The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000043##s00000846.InputCriterion.S00000700'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00000860.InputCriterion.S00000858'. The 'manager' does 'callToTask.S00000860.OutputCriterion.S00000859'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'decision.S00000852.Activate.S00000708'. One of following paths needs to be finished: 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'decision.S00000852.Fire.S00000715'. All of following paths are processing at the same time: 
+            When the above paths are finished, the 'manager' does 'callToTask.S00000857.InputCriterion.S00000858'. After that, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'decision.S00000852.Fire.S00000724'. All of following paths are processing at the same time: 
+                The 'manager' does 'merge.S00000730.Activate.S00000735'. After that, the 'manager' does 'merge.S00000730.Fire.S00000741'. 
+                The 'manager' does 'merge.S00000856.Activate.S00000735'. After that, the 'manager' does 'merge.S00000856.Fire.S00000741'. 
+                The 'manager' does 'merge.S00000742.Activate.S00000733'. After that, the 'manager' does 'merge.S00000742.Fire.S00000741'. 
+            After the above paths are finished, the 'manager' does 'process.S00000043##s00000846.OutputCriterion.S00000704'. After that, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'decision.S00000852.Fire.S00000711'. All of following paths are processing at the same time: 
+                The 'manager' does 'merge.S00000856.Activate.S00000731'. Then, the 'manager' does 'merge.S00000856.Fire.S00000741'. 
+                The 'manager' does 'merge.S00000730.Activate.S00000731'. After that, the 'manager' does 'merge.S00000730.Fire.S00000741'. 
+                The 'manager' does 'merge.S00000742.Activate.S00000731'. After that, the 'manager' does 'merge.S00000742.Fire.S00000741'. 
+            After the above paths are finished, the 'manager' does 'process.S00000043##s00000846.OutputCriterion.S00000704'. Then, the above sequential part is finished. 
+        Once the above path is finished, after that, the above sequential part is finished. At last, the process ends. 

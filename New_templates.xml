@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LanguageTemplates>
+
+    <Workflowfy_Begin_Template>in order to make the process model a workflow, it has to be preprocessed</Workflowfy_Begin_Template>
+    <Workflowfy_addNode_Template>add some nodes</Workflowfy_addNode_Template>
+    <Workflowfy_deleteNode_Template>delete some nodes</Workflowfy_deleteNode_Template>
+    <Workflowfy_End_Template>after workflowfy this process model, the textual description can be generated</Workflowfy_End_Template>
+
+    <Workflow_Begin_Template>the process begins. at first </Workflow_Begin_Template>
+    <Workflow_End_Template>at last, the process ends</Workflow_End_Template>
+
+	<Trivial_Begin_Template>(T)-</Trivial_Begin_Template>
+    <Trivial_Sentence_Template>the 'role_slot' mid_slot does 'trivial_slot'</Trivial_Sentence_Template>
+    <Trivial_End_Template>-(T)</Trivial_End_Template>
+
+	<Polygon_Begin_Template>there are some procedures need to be finished sequentially</Polygon_Begin_Template>
+	<Polygon_End_Template>the above sequential part is finished</Polygon_End_Template>
+
+	<BondPlace_Begin_Template>one of following paths needs to be finished</BondPlace_Begin_Template>
+    <BondPlace_End_Template>the above path is finished</BondPlace_End_Template>
+
+    <BondTransition_Begin_Template>all of following paths are processing at the same time</BondTransition_Begin_Template>
+    <BondTransition_End_Template>the above paths are finished</BondTransition_End_Template>
+
+    <Loop_Begin_Template>after above paths are finished, there is a loop path which can happen depending on the running conditions</Loop_Begin_Template>
+    <Loop_End_Template>the above loop path is finished</Loop_End_Template>
+
+    <RigidPlace_Begin_Template>there is a region which allows for different execution paths listed as following</RigidPlace_Begin_Template>
+    <RigidPlace_End_Template>one of the above path is finished</RigidPlace_End_Template>
+
+    <RigidTransition_Begin_Template>there is a region which allows for different execution paths listed as following</RigidTransition_Begin_Template>
+    <RigidTransition_End_Template>all of the above paths are finished</RigidTransition_End_Template>
+
+    <RigidOtherBehavior_Begin_Template>there are some behaviors which can also occur</RigidOtherBehavior_Begin_Template>
+    <RigidOtherBehavior_End_Template>the above region is finished</RigidOtherBehavior_End_Template>
+
+    <RigidOtherBehavior30_Template>after</RigidOtherBehavior30_Template>
+    <RigidOtherBehavior31_Template>can also</RigidOtherBehavior31_Template>    
+    <RigidOtherBehavior32_Template>switches to</RigidOtherBehavior32_Template> 
+    <RigidOtherBehavior20_Template>the rigion can also begins when</RigidOtherBehavior20_Template>   
+
+    <Fail_Algorithm_Template>Fail</Fail_Algorithm_Template>
+    
+</LanguageTemplates>

@@ -1,0 +1,35 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+    One of following paths needs to be finished: 
+        There are some procedures need to be finished sequentially: 
+            The 'manager' does 'Imputation_product_cost'. Then, one of following paths needs to be finished: 
+                The 'manager' does 'Comprehensive_provision_for_withholding_the_cost_of'. After that, the 'manager' does 'Audit'. 
+                Attention, after above paths are finished, there is a loop path which can happen depending on the running conditions: 
+                    The 'manager' does 't68'. After that, the above loop path is finished. 
+                Once the above path is finished, the 'manager' does 't66'. Subsequently, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+            The 'manager' does 'Notify_the_business_cost_of_withholding_pending'. Then, one of following paths needs to be finished: 
+                Attention, after above paths are finished, there is a loop path which can happen depending on the running conditions: 
+                    The 'manager' does 'Back_to_business_unit__cost_accounting_changes'. Then, the above loop path is finished. 
+                There are some procedures need to be finished sequentially: 
+                    The 'manager' does 'N10'. After that, one of following paths needs to be finished: 
+                        The 'manager' does 'Pending_the_preparation_of_finished_product_cost_breakdown'. After that, the 'manager' does 'Sector_led_review'. 
+                        Notice that, after above paths are finished, there is a loop path which can happen depending on the running conditions: 
+                            The 'manager' does 't61'. After that, the above loop path is finished. 
+                        Once the above path is finished, the 'manager' does 'Submitted_to_the_Finance'. Then, the 'manager' does 'Audit_costs_are_correct_withholding'. After that, the above sequential part is finished. 
+                When the above path is finished, the 'manager' does 't41'. After that, the above sequential part is finished. 
+        After the above path is finished, the 'manager' does 'General_Ledger_Business_Processes'. After that, the 'manager' does 'The_end_of_checkout_process_CO'. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 307
+
+SentenceNumber: 36
+
+Gold Depth: 7 5 3 3 7 3 5 1 5 3 7 5 1 5 5 
+
+Depth: 6 5 3 3 7 3 4 1 5 3 6 5 1 5 4 
+
+Correlation Coefficient: 0.98
+
+Sentence Gain: 14.36 26.00 14.36 14.36 14.36 14.36 14.36 26.00 14.36 26.00 14.36 26.00 
+
+Sentence Sum Gain: 14.36 40.36 54.72 69.08 83.43 97.79 112.15 138.15 152.51 178.51 192.87 218.87 
+

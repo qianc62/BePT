@@ -1,0 +1,19 @@
+String: The process begins. At first one of following paths needs to be finished: 
+    The 'manager' does 'T1'. Then, the 'manager' does 'T3'. Subsequently, the 'manager' does 'T5'. 
+. 
+    !fter the above path is finished,. At last, the process ends. 
+
+WordNumber: 41
+
+SentenceNumber: 8
+
+Gold Depth: 2 2 2 2 2 2 2 2 2 
+
+Depth: 1 1 1 
+
+Correlation Coefficient: -999999.00
+
+Sentence Gain: 37.44 
+
+Sentence Sum Gain: 37.44 
+

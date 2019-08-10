@@ -1,0 +1,18 @@
+Polygon, 
+    Trivial, Start
+    Polygon, 
+        Trivial, Export_of_the_bill_to_meet_the_accounting_
+        Trivial, Person_handling_the_purchasing_department_to_verify_
+        Trivial, Other_suppliers_bills_
+        Trivial, Reconciliation_
+        BondPlace, 
+            Polygon, 
+                Trivial, Finance_confirmed_
+            Polygon, 
+                Trivial, T5
+                BondPlace, 
+                    Polygon, 
+                        Trivial, T6
+                    Polygon, 
+                        Trivial, FI_130_debt_restructuring_process_
+    Trivial, End

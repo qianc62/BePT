@@ -1,0 +1,29 @@
+Polygon, 
+    Trivial, T0
+    RigidPlace, 
+        BondPlace, 
+            Polygon, 
+                Trivial, T5
+                BondPlace, 
+                    Polygon, 
+                        Trivial, T6
+                        Trivial, T13
+                    Polygon, 
+                        Trivial, T7
+                        Trivial, T12
+                Trivial, T8
+            Polygon, 
+                Trivial, T1
+                BondPlace, 
+                    Polygon, 
+                        Trivial, T3
+                        Trivial, T10
+                    Polygon, 
+                        Trivial, T2
+                        Trivial, T11
+                Trivial, T4
+        RigidOtherBehavior, 
+            Trivial, T3
+            Trivial, T14
+            Trivial, T12
+    Trivial, T9

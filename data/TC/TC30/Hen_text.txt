@@ -1,0 +1,16 @@
+String: The manager does Start. Subsequently, the manager does Preparation_of_annual_cash_budget_. After that, the manager does Adjust_the_annual_cash_budget_realities_. After that, the manager does Finance_Director_for_approval,_approval_of_plant_level_leaders_. Then, the manager does Into_the_annual_cash_budget_system_. After that, the manager does Budget_breakdown,_the_preparation_of_financial_rolling_plan_. Subsequently, the manager does Finance_Director_approval_. After that, the manager does Funding_programs_into_the_system,_issue_and_control_the_implementation_of_the_. Subsequently, the manager does By_capital_financing_plan_. Subsequently, the manager does Daily_operation_of_all_financial_processes_. After that, the manager does Cash_flow_statement,_capital_on_the_dynamic_table_. Then, the manager does Capital_budget,_the_implementation_of_plans_. Then, the manager does End. At last, the process ends. 
+
+WordNumber: 74
+
+SentenceNumber: 14
+
+Gold Depth: 1 1 1 1 1 1 1 1 1 1 1 1 1 
+
+Depth: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 150.81 
+
+Sentence Sum Gain: 150.81 
+

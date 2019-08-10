@@ -1,0 +1,24 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    The manager does Start. Subsequently, the manager does Create_Sales_Order_. After that, the manager does Inadequate_credit_system_to_freeze_customer_orders_. Subsequently, the manager does Sales_department_for_order_release_. Then, one of the following branches is executed: 
+        There are some procedures need to be finished sequentially: 
+            The manager does T4. Subsequently, one of the following branches is executed: 
+                The manager does T8. 
+                The manager does Finance_Department_release_orders_. 
+                Once the above path is finished, after that, the above sequential part is finished. 
+        The manager does T5. 
+        When the above path is finished, the manager does End. Subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 118
+
+SentenceNumber: 16
+
+Gold Depth: 3 3 5 1 5 1 1 1 1 
+
+Depth: 3 2 4 1 4 1 1 1 1 
+
+Correlation Coefficient: 0.98
+
+Sentence Gain: 48.83 14.36 14.36 14.36 14.36 14.36 
+
+Sentence Sum Gain: 48.83 63.19 77.55 91.90 106.26 120.62 
+

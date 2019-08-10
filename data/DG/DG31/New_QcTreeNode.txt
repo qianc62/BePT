@@ -1,0 +1,9 @@
+Polygon, 
+    BondTransition, 
+        Trivial, To_determine_the_list_of_suppliers
+        Polygon, 
+            Trivial, Assessment_Rating
+        Polygon, 
+            Trivial, Run_vendor_evaluation
+        Trivial, The_preparation_of_vendor_performance_evaluation_form
+    Trivial, Audit_vendor_performance_evaluation_form

@@ -1,0 +1,12 @@
+Polygon, 
+    Trivial, Start
+    Trivial, MM_140_invoice_verification_process_
+    Trivial, Applications_for_payment_
+    Trivial, Meet_the_accounting_recognition_of_outstanding_items_and_the_amount_paid_
+    Trivial, Financial_planning_program_to_fund_accounting_case_
+    BondPlace, 
+        Polygon, 
+            Trivial, T6
+        Polygon, 
+            Trivial, FI_100_Certificate_Process_
+    Trivial, End

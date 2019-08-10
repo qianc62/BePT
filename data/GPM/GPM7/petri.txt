@@ -1,0 +1,25 @@
+Place P5 P5
+Place P0 P0
+Place P4 P4
+Transition T3 T3
+Transition T0 T0
+Transition T4 T4
+Place P2 P2
+Transition T1 T1
+Place P1 P1
+Transition T2 T2
+Place P3 P3
+Place P6 P6
+
+P4 -> T3
+T0 -> P1
+T2 -> P3
+P1 -> T1
+T1 -> P2
+P3 -> T4
+P5 -> T4
+T3 -> P5
+T1 -> P4
+T4 -> P6
+P0 -> T0
+P2 -> T2

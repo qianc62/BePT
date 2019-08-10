@@ -1,0 +1,19 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, An_annual_business_plan
+        Polygon, 
+            Trivial, Start
+            Trivial, Provide_annual_sales_forecast
+    Trivial, Maintenance_of_the_annual_sales_plan
+    Trivial, Maintenance_of_the_annual_production_plan
+    Trivial, Long_term_plan_to_run
+    BondTransition, 
+        Trivial, Check_the_results_from_running_long_term_
+        Polygon, 
+            Trivial, Annual_purchases_of_long_term
+            Trivial, Notify_the_appropriate_supplier_annual_procurement_plans
+        Polygon, 
+            Trivial, Production_of_long_term_plan
+            Trivial, According_to_analysis_of_production_
+        Trivial, End

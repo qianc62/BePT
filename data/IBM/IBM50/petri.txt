@@ -1,0 +1,21 @@
+Transition t23 callToProcess.s00003010.inputCriterion.s00000937
+Place p29 callToProcess.s00003010.input.s00000956
+Place p31 alpha
+Place p28 startNode.s00000940.output.default
+Place p24 callToProcess.s00003010.inputCriterion.s00000937.used
+Transition t26 callToProcess.s00003010.outputCriterion.s00000939
+Place N9 superSource9
+Place p30 process.s00000601##s00005229.input.s00000935
+Transition t4 process.s00000601##s00005229.inputCriterion.s00000937
+Transition t10 process.s00000601##s00005229.outputCriterion.s00000939
+
+p31 -> t4
+p28 -> t23
+t23 -> p24
+t10 -> N9
+p24 -> t26
+t26 -> p29
+p29 -> t10
+p30 -> t23
+t4 -> p30
+t4 -> p28

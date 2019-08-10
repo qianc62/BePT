@@ -1,0 +1,18 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000541##s00005012.InputCriterion.S00001053'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00002868.InputCriterion.S00001053'. The 'manager' does 'callToTask.S00002868.OutputCriterion.S00001055'. After that, the 'manager' does 'process.S00000541##s00005012.OutputCriterion.S00001055'. After that, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 63
+
+SentenceNumber: 21
+
+Gold Depth: 1 1 1 3 
+
+Depth: 1 1 2 2 
+
+Correlation Coefficient: 0.58
+
+Sentence Gain: 26.00 26.00 
+
+Sentence Sum Gain: 26.00 52.00 
+

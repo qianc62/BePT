@@ -1,0 +1,18 @@
+Place place_4 p6
+Place place_1 p7
+Place place_2 p9
+Transition trans_2 Vendor\nDown\nPayment\nRequest
+Transition trans_1 Vendor\nDown\nPayment\nClearing
+Transition trans_0 Vendor\ndown\npayment
+Place place_0 p1
+Place place_3 p11
+Transition trans_3 t19
+
+place_2 -> trans_2
+trans_0 -> place_0
+place_3 -> trans_1
+place_0 -> trans_3
+place_4 -> trans_0
+trans_3 -> place_3
+trans_1 -> place_1
+trans_2 -> place_4

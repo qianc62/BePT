@@ -1,0 +1,12 @@
+Polygon, 
+    BondPlace, 
+        Polygon, 
+            Trivial, t17
+        Polygon, 
+            BondPlace, 
+                Polygon, 
+                    Trivial, t12
+                Polygon, 
+                    Trivial, t10
+            Trivial, Design\nof_Personnel\nDevelopment\nSystem
+    Trivial, Implementation\nof_Personnel\nDevelopment\nSystem

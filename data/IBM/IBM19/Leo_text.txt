@@ -1,0 +1,27 @@
+String: The process begins when there are some procedures need to be finished sequentially: 
+    One of the following branches is executed: 
+        The manager does process.S00000198##s00001637.InputCriterion.S00000772. Subsequently, the manager does callToTask.S00001639.InputCriterion.S00000772. 
+        The manager does process.S00000198##s00001637.InputCriterion.S00000772. After that, the manager does callToTask.S00001639.InputCriterion.S00000772. 
+        When the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00001639.OutputCriterion.S00000773. Then, the manager does callToTask.S00001638.InputCriterion.S00000772. 
+        The manager does callToTask.S00001639.OutputCriterion.S00000773. Then, the manager does callToTask.S00001638.InputCriterion.S00000772. 
+        The manager does callToTask.S00001639.OutputCriterion.S00000773. After that, the manager does callToTask.S00001638.InputCriterion.S00000772. 
+        Once the above path is finished, one of the following branches is executed: 
+        The manager does callToTask.S00001638.OutputCriterion.S00000773. Subsequently, the manager does process.S00000198##s00001637.OutputCriterion.S00000773. 
+        The manager does callToTask.S00001638.OutputCriterion.S00000773. Subsequently, the manager does process.S00000198##s00001637.OutputCriterion.S00000773. 
+        Once the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 140
+
+SentenceNumber: 62
+
+Gold Depth: 3 3 1 3 1 1 
+
+Depth: 2 2 2 2 2 2 
+
+Correlation Coefficient: 1.00
+
+Sentence Gain: 26.00 20.59 26.00 20.59 20.59 26.00 20.59 
+
+Sentence Sum Gain: 26.00 46.59 72.59 93.18 113.78 139.77 160.37 
+

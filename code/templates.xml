@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LanguageTemplates>
+    <ProcessBegin_Template>The process begins when </ProcessBegin_Template>
+    <BondBegin>
+        <NormalChoise_Template>The role needs to finish one of the following paths.</NormalChoise_Template>
+        <NormalComparallel_Template>The role needs to finish all of the following paths.</NormalComparallel_Template>
+    </BondBegin>
+</LanguageTemplates>

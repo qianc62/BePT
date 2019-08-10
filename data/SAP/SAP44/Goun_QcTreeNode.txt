@@ -1,0 +1,7 @@
+Polygon, 
+    Trivial, Process\nInterest\nRate\nAdjustment
+    BondPlace, 
+        Polygon, 
+            Trivial, Create\nAutomatically
+        Polygon, 
+            Trivial, Create\nManually

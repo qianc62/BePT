@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml>
+<net id="workflownet" type="http://www.informatik.hu-berlin.de/top/pnml/basicPNML.rng">
+    <place id="place_0">
+        <graphics>
+            <position x="16" y="36" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p2</text>
+         </name>
+    </place>
+    <place id="place_1">
+        <graphics>
+            <position x="142" y="36" />
+            <dimension x="13" y="13" />
+        </graphics>
+        <name>
+            <text>p3</text>
+         </name>
+    </place>
+    <transition id="trans_0">
+        <graphics>
+            <position  x="79" y="36" />
+            <dimension x="67" y="53" />
+        </graphics>
+        <name>
+            <text>Evaluations\nof Plant\nMaintenance\nInformation\nSystem [PMIS]</text>
+         </name>
+        <toolspecific tool="ProM" version="5.2">
+            <logevent>
+                <name>Evaluations\nof Plant\nMaintenance\nInformation\nSystem [PMIS]</name>
+                <type>unknown:normal</type>
+            </logevent>
+        </toolspecific>
+    </transition>
+    <arc id="arc_0" source="place_0" target="trans_0">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="23" y="36" />
+                <point x="28" y="36" />
+                <point x="34" y="36" />
+                <point x="40" y="36" />
+                <end x="45" y="36" />
+            </spline>
+        </toolspecific>
+    </arc>
+    <arc id="arc_1" source="trans_0" target="place_1">
+        <toolspecific tool="ProM" version="5.2">
+            <spline>
+                <point x="113" y="36" />
+                <point x="119" y="36" />
+                <point x="125" y="36" />
+                <point x="130" y="36" />
+                <end x="135" y="36" />
+            </spline>
+        </toolspecific>
+    </arc>
+</net>
+</pnml>

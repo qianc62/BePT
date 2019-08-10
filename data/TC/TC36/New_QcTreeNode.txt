@@ -1,0 +1,13 @@
+Polygon, 
+    Trivial, Start
+    Trivial, Transfer_applications_submitted_to_fixed_assets_
+    Trivial, Relevant_departments_and_the_leadership_of_four_plant_level_approval_
+    BondTransition, 
+        Trivial, Transfer_of_assets_determine_the_type_of_accounting_
+        Polygon, 
+            Trivial, Account_inter_company_transfers_within_the_system_
+        Polygon, 
+            Trivial, Cost_center_master_data_between_the_transfer_of_assets_to_maintain_
+        Polygon, 
+            Trivial, Transfer_outside_the_company's_accounting_and_system_
+        Trivial, End

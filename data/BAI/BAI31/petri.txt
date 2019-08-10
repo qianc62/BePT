@@ -1,0 +1,17 @@
+Place P1 P1
+Place P0 P0
+Place P3 P3
+Transition T3 T3
+Place P2 P2
+Transition T0 T0
+Transition T2 T2
+Transition T1 T1
+
+T0 -> P1
+P1 -> T1
+T1 -> P2
+P0 -> T0
+T3 -> P2
+P1 -> T3
+P2 -> T2
+T2 -> P3

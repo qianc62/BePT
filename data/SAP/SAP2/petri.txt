@@ -1,0 +1,16 @@
+Place place_2 p12
+Transition trans_1 Document\nDistribution
+Transition trans_0 Manual\nSending\nof_PDM\nObjects
+Transition trans_2 Automatic\nSending\nof_PDM\nObjects
+Transition trans_3 Cross_System\nProduct\nStructure\nNavigation
+Place place_0 p10
+Place place_1 p11
+
+trans_0 -> place_0
+trans_3 -> place_2
+place_1 -> trans_0
+trans_2 -> place_0
+place_1 -> trans_1
+place_1 -> trans_2
+place_0 -> trans_3
+trans_1 -> place_0

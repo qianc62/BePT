@@ -1,0 +1,38 @@
+String: The process begins. At first there are some procedures need to be finished sequentially: 
+        The 'manager' does 'process.S00000413##s00006123.InputCriterion.S00000937'. All of following paths are processing at the same time: 
+    When the above paths are finished, the 'manager' does 'callToTask.S00005810.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00005810.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToTask.S00006124.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00006124.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToTask.S00002557.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00002557.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'callToProcess.S00002538.InputCriterion.S00000937'. The 'manager' does 'callToProcess.S00002538.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'decision.S00000999.Activate.S00000990'. One of following paths needs to be finished: 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'decision.S00000999.Fire.S00000991'. All of following paths are processing at the same time: 
+            When the above paths are finished, the 'manager' does 'merge.S00000945.Activate.S00000946'. Subsequently, the above sequential part is finished. 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'decision.S00000999.Fire.S00000993'. All of following paths are processing at the same time: 
+            When the above paths are finished, the 'manager' does 'callToTask.S00002427.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00002427.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+            Once the above paths are finished, the 'manager' does 'callToProcess.S00002411.InputCriterion.S00000937'. The 'manager' does 'callToProcess.S00002411.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+            When the above paths are finished, the 'manager' does 'merge.S00000945.Activate.S00000948'. Then, the above sequential part is finished. 
+        After the above path is finished, the 'manager' does 'merge.S00000945.Fire.S00000953'. All of following paths are processing at the same time: 
+    Once the above paths are finished, the 'manager' does 'callToTask.S00002758.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00002758.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
+    After the above paths are finished, the 'manager' does 'decision.S00000989.Activate.S00000990'. One of following paths needs to be finished: 
+        The 'manager' does 'decision.S00000989.Fire.S00000991'. 
+        There are some procedures need to be finished sequentially: 
+                The 'manager' does 'decision.S00000989.Fire.S00000993'. All of following paths are processing at the same time: 
+            Once the above paths are finished, the 'manager' does 'process.S00000413##s00006123.OutputCriterion.S00000939'. Subsequently, the above sequential part is finished. 
+        Once the above path is finished, subsequently, the above sequential part is finished. At last, the process ends. 
+
+WordNumber: 416
+
+SentenceNumber: 124
+
+Gold Depth: 3 3 1 5 3 3 3 3 3 3 1 3 1 3 5 5 3 5 1 1 3 1 1 3 5 
+
+Depth: 4 2 2 4 2 4 4 2 4 2 2 2 2 4 4 4 2 4 2 2 2 2 2 2 4 
+
+Correlation Coefficient: 0.69
+
+Sentence Gain: 26.00 26.00 26.00 26.00 26.00 26.00 26.00 26.00 26.00 26.00 26.00 14.36 26.00 
+
+Sentence Sum Gain: 26.00 52.00 78.00 104.00 130.00 156.00 182.00 208.00 234.00 260.00 286.00 300.35 326.35 
+

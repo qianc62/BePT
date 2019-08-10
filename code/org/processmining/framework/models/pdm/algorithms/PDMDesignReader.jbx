@@ -1,0 +1,8 @@
+[PropertyInfo]
+model,org.processmining.framework.models.pdm.PDMModel,false,false, , ,false,<default>
+pdmmodel,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

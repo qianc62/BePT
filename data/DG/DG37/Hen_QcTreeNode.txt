@@ -1,0 +1,4 @@
+Polygon, 
+    Trivial, TOBE.C.MM.138_shipping_process_purchase_orders_issued_by
+    Trivial, Receiving
+    Trivial, TOBE.C.FI.102_purchase_order_invoices_for_reimbursement_process

@@ -1,0 +1,9 @@
+Polygon, 
+    Trivial, Material_loading
+    Trivial, Pounds_of_material_transferred_out_of_the_Treasury_issued_a_single_code
+    Trivial, Material_transfer_out_of_the_Treasury_writing_off_the_heap_pile_Card
+    Trivial, Transferred_out_of_the_Treasury_postings
+    Trivial, Material_out_He_Yan
+    Trivial, The_purpose_of_materials_into_the_warehouse_unloading_heap_pile
+    Trivial, Heap_pile_Registration_Form
+    Trivial, Been_transferred_to_the_Treasury_accounts
