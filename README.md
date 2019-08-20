@@ -11,7 +11,7 @@ This is the project of the simplified BePT, concering mainly on model linearizat
 - code/ 
   contains the source codes.
 - data/ 
-  contains the raw and processed process models used for evaluating our approach.
+  contains the a part of process models used for evaluating our approach.
 
 ### Reqirements:
 
