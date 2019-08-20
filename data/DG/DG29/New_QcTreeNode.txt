@@ -1,7 +1,0 @@
-Polygon, 
-    Trivial, TOBE.C.MM.137
-    Trivial, Supplier_delivery_has_been_confirmed
-    Trivial, Print_a_single_storage
-    Trivial, Signature_recognition
-    Trivial, Receipt_posting
-    Trivial, TOBE.C.FI.102

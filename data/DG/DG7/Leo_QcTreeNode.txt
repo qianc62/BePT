@@ -1,5 +1,0 @@
-Polygon, 
-    Trivial, TOBE.C.MM.131_process_purchase_orders_issued_by
-    Trivial, Look_for_Purchase_Order_Delivery_Time
-    Trivial, Material_conditions_to_identify_needs
-    Trivial, Maintenance_of_the_implementation_status_of_purchase_orders

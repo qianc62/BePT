@@ -1,8 +1,0 @@
-Polygon, 
-    BondTransition, 
-        Trivial, t11
-        Polygon, 
-            Trivial, Injury_nIllness\nLog
-        Polygon, 
-            Trivial, Protocol
-        Trivial, t7

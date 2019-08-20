@@ -1,9 +1,0 @@
-Polygon, 
-    RigidTransition, 
-        Polygon, 
-            Trivial, superT18
-            Trivial, T0
-        RigidOtherBehavior, 
-            Trivial, superT18
-            Trivial, T6
-    Trivial, T9

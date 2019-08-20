@@ -1,2 +1,0 @@
-Polygon, 
-    Trivial, Issuance\nof_Recruitment\nRequest

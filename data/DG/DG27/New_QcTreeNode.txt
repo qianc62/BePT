@@ -1,4 +1,0 @@
-Polygon, 
-    Trivial, Payment_approval_process
-    Trivial, General_ledger_voucher_processing\n
-    Trivial, end

@@ -1,5 +1,0 @@
-P (place_0->place_1)
-    T (trans_1->place_1)
-    T (place_0->trans_0)
-    T (trans_0->place_2)
-    T (place_2->trans_1)

@@ -1,8 +1,0 @@
-Polygon, 
-    BondPlace, 
-        Polygon, 
-            Trivial, t11
-        Polygon, 
-            Trivial, t9
-    Trivial, Design\nof_Long_Term\nIncentives\nProgram
-    Trivial, Implementation\nof_Long_Term\nIncentives\nProgram

@@ -1,5 +1,0 @@
-Polygon, 
-    Trivial, Vendor\nDown\nPayment\nRequest
-    Trivial, Vendor\ndown\npayment
-    Trivial, t19
-    Trivial, Vendor\nDown\nPayment\nClearing

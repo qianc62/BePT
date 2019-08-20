@@ -1,6 +1,0 @@
-Transition trans_0 Evaluations\nof_Customer\nService\nInformation\nSystem_[SMIS]
-Place place_0 p2
-Place place_1 p3
-
-place_0 -> trans_0
-trans_0 -> place_1

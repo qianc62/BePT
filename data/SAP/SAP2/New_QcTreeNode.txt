@@ -1,9 +1,0 @@
-Polygon, 
-    BondPlace, 
-        Polygon, 
-            Trivial, Manual\nSending\nof_PDM\nObjects
-        Polygon, 
-            Trivial, Automatic\nSending\nof_PDM\nObjects
-        Polygon, 
-            Trivial, Document\nDistribution
-    Trivial, Cross_System\nProduct\nStructure\nNavigation

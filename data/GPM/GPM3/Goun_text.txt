@@ -1,4 +1,0 @@
-The process begins when there are some procedures need to be finished sequentially:  One of the following branches is executed: 
-        The manager does T0. 
-        The manager does T1. Then, the manager does T2. After that, the manager does T3. Subsequently, the manager does T4. 
-        Once the above path is finished, then, the above sequential part is finished. At last, the process ends. 

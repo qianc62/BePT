@@ -1,5 +1,0 @@
-Polygon, 
-    Trivial, T0
-    Trivial, T1
-    Trivial, T2
-    Trivial, T3

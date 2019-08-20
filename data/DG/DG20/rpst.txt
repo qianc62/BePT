@@ -1,7 +1,0 @@
-P (place_0->place_2)
-    T (trans_0->place_3)
-    T (place_3->trans_1)
-    T (trans_2->place_2)
-    T (place_1->trans_2)
-    T (trans_1->place_1)
-    T (place_0->trans_0)

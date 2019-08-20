@@ -1,8 +1,0 @@
-Polygon, 
-    Trivial, Fixed_asset_inventory_list_issued
-    Trivial, Organization_of_fixed_assets_inventory
-    Trivial, Analysis_of_differences_in_the_reasons_for_developing_an_inventory_report
-    Trivial, Approval
-    Trivial, Summary_and_review_asset_inventory_report
-    Trivial, Leadership_for_approval
-    Trivial, Accounting_Treatment_for

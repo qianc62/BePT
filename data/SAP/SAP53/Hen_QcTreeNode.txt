@@ -1,6 +1,0 @@
-Polygon, 
-    Trivial, Determining\nProtocol\nProposal\nLists
-    Trivial, Protocol\nAssignment
-    Trivial, Open\nMedical\nService
-    Trivial, Answering\nQuestionnaires
-    Trivial, Medical\nService\nProcessing

@@ -1,6 +1,0 @@
-StartTime: 1518321081673
-
-EndTime: 1518321081673
-
-DuationTime: 0
-

@@ -1,8 +1,0 @@
-Polygon, 
-    Trivial, Work\nArea
-    BondPlace, 
-        Polygon, 
-            Trivial, Accident
-        Polygon, 
-            Trivial, Agent
-    Trivial, Standard\nOperating\nProcedure

@@ -1,7 +1,0 @@
-Polygon, 
-    Trivial, TOBE.C.PP.002_material_consumption_to_maintain_a_fixed_flow
-    Trivial, Run_MRP
-    Trivial, Query_purchase_agreement_expired
-    Trivial, Convert_purchase_requisitions
-    Trivial, Purchase_requisition_approval
-    Trivial, TOBE.C.MM.121_RFQ_management_processes

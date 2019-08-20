@@ -1,6 +1,0 @@
-Place place_0 p2
-Transition trans_0 Evaluations\nof_Plant\nMaintenance\nInformation\nSystem_[PMIS]
-Place place_1 p3
-
-place_1 -> trans_0
-trans_0 -> place_0

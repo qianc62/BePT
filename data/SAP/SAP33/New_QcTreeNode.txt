@@ -1,8 +1,0 @@
-Polygon, 
-    BondTransition, 
-        Trivial, Product\nSpecification
-        Polygon, 
-            Trivial, Technical\ndetail\nspecification
-        Polygon, 
-            Trivial, Specification\nof_functions
-        Trivial, t14

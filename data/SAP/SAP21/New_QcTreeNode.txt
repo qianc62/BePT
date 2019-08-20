@@ -1,2 +1,0 @@
-Polygon, 
-    Trivial, Incident_nAccident\nLog_Processing

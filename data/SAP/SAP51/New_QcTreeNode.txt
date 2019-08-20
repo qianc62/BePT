@@ -1,2 +1,0 @@
-Polygon, 
-    Trivial, Graphical\nProduct\nStructure\nProcessing

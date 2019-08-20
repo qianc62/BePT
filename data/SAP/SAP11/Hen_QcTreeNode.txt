@@ -1,2 +1,0 @@
-Polygon, 
-    Trivial, Account\nBalance\nInterest\nCalculation\nfor_General_Ledger

@@ -1,9 +1,0 @@
-Polygon, 
-    BondPlace, 
-        Polygon, 
-            Trivial, process.s00000081##s00001552.inputCriterion.s00001053
-            Trivial, callToProcess.s00001373.inputCriterion.s00001053
-        Polygon, 
-            Trivial, process.s00000081##s00001552.inputCriterion.s00001053
-            Trivial, callToProcess.s00001373.inputCriterion.s00001053
-    Trivial, callToProcess.s00001373.outputCriterion.s00001055

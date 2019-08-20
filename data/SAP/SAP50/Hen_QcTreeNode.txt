@@ -1,4 +1,0 @@
-Polygon, 
-    Trivial, Rebate\n_Commission\nCalculation\nProcessing
-    Trivial, Credit\nMemo\nRequest\nfor_Rebate\nSettlement
-    Trivial, Rebate\nCredit\nMemo

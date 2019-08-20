@@ -1,6 +1,0 @@
-Some nodes ( superT12 superP15 superP13 superT14 ) have to be added to this model to make it a workflow. After workflowfy this process model, the generated text is: 
-The process begins. At first there are some procedures need to be finished sequentially: 
-    One of following paths needs to be finished: 
-        The 'manager' does 'T0'. 
-        The 'manager' does 'T1'. Then, the 'manager' does 'T2'. Then, the 'manager' does 'T3'. Then, the 'manager' does 'T4'. 
-        Once the above path is finished, after that, the above sequential part is finished. At last, the process ends. 

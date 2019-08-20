@@ -1,5 +1,0 @@
-Polygon, 
-    Trivial, process.s00000295##s00002196.inputCriterion.s00000772
-    Trivial, callToProcess.s00000982.inputCriterion.s00000772
-    Trivial, callToProcess.s00000982.outputCriterion.s00000773
-    Trivial, process.s00000295##s00002196.outputCriterion.s00000773

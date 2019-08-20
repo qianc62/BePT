@@ -1,8 +1,0 @@
-Polygon, 
-    Trivial, T2
-    BondPlace, 
-        Polygon, 
-            Trivial, trans_1
-        Polygon, 
-            Trivial, trans_0
-    Trivial, T3

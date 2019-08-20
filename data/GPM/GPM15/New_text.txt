@@ -1,4 +1,0 @@
-The process begins. At first there are some procedures need to be finished sequentially:  There is a region which allows for different execution paths listed as following: 
-    The 'manager' does 'T0'. 
-    The 'manager' does 'T0'. 
-    After, all of the above paths are finished, after that, the above sequential part is finished. At last, the process ends. 

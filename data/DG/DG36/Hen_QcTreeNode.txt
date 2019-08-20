@@ -1,4 +1,0 @@
-Polygon, 
-    Trivial, Inform_the_project_team
-    Trivial, Check_the_work_center_information_is_complete
-    Trivial, Increase_in_work_center

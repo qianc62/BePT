@@ -1,7 +1,0 @@
-The process begins. At first there are some procedures need to be finished sequentially: 
-        The 'manager' does 'process.S00000155##s00003481.InputCriterion.S00000937'. All of following paths are processing at the same time: 
-    Once the above paths are finished, the 'manager' does 'callToTask.S00003484.InputCriterion.S00000937'. The 'manager' does 'callToTask.S00003484.InputCriterion.S00000937'. All of following paths are processing at the same time: 
-        There are some procedures need to be finished sequentially: 
-                The 'manager' does 'callToTask.S00003483.OutputCriterion.S00000939'. All of following paths are processing at the same time: 
-            Once the above paths are finished, the 'manager' does 'callToProcess.S00001177.InputCriterion.S00000937'. The 'manager' does 'callToProcess.S00001177.OutputCriterion.S00000939'. Then, the above sequential part is finished. 
-    Once the above paths are finished, the 'manager' does 'callToTask.S00003484.OutputCriterion.S00000939'. Subsequently, the above sequential part is finished. At last, the process ends. 

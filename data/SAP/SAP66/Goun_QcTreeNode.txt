@@ -1,3 +1,0 @@
-Polygon, 
-    Trivial, Agent\nProcessing
-    Trivial, Exposure\nLog_Processing

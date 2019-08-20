@@ -1,7 +1,0 @@
-Polygon, 
-    Trivial, Material\nMaster
-    BondPlace, 
-        Polygon, 
-            Trivial, Dangerous\nGoods
-        Polygon, 
-            Trivial, Product\nSafety

@@ -1,6 +1,0 @@
-Polygon, 
-    BondTransition, 
-        Trivial, process.s00000349##s00002525.inputCriterion.s00000772
-        Trivial, callToProcess.s00001042.inputCriterion.s00000772
-    Trivial, callToProcess.s00001042.outputCriterion.s00000773
-    Trivial, process.s00000349##s00002525.outputCriterion.s00000773

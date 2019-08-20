@@ -1,3 +1,0 @@
-Polygon, 
-    Trivial, Forecast
-    Trivial, Material\nRequirements\nPlanning

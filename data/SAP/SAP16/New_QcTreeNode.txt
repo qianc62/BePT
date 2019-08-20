@@ -1,8 +1,0 @@
-Polygon, 
-    BondTransition, 
-        Trivial, t11
-        Polygon, 
-            Trivial, Project\nProgress\nAnalysis
-        Polygon, 
-            Trivial, Project\nEvaluation\nand_Analysis
-        Trivial, t7

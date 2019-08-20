@@ -1,8 +1,0 @@
-Polygon, 
-    Trivial, Picking
-    BondPlace, 
-        Polygon, 
-            Trivial, t14
-        Polygon, 
-            Trivial, Packing\nProcessing
-    Trivial, Goods\nIssue\nProcessing

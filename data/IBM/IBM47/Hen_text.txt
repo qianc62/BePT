@@ -1,1 +1,0 @@
-The manager does process.S00000677##s00003277.InputCriterion.S00000937. Subsequently, the manager does callToTask.S00003279.InputCriterion.S00000937. At last, the process ends. 

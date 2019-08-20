@@ -1,4 +1,0 @@
-Polygon, 
-    Trivial, Payment_approval_process
-    Trivial, The_general_ledger_voucher_processing
-    Trivial, Funding_approval_of_a_single_borrower_card

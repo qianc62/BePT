@@ -1,3 +1,0 @@
-Polygon, 
-    Trivial, Injury_nIllness\nLog_Entry\nProcessing
-    Trivial, Data\nTransfer\nInjury_nIllness\nLog_to_Accident

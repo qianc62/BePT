@@ -1,2 +1,0 @@
-Polygon, 
-    Trivial, Reporting\nfor_Change\nPointers

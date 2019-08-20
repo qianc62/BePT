@@ -1,6 +1,0 @@
-Transition T0 T0
-Place P0 P0
-Place P1 P1
-
-T0 -> P1
-P0 -> T0
