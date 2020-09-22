@@ -27,10 +27,10 @@ If you find this project helps, please kindly consider citing this paper as:
 
 ```
 @inproceedings{Goun,
-  title={BePT: A Behavior-based Process Translator for Interpreting and Understanding Process Models},
-  author={Chen Qian and Lijie Wen and Ahkil Kumar},
-  booktitle={Proceedings of The 28th ACM International Conference on Information and Knowledge Management (CIKM)},
-  year={2019}
+	title = {BePT: A Behavior-based Process Translator for Interpreting and Understanding Process Models},
+	author = {Chen Qian and Lijie Wen and Ahkil Kumar},
+	booktitle = {Proceedings of The 28th ACM International Conference on Information and Knowledge Management (CIKM)},
+	year = {2019},
+	pages = {1873–1882}
 }
 ```
-
